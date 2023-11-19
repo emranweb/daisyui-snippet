@@ -10,7 +10,9 @@ With this extension, you can quickly insert DaisyUI components and styles into y
 
 ## Features
 
--   **DaisyUI Button Snippets**: Easily insert DaisyUI button components with various styles and configurations into your code.
+-   **DaisyUI Snippets**: Easily insert DaisyUI components with various styles and configurations into your code.
+
+## Snippets
 
 **Buttons:**
 
@@ -156,6 +158,8 @@ With this extension, you can quickly insert DaisyUI components and styles into y
 
 ## More Coming Soon
 
+More snippets are coming soon. If you have any suggestions for snippets you'd like to see, please [open an issue on GitHub](https://github.com/emranweb/daisyui-snippet)
+
 ## Installation
 
 1. Open Visual Studio Code.
@@ -174,7 +178,7 @@ For example, if you want to insert a DaisyUI Button, start typing `db` and selec
 
 ## License
 
-This extension is released under the [Your License](LICENSE) License.
+This extension is released under the MIT License.
 
 ## Issues and Contributions
 
@@ -186,6 +190,6 @@ DaisyUI is a UI framework built on top of Tailwind CSS, designed to improve your
 
 Learn more about DaisyUI on [GitHub](https://github.com/emranweb/daisyui-snippet).
 
-## Acknowledgments
+## Enjoy!
 
 Enjoy coding with DaisyUI and Tailwind CSS!
