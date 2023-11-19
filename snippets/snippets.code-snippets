@@ -1,0 +1,90 @@
+{
+    "daisyui": {
+        "prefix": "db",
+        "body": ["<button className='btn'>Button</button>"],
+        "description": "DaisyUI Button"
+    },
+    "daisyui:": {
+        "prefix": "dbb",
+        "body": ["<button className='btn btn-neutral'>Neutral</button>"],
+        "description": "DaisyUI button brand neutral"
+    },
+    "daisyui:": {
+        "prefix": "dbp",
+        "body": ["<button className='btn btn-primary'>Primary</button>"],
+        "description": "DaisyUI button primary"
+    },
+    "daisyui:": {
+        "prefix": "dbs",
+        "body": ["<button className='btn btn-secondary'>Secondary</button>"],
+        "description": "DaisyUI button secondary"
+    },
+    "daisyui:": {
+        "prefix": "dba",
+        "body": ["<button className='btn btn-accent'>Accent</button>"],
+        "description": "DaisyUI button accent"
+    },
+    "daisyui:": {
+        "prefix": "dbs",
+        "body": ["<button className='btn btn-success'>Success</button>"],
+        "description": "DaisyUI button success"
+    },
+    "daisyui:": {
+        "prefix": "dbl",
+        "body": ["<button className='btn btn-link'>Info</button>"],
+        "description": "DaisyUI button link"
+    },
+    "daisyui:": {
+        "prefix": "dbsl",
+        "body": ["<button className='btn btn-info'>Info</button>"],
+        "description": "DaisyUI button size large"
+    },
+    "daisyui:": {
+        "prefix": "dbsm",
+        "body": ["<button className='btn btn-sm'>Info</button>"],
+        "description": "DaisyUI button size medium"
+    },
+    "daisyui:": {
+        "prefix": "dbsx",
+        "body": ["<button className='btn btn-sm'>Tiny</button>"],
+        "description": "DaisyUI button size extra small"
+    },
+    "daisyui:": {
+        "prefix": "dbg",
+        "body": ["<button className='btn glass'>Button</button>"],
+        "description": "DaisyUI button glass effect"
+    },
+    "daisyui:": {
+        "prefix": "dbd",
+        "body": ["<button className='btn btn-disabled'>Button</button>"],
+        "description": "DaisyUI button disabled"
+    },
+    // btn square
+    "daisyui:": {
+        "prefix": "dbsq",
+        "body": ["<button className='btn btn-square'>Button</button>"],
+        "description": "DaisyUI Button style square"
+    },
+    // btn square outline
+    "daisyui:": {
+        "prefix": "dbso",
+        "body": [
+            "<button className='btn btn-square btn-outline'>Button</button>"
+        ],
+        "description": "DaisyUI Button style outline"
+    },
+    // btn style circle
+    "daisyui:": {
+        "prefix": "dbci",
+        "body": ["<button className='btn btn-circle'>Button</button>"],
+        "description": "DaisyUI Button style circle"
+    },
+    // btn style circle outline
+    "daisyui:": {
+        "prefix": "dbco",
+        "body": [
+            "<button className='btn btn-circle btn-outline'>Button</button>"
+        ],
+        "description": "DaisyUI Button style circle outline"
+    }
+}
