@@ -154,6 +154,8 @@ With this extension, you can quickly insert DaisyUI components and styles into y
 -   `du-card-side` - DaisyUI Card Side
 -   `du-responsive-card` - DaisyUI Responsive Card
 
+## More Coming Soon
+
 ## Installation
 
 1. Open Visual Studio Code.
