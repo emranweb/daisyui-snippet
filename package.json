@@ -2,7 +2,7 @@
     "name": "daisyui-snippet",
     "displayName": "daisyui-snippet",
     "description": "a collection of daisyui-snippet",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.84.0"
     },
@@ -40,7 +40,7 @@
             },
             {
                 "language": "html",
-                "path": "./snippets/snippets.code-snippets"
+                "path": "./snippets/snippetshtml.code-snippets"
             },
             {
                 "language": "typescript",

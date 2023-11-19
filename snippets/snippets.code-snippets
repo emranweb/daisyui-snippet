@@ -1,90 +1,1293 @@
 {
-    "daisyui": {
-        "prefix": "db",
+    "DaisyUI Button": {
+        "prefix": "du-btn",
         "body": ["<button className='btn'>Button</button>"],
-        "description": "DaisyUI Button"
+        "description": "DaisyUI Basic Button"
     },
-    "daisyui:": {
-        "prefix": "dbb",
+    "DaisyUI Button Neutral": {
+        "prefix": "du-btn-neutral",
         "body": ["<button className='btn btn-neutral'>Neutral</button>"],
-        "description": "DaisyUI button brand neutral"
+        "description": "DaisyUI Neutral Button"
     },
-    "daisyui:": {
-        "prefix": "dbp",
+    "DaisyUI Button Primary": {
+        "prefix": "du-btn-primary",
         "body": ["<button className='btn btn-primary'>Primary</button>"],
-        "description": "DaisyUI button primary"
+        "description": "DaisyUI Primary Button"
     },
-    "daisyui:": {
-        "prefix": "dbs",
+    "DaisyUI Button Secondary": {
+        "prefix": "du-btn-secondary",
         "body": ["<button className='btn btn-secondary'>Secondary</button>"],
-        "description": "DaisyUI button secondary"
+        "description": "DaisyUI Secondary Button"
     },
-    "daisyui:": {
-        "prefix": "dba",
+    "DaisyUI Button Accent": {
+        "prefix": "du-btn-accent",
         "body": ["<button className='btn btn-accent'>Accent</button>"],
-        "description": "DaisyUI button accent"
+        "description": "DaisyUI Accent Button"
     },
-    "daisyui:": {
-        "prefix": "dbs",
+    "DaisyUI Button Success": {
+        "prefix": "du-btn-success",
         "body": ["<button className='btn btn-success'>Success</button>"],
-        "description": "DaisyUI button success"
+        "description": "DaisyUI Success Button"
     },
-    "daisyui:": {
-        "prefix": "dbl",
-        "body": ["<button className='btn btn-link'>Info</button>"],
-        "description": "DaisyUI button link"
+    "DaisyUI Button Link": {
+        "prefix": "du-btn-link",
+        "body": ["<button className='btn btn-link'>Link</button>"],
+        "description": "DaisyUI Link Button"
     },
-    "daisyui:": {
-        "prefix": "dbsl",
+    "DaisyUI Button Info": {
+        "prefix": "du-btn-info",
         "body": ["<button className='btn btn-info'>Info</button>"],
-        "description": "DaisyUI button size large"
+        "description": "DaisyUI Info Button"
     },
-    "daisyui:": {
-        "prefix": "dbsm",
-        "body": ["<button className='btn btn-sm'>Info</button>"],
-        "description": "DaisyUI button size medium"
+    "DaisyUI Button Small": {
+        "prefix": "du-btn-small",
+        "body": ["<button className='btn btn-sm'>Small</button>"],
+        "description": "DaisyUI Small Button"
     },
-    "daisyui:": {
-        "prefix": "dbsx",
-        "body": ["<button className='btn btn-sm'>Tiny</button>"],
-        "description": "DaisyUI button size extra small"
+    "DaisyUI Button Extra Small": {
+        "prefix": "du-btn-xs",
+        "body": ["<button className='btn btn-xs'>Extra Small</button>"],
+        "description": "DaisyUI Extra Small Button"
     },
-    "daisyui:": {
-        "prefix": "dbg",
-        "body": ["<button className='btn glass'>Button</button>"],
-        "description": "DaisyUI button glass effect"
+    "DaisyUI Button Glass": {
+        "prefix": "du-btn-glass",
+        "body": ["<button className='btn glass'>Glass</button>"],
+        "description": "DaisyUI Glass Button"
     },
-    "daisyui:": {
-        "prefix": "dbd",
-        "body": ["<button className='btn btn-disabled'>Button</button>"],
-        "description": "DaisyUI button disabled"
+    "DaisyUI Button Disabled": {
+        "prefix": "du-btn-disabled",
+        "body": ["<button className='btn btn-disabled'>Disabled</button>"],
+        "description": "DaisyUI Disabled Button"
     },
-    // btn square
-    "daisyui:": {
-        "prefix": "dbsq",
-        "body": ["<button className='btn btn-square'>Button</button>"],
-        "description": "DaisyUI Button style square"
+    "DaisyUI Button Square": {
+        "prefix": "du-btn-square",
+        "body": ["<button className='btn btn-square'>Square</button>"],
+        "description": "DaisyUI Square Button"
     },
-    // btn square outline
-    "daisyui:": {
-        "prefix": "dbso",
+    "DaisyUI Button Square Outline": {
+        "prefix": "du-btn-square-outline",
         "body": [
-            "<button className='btn btn-square btn-outline'>Button</button>"
+            "<button className='btn btn-square btn-outline'>Square Outline</button>"
         ],
-        "description": "DaisyUI Button style outline"
+        "description": "DaisyUI Square Outline Button"
     },
-    // btn style circle
-    "daisyui:": {
-        "prefix": "dbci",
-        "body": ["<button className='btn btn-circle'>Button</button>"],
-        "description": "DaisyUI Button style circle"
+    "DaisyUI Button Circle": {
+        "prefix": "du-btn-circle",
+        "body": ["<button className='btn btn-circle'>Circle</button>"],
+        "description": "DaisyUI Circle Button"
     },
-    // btn style circle outline
-    "daisyui:": {
-        "prefix": "dbco",
+    "DaisyUI Button Circle Outline": {
+        "prefix": "du-btn-circle-outline",
         "body": [
-            "<button className='btn btn-circle btn-outline'>Button</button>"
+            "<button className='btn btn-circle btn-outline'>Circle Outline</button>"
         ],
-        "description": "DaisyUI Button style circle outline"
+        "description": "DaisyUI Circle Outline Button"
+    },
+    "DaisyUI Loading Button": {
+        "prefix": "du-btn-loading",
+        "body": [
+            "<button className='btn loading'>",
+            "   <span className='loading loading-spinner'></span>",
+            "   Loading",
+            "</button>"
+        ],
+        "description": "DaisyUI Loading Button"
+    },
+
+    // Dropdown Menu
+    "DaisyUI Dropdown Menu": {
+        "prefix": "du-dropdown-menu",
+        "body": [
+            "<div className=\"dropdown\">",
+            "  <label tabIndex={0} className=\"btn m-1\">Click</label>",
+            "  <ul tabIndex={0} className=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
+            "    <li><a>Item 1</a></li>",
+            "    <li><a>Item 2</a></li>",
+            "  </ul>",
+            "</div>"
+        ],
+        "description": "DaisyUI Dropdown Menu"
+    },
+    "DaisyUI Dropdown Align to End": {
+        "prefix": "du-dropdown-align-end",
+        "body": [
+            "<div className=\"dropdown dropdown-end\">",
+            "  <label tabIndex={0} className=\"btn m-1\">Click</label>",
+            "  <ul tabIndex={0} className=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
+            "    <li><a>Item 1</a></li>",
+            "    <li><a>Item 2</a></li>",
+            "  </ul>",
+            "</div>"
+        ],
+        "description": "DaisyUI Dropdown Align to End"
+    },
+    "DaisyUI Dropdown Top": {
+        "prefix": "du-dropdown-top",
+        "body": [
+            "<div className=\"dropdown dropdown-top\">",
+            "  <label tabIndex={0} className=\"btn m-1\">Click</label>",
+            "  <ul tabIndex={0} className=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
+            "    <li><a>Item 1</a></li>",
+            "    <li><a>Item 2</a></li>",
+            "  </ul>",
+            "</div>"
+        ],
+        "description": "DaisyUI Dropdown Top"
+    },
+    "DaisyUI Dropdown Top Align to End": {
+        "prefix": "du-dropdown-top-align-end",
+        "body": [
+            "<div className=\"dropdown dropdown-top dropdown-end\">",
+            "  <label tabIndex={0} className=\"btn m-1\">Click</label>",
+            "  <ul tabIndex={0} className=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
+            "    <li><a>Item 1</a></li>",
+            "    <li><a>Item 2</a></li>",
+            "  </ul>",
+            "</div>"
+        ],
+        "description": "DaisyUI Dropdown Top Align to End"
+    },
+    "DaisyUI Dropdown Bottom": {
+        "prefix": "du-dropdown-bottom",
+        "body": [
+            "<div className=\"dropdown dropdown-bottom\">",
+            "  <label tabIndex={0} className=\"btn m-1\">Click</label>",
+            "  <ul tabIndex={0} className=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
+            "    <li><a>Item 1</a></li>",
+            "    <li><a>Item 2</a></li>",
+            "  </ul>",
+            "</div>"
+        ],
+        "description": "DaisyUI Dropdown Bottom"
+    },
+    "DaisyUI Dropdown Bottom Align to End": {
+        "prefix": "du-dropdown-bottom-align-end",
+        "body": [
+            "<div className=\"dropdown dropdown-bottom dropdown-end\">",
+            "  <label tabIndex={0} className=\"btn m-1\">Click</label>",
+            "  <ul tabIndex={0} className=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
+            "    <li><a>Item 1</a></li>",
+            "    <li><a>Item 2</a></li>",
+            "  </ul>",
+            "</div>"
+        ],
+        "description": "DaisyUI Dropdown Bottom Align to End"
+    },
+    "DaisyUI Dropdown Left": {
+        "prefix": "du-dropdown-left",
+        "body": [
+            "<div className=\"dropdown dropdown-left\">",
+            "  <label tabIndex={0} className=\"btn m-1\">Click</label>",
+            "  <ul tabIndex={0} className=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
+            "    <li><a>Item 1</a></li>",
+            "    <li><a>Item 2</a></li>",
+            "  </ul>",
+            "</div>"
+        ],
+        "description": "DaisyUI Dropdown Left"
+    },
+    "DaisyUI Dropdown Left Align to End": {
+        "prefix": "du-dropdown-left-align-end",
+        "body": [
+            "<div className=\"dropdown dropdown-left dropdown-end\">",
+            "  <label tabIndex={0} className=\"btn m-1\">Click</label>",
+            "  <ul tabIndex={0} className=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
+            "    <li><a>Item 1</a></li>",
+            "    <li><a>Item 2</a></li>",
+            "  </ul>",
+            "</div>"
+        ],
+        "description": "DaisyUI Dropdown Left Align to End"
+    },
+    "DaisyUI Dropdown Right": {
+        "prefix": "du-dropdown-right",
+        "body": [
+            "<div className=\"dropdown dropdown-right\">",
+            "  <label tabIndex={0} className=\"btn m-1\">Click</label>",
+            "  <ul tabIndex={0} className=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
+            "    <li><a>Item 1</a></li>",
+            "    <li><a>Item 2</a></li>",
+            "  </ul>",
+            "</div>"
+        ],
+        "description": "DaisyUI Dropdown Right"
+    },
+    "DaisyUI Dropdown Right Align to End": {
+        "prefix": "du-dropdown-right-align-end",
+        "body": [
+            "<div className=\"dropdown dropdown-right dropdown-end\">",
+            "  <label tabIndex={0} className=\"btn m-1\">Click</label>",
+            "  <ul tabIndex={0} className=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
+            "    <li><a>Item 1</a></li>",
+            "    <li><a>Item 2</a></li>",
+            "  </ul>",
+            "</div>"
+        ],
+        "description": "DaisyUI Dropdown Right Align to End"
+    },
+
+    "DaisyUI Dropdown Hover": {
+        "prefix": "du-dropdown-hover",
+        "body": [
+            "<div className=\"dropdown dropdown-hover\">",
+            "  <label tabIndex={0} className=\"btn m-1\">Hover</label>",
+            "  <ul tabIndex={0} className=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
+            "    <li><a>Item 1</a></li>",
+            "    <li><a>Item 2</a></li>",
+            "  </ul>",
+            "</div>"
+        ],
+        "description": "DaisyUI Dropdown Hover"
+    },
+    "DaisyUI Dropdown Force Open": {
+        "prefix": "du-dropdown-force-open",
+        "body": [
+            "<div className=\"dropdown dropdown-open\">",
+            "  <label tabIndex={0} className=\"btn m-1\">Button</label>",
+            "  <ul tabIndex={0} className=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
+            "    <li><a>Item 1</a></li>",
+            "    <li><a>Item 2</a></li>",
+            "  </ul>",
+            "</div>"
+        ],
+        "description": "DaisyUI Dropdown Force Open"
+    },
+    "DaisyUI Dropdown as Card": {
+        "prefix": "du-dropdown-as-card",
+        "body": [
+            "<div className=\"dropdown\">",
+            "  <label tabIndex={0} className=\"btn m-1\">Click</label>",
+            "  <div tabIndex={0} className=\"dropdown-content z-[1] card card-compact w-64 p-2 shadow bg-primary text-primary-content\">",
+            "    <div className=\"card-body\">",
+            "      <h3 className=\"card-title\">Card title!</h3>",
+            "      <p>you can use any element as a dropdown.</p>",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Dropdown as Card"
+    },
+    "DaisyUI Dropdown in Navbar": {
+        "prefix": "du-dropdown-in-navbar",
+        "body": [
+            "<div className=\"navbar bg-base-300 rounded-box\">",
+            "  <div className=\"flex-1 px-2 lg:flex-none\">",
+            "    <a className=\"text-lg font-bold\">daisyUI</a>",
+            "  </div>",
+            "  <div className=\"flex justify-end flex-1 px-2\">",
+            "    <div className=\"flex items-stretch\">",
+            "      <a className=\"btn btn-ghost rounded-btn\">Button</a>",
+            "      <div className=\"dropdown dropdown-end\">",
+            "        <label tabIndex={0} className=\"btn btn-ghost rounded-btn\">Dropdown</label>",
+            "        <ul tabIndex={0} className=\"menu dropdown-content z-[1] p-2 shadow bg-base-100 rounded-box w-52 mt-4\">",
+            "          <li><a>Item 1</a></li>",
+            "          <li><a>Item 2</a></li>",
+            "        </ul>",
+            "      </div>",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Dropdown in Navbar"
+    },
+    "DaisyUI Helper Dropdown": {
+        "prefix": "du-helper-dropdown",
+        "body": [
+            "<div className=\"dropdown\">",
+            "  <label tabIndex={0} className=\"btn m-1\">Helper Dropdown</label>",
+            "  <ul tabIndex={0} className=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
+            "    <li><a>Item 1</a></li>",
+            "    <li><a>Item 2</a></li>",
+            "  </ul>",
+            "</div>"
+        ],
+        "description": "DaisyUI Helper Dropdown"
+    },
+    // Modal
+    "DaisyUI Dialog Modal": {
+        "prefix": "du-dialog-modal",
+        "body": [
+            "<button className=\"btn\" onClick={() => document.getElementById('my_modal_1').showModal()}>open modal</button>",
+            "<dialog id=\"my_modal_1\" className=\"modal\">",
+            "  <div className=\"modal-box\">",
+            "    <h3 className=\"font-bold text-lg\">Hello!</h3>",
+            "    <p className=\"py-4\">Press ESC key or click the button below to close</p>",
+            "    <div className=\"modal-action\">",
+            "      <form method=\"dialog\">",
+            "        <button className=\"btn\">Close</button>",
+            "      </form>",
+            "    </div>",
+            "  </div>",
+            "</dialog>"
+        ],
+        "description": "DaisyUI Dialog Modal"
+    },
+    "DaisyUI Dialog Modal Closes When Clicked Outside": {
+        "prefix": "du-dialog-modal-outside-close",
+        "body": [
+            "<button className=\"btn\" onClick={() => document.getElementById('my_modal_2').showModal()}>open modal</button>",
+            "<dialog id=\"my_modal_2\" className=\"modal\">",
+            "  <div className=\"modal-box\">",
+            "    <h3 className=\"font-bold text-lg\">Hello!</h3>",
+            "    <p className=\"py-4\">Press ESC key or click outside to close</p>",
+            "  </div>",
+            "  <form method=\"dialog\" className=\"modal-backdrop\">",
+            "    <button>close</button>",
+            "  </form>",
+            "</dialog>"
+        ],
+        "description": "DaisyUI Dialog Modal Closes When Clicked Outside"
+    },
+    "DaisyUI Dialog Modal with Close Button at Corner": {
+        "prefix": "du-dialog-modal-corner-close",
+        "body": [
+            "<button className=\"btn\" onClick={() => document.getElementById('my_modal_3').showModal()}>open modal</button>",
+            "<dialog id=\"my_modal_3\" className=\"modal\">",
+            "  <div className=\"modal-box\">",
+            "    <form method=\"dialog\">",
+            "      <button className=\"btn btn-sm btn-circle btn-ghost absolute right-2 top-2\">✕</button>",
+            "    </form>",
+            "    <h3 className=\"font-bold text-lg\">Hello!</h3>",
+            "    <p className=\"py-4\">Press ESC key or click on ✕ button to close</p>",
+            "  </div>",
+            "</dialog>"
+        ],
+        "description": "DaisyUI Dialog Modal with Close Button at Corner"
+    },
+    "DaisyUI Dialog Modal with Custom Width": {
+        "prefix": "du-dialog-modal-custom-width",
+        "body": [
+            "<button className=\"btn\" onClick={() => document.getElementById('my_modal_4').showModal()}>open modal</button>",
+            "<dialog id=\"my_modal_4\" className=\"modal\">",
+            "  <div className=\"modal-box w-11/12 max-w-5xl\">",
+            "    <h3 className=\"font-bold text-lg\">Hello!</h3>",
+            "    <p className=\"py-4\">Click the button below to close</p>",
+            "    <div className=\"modal-action\">",
+            "      <form method=\"dialog\">",
+            "        <button className=\"btn\">Close</button>",
+            "      </form>",
+            "    </div>",
+            "  </div>",
+            "</dialog>"
+        ],
+        "description": "DaisyUI Dialog Modal with Custom Width"
+    },
+    "DaisyUI Dialog Modal Responsive": {
+        "prefix": "du-dialog-modal-responsive",
+        "body": [
+            "<button className=\"btn\" onClick={() => document.getElementById('my_modal_5').showModal()}>open modal</button>",
+            "<dialog id=\"my_modal_5\" className=\"modal modal-bottom sm:modal-middle\">",
+            "  <div className=\"modal-box\">",
+            "    <h3 className=\"font-bold text-lg\">Hello!</h3>",
+            "    <p className=\"py-4\">Press ESC key or click the button below to close</p>",
+            "    <div className=\"modal-action\">",
+            "      <form method=\"dialog\">",
+            "        <button className=\"btn\">Close</button>",
+            "      </form>",
+            "    </div>",
+            "  </div>",
+            "</dialog>"
+        ],
+        "description": "DaisyUI Dialog Modal Responsive"
+    },
+    "DaisyUI Dialog Modal Using Label + Hidden Checkbox": {
+        "prefix": "du-dialog-modal-label-checkbox",
+        "body": [
+            "<label htmlFor=\"my_modal_6\" className=\"btn\">open modal</label>",
+            "<input type=\"checkbox\" id=\"my_modal_6\" className=\"modal-toggle\" />",
+            "<div className=\"modal\" role=\"dialog\">",
+            "  <div className=\"modal-box\">",
+            "    <h3 className=\"font-bold text-lg\">Hello!</h3>",
+            "    <p className=\"py-4\">This modal works with a hidden checkbox!</p>",
+            "    <div className=\"modal-action\">",
+            "      <label htmlFor=\"my_modal_6\" className=\"btn\">Close!</label>",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Dialog Modal Using Label + Hidden Checkbox"
+    },
+    "DaisyUI Dialog Modal Closes When Clicked Outside Using Label + Hidden Checkbox": {
+        "prefix": "du-dialog-modal-outside-close-label-checkbox",
+        "body": [
+            "<label htmlFor=\"my_modal_7\" className=\"btn\">open modal</label>",
+            "<input type=\"checkbox\" id=\"my_modal_7\" className=\"modal-toggle\" />",
+            "<div className=\"modal\" role=\"dialog\">",
+            "  <div className=\"modal-box\">",
+            "    <h3 className=\"text-lg font-bold\">Hello!</h3>",
+            "    <p className=\"py-4\">This modal works with a hidden checkbox!</p>",
+            "  </div>",
+            "  <label className=\"modal-backdrop\" htmlFor=\"my_modal_7\">Close</label>",
+            "</div>"
+        ],
+        "description": "DaisyUI Dialog Modal Closes When Clicked Outside Using Label + Hidden Checkbox"
+    },
+    "DaisyUI Dialog Modal Using Anchor Link": {
+        "prefix": "du-dialog-modal-anchor-link",
+        "body": [
+            "<a href=\"#my_modal_8\" className=\"btn\">open modal</a>",
+            "<div className=\"modal\" role=\"dialog\" id=\"my_modal_8\">",
+            "  <div className=\"modal-box\">",
+            "    <h3 className=\"font-bold text-lg\">Hello!</h3>",
+            "    <p className=\"py-4\">This modal works with anchor links</p>",
+            "    <div className=\"modal-action\">",
+            "      <a href=\"#\" className=\"btn\">Yay!</a>",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Dialog Modal Using Anchor Link"
+    },
+
+    // Swap Text
+    "DaisyUI Swap Text": {
+        "prefix": "du-swap-text",
+        "body": [
+            "<label className=\"swap\">",
+            "  <input type=\"checkbox\" />",
+            "  <div className=\"swap-on\">ON</div>",
+            "  <div className=\"swap-off\">OFF</div>",
+            "</label>"
+        ],
+        "description": "DaisyUI Swap Text"
+    },
+    "DaisyUI Swap Volume Icons": {
+        "prefix": "DaisyUI du-swap-volume-icons",
+        "body": [
+            "<label className=\"swap\">",
+            "  <input type=\"checkbox\" />",
+            "  <svg className=\"swap-on fill-current\" xmlns=\"http://www.w3.org/2000/svg\" width=\"48\" height=\"48\" viewBox=\"0 0 24 24\"><path d=\"M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12</path></svg>",
+            "  <svg className=\"swap-off fill-current\" xmlns=\"http://www.w3.org/2000/svg\" width=\"48\" height=\"48\" viewBox=\"0 0 24 24\"><path d=\"M3,9V15H7L12,20V4L7,9H3Z\"/></svg>",
+            "</label>"
+        ],
+        "description": "Swap Volume Icons"
+    },
+    "DaisyUI Swap Icons with Rotate Effect": {
+        "prefix": "du-swap-icons-rotate",
+        "body": [
+            "<label className=\"swap swap-rotate\">",
+            "  <input type=\"checkbox\" />",
+            "  <svg className=\"swap-on fill-current w-10 h-10\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M5.64,17l-.71.71a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0l.71-.71A1,1,0,0,0,5.64,17ZM5,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H4A1,1,0,0,0,5,12Zm7-7a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V4A1,1,0,0,0,12,5ZM5.64,7.05a1,1,0,0,0,.7.29,1,1,0,0,0,.71-.29,1,1,0,0,0,0-1.41l-.71-.71A1,1,0,0,0,4.93,6.34Zm12,.29a1,1,0,0,0,.7-.29l.71-.71a1,1,0,1,0-1.41-1.41L17,5.64a1,1,0,0,0,0,1.41A1,1,0,0,0,17.66,7.34ZM21,11H20a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm-9,8a1,1,0,0,0-1,1v1a1,1,0,0,0,2,0V20A1,1,0,0,0,12,19ZM18.36,17A1,1,0,0,0,17,18.36l.71.71a1,1,0,0,0,1.41,0,1,1,0,0,0,0-1.41ZM12,6.5A5.5,5.5,0,1,0,17.5,12,5.51,5.51,0,0,0,12,6.5Zm0,9A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z\"/></svg>",
+            "  <svg className=\"swap-off fill-current w-10 h-10\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z\"/></svg>",
+            "</label>"
+        ],
+        "description": "DaisyUI Swap Icons with Rotate Effect"
+    },
+    "DaisyUI Hamburger Button": {
+        "prefix": "du-hamburger-button",
+        "body": [
+            "<label className=\"btn btn-circle swap swap-rotate\">",
+            "  <input type=\"checkbox\" />",
+            "  <svg className=\"swap-off fill-current\" xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" viewBox=\"0 0 512 512\"><path d=\"M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z\"/></svg>",
+            "  <svg className=\"swap-on fill-current\" xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" viewBox=\"0 0 512 512\"><polygon points=\"400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49\"/></svg>",
+            "</label>"
+        ],
+        "description": "DaisyUI Hamburger Button"
+    },
+    "DaisyUI Swap Icons with Flip Effect": {
+        "prefix": "du-swap-icons-flip",
+        "body": [
+            "<label className=\"swap swap-flip text-9xl\">",
+            "  <input type=\"checkbox\" />",
+            "  <div className=\"swap-on\">😈</div>",
+            "  <div className=\"swap-off\">😇</div>",
+            "</label>"
+        ],
+        "description": "DaisyUI Swap Icons with Flip Effect"
+    },
+    "DaisyUI Activate using class name instead of checkbox": {
+        "prefix": "du-activate-class-name",
+        "body": [
+            "<label className=\"swap text-6xl\">",
+            "  <div className=\"swap-on\">🥵</div>",
+            "  <div className=\"swap-off\">🥶</div>",
+            "</label>",
+            "<label className=\"swap swap-active text-6xl\">",
+            "  <div className=\"swap-on\">🥳</div>",
+            "  <div className=\"swap-off\">😭</div>",
+            "</label>"
+        ],
+        "description": "DaisyUI Activate using class name instead of checkbox"
+    },
+    // Theme Controller
+    "DaisyUI Theme Controller using a toggle": {
+        "prefix": "du-theme-toggle",
+        "body": [
+            "<input type=\"checkbox\" value=\"synthwave\" className=\"toggle theme-controller\"/>"
+        ],
+        "description": "DaisyUI Theme Controller using a toggle"
+    },
+    "DaisyUI Theme Controller using a checkbox": {
+        "prefix": "du-theme-checkbox",
+        "body": [
+            "<input type=\"checkbox\" value=\"synthwave\" className=\"checkbox theme-controller\"/>"
+        ],
+        "description": "DaisyUI Theme Controller using a checkbox"
+    },
+    "DaisyUI Theme Controller using a swap": {
+        "prefix": "du-theme-swap",
+        "body": [
+            "<label className=\"swap swap-rotate\">",
+            "  {/* this hidden checkbox controls the state */}",
+            "  <input type=\"checkbox\" className=\"theme-controller\" value=\"synthwave\" />",
+            "  {/* sun icon */}",
+            "  <svg className=\"swap-on fill-current w-10 h-10\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M5.64,17l-.71.71a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0l.71-.71A1,1,0,0,0,5.64,17ZM5,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H4A1,1,0,0,0,5,12Zm7-7a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V4A1,1,0,0,0,12,5ZM5.64,7.05a1,1,0,0,0,.7.29,1,1,0,0,0,.71-.29,1,1,0,0,0,0-1.41l-.71-.71A1,1,0,0,0,4.93,6.34Zm12,.29a1,1,0,0,0,.7-.29l.71-.71a1,1,0,1,0-1.41-1.41L17,5.64a1,1,0,0,0,0,1.41A1,1,0,0,0,17.66,7.34ZM21,11H20a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm-9,8a1,1,0,0,0-1,1v1a1,1,0,0,0,2,0V20A1,1,0,0,0,12,19ZM18.36,17A1,1,0,0,0,17,18.36l.71.71a1,1,0,0,0,1.41,0,1,1,0,0,0,0-1.41ZM12,6.5A5.5,5.5,0,1,0,17.5,12,5.51,5.51,0,0,0,12,6.5Zm0,9A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z\"/></svg>",
+            "  {/* moon icon */}",
+            "  <svg className=\"swap-off fill-current w-10 h-10\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z\"/></svg>",
+            "</label>"
+        ],
+        "description": "DaisyUI Theme Controller using a swap"
+    },
+    "DaisyUI Theme Controller using a toggle with text": {
+        "prefix": "du-theme-toggle-text",
+        "body": [
+            "<label className=\"flex cursor-pointer gap-2\">",
+            "  <span className=\"label-text\">Current</span> ",
+            "  <input type=\"checkbox\" value=\"synthwave\" className=\"toggle theme-controller\"/>",
+            "  <span className=\"label-text\">Synthwave</span> ",
+            "</label>"
+        ],
+        "description": "DaisyUI Theme Controller using a toggle with text"
+    },
+    "DaisyUI Theme Controller using a toggle with icons": {
+        "prefix": "du-theme-toggle-icons",
+        "body": [
+            "<label className=\"flex cursor-pointer gap-2\">",
+            "  <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"5\"/><path d=\"M12 1v2M12 21v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M1 12h2M21 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4\"/></svg>",
+            "  <input type=\"checkbox\" value=\"synthwave\" className=\"toggle theme-controller\"/>",
+            "  <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\"><path d=\"M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z\"></path></svg>",
+            "</label>"
+        ],
+        "description": "DaisyUI Theme Controller using a toggle with icons"
+    },
+    "DaisyUI Theme Controller using a toggle with icons inside": {
+        "prefix": "du-theme-toggle-icons-inside",
+        "body": [
+            "<label className=\"cursor-pointer grid place-items-center\">",
+            "  <input type=\"checkbox\" value=\"synthwave\" className=\"toggle theme-controller bg-base-content row-start-1 col-start-1 col-span-2\"/>",
+            "  <svg className=\"col-start-1 row-start-1 stroke-base-100 fill-base-100\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"5\"/><path d=\"M12 1v2M12 21v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M1 12h2M21 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4\"/></svg>",
+            "  <svg className=\"col-start-2 row-start-1 stroke-base-100 fill-base-100\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\"><path d=\"M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z\"></path></svg>",
+            "</label>"
+        ],
+        "description": "Theme Controller using a toggle with icons inside"
+    },
+    "DaisyUI Theme Controller using a toggle with custom colors": {
+        "prefix": "du-theme-toggle-custom-colors",
+        "body": [
+            "<input type=\"checkbox\" value=\"synthwave\" className=\"toggle theme-controller bg-amber-300 border-sky-400 [--tglbg:theme(colors.sky.500)] checked:bg-blue-300 checked:border-blue-800 checked:[--tglbg:theme(colors.blue.900)] row-start-1 col-start-1 col-span-2\"/>"
+        ],
+        "description": "DaisyUI Theme Controller using a toggle with custom colors"
+    },
+    "DaisyUI Theme Controller using a radio input": {
+        "prefix": "du-theme-radio-input",
+        "body": [
+            "<div className=\"form-control\">",
+            "  <label className=\"label cursor-pointer gap-4\">",
+            "    <span className=\"label-text\">Default</span>",
+            "    <input type=\"radio\" name=\"theme-radios\" className=\"radio theme-controller\" value=\"default\"/>",
+            "  </label>",
+            "</div>",
+            "<div className=\"form-control\">",
+            "  <label className=\"label cursor-pointer gap-4\">",
+            "    <span className=\"label-text\">Retro</span>",
+            "    <input type=\"radio\" name=\"theme-radios\" className=\"radio theme-controller\" value=\"retro\"/>",
+            "  </label>",
+            "</div>",
+            "<div className=\"form-control\">",
+            "  <label className=\"label cursor-pointer gap-4\">",
+            "    <span className=\"label-text\">Cyberpunk</span>",
+            "    <input type=\"radio\" name=\"theme-radios\" className=\"radio theme-controller\" value=\"cyberpunk\"/>",
+            "  </label>",
+            "</div>",
+            "<div className=\"form-control\">",
+            "  <label className=\"label cursor-pointer gap-4\">",
+            "    <span className=\"label-text\">Valentine</span>",
+            "    <input type=\"radio\" name=\"theme-radios\" className=\"radio theme-controller\" value=\"valentine\"/>",
+            "  </label>",
+            "</div>",
+            "<div className=\"form-control\">",
+            "  <label className=\"label cursor-pointer gap-4\">",
+            "    <span className=\"label-text\">Aqua</span>",
+            "    <input type=\"radio\" name=\"theme-radios\" className=\"radio theme-controller\" value=\"aqua\"/>",
+            "  </label>",
+            "</div>"
+        ],
+        "description": "DaisyUI Theme Controller using a radio input"
+    },
+    "DaisyUI Theme Controller using a radio button": {
+        "prefix": "du-theme-radio-button",
+        "body": [
+            "<div className=\"join join-vertical\">",
+            "  <input type=\"radio\" name=\"theme-buttons\" className=\"btn theme-controller join-item\" aria-label=\"Default\" value=\"default\"/>",
+            "  <input type=\"radio\" name=\"theme-buttons\" className=\"btn theme-controller join-item\" aria-label=\"Retro\" value=\"retro\"/>",
+            "  <input type=\"radio\" name=\"theme-buttons\" className=\"btn theme-controller join-item\" aria-label=\"Cyberpunk\" value=\"cyberpunk\"/>",
+            "  <input type=\"radio\" name=\"theme-buttons\" className=\"btn theme-controller join-item\" aria-label=\"Valentine\" value=\"valentine\"/>",
+            "  <input type=\"radio\" name=\"theme-buttons\" className=\"btn theme-controller join-item\" aria-label=\"Aqua\" value=\"aqua\"/>",
+            "</div>"
+        ],
+        "description": "DaisyUI Theme Controller using a radio button"
+    },
+    // Accordion
+
+    "DaisyUI Accordion using radio inputs": {
+        "prefix": "du-accordion-radio",
+        "body": [
+            "<div className=\"collapse bg-base-200\">",
+            "  <input type=\"radio\" name=\"my-accordion-1\" checked=\"checked\" />",
+            "  <div className=\"collapse-title text-xl font-medium\">",
+            "    Click to open this one and close others",
+            "  </div>",
+            "  <div className=\"collapse-content\">",
+            "    <p>hello</p>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Accordion using radio inputs"
+    },
+    "DaisyUI Accordion with arrow icon": {
+        "prefix": "du-accordion-arrow",
+        "body": [
+            "<div className=\"collapse collapse-arrow bg-base-200\">",
+            "  <input type=\"radio\" name=\"my-accordion-2\" checked=\"checked\" />",
+            "  <div className=\"collapse-title text-xl font-medium\">",
+            "    Click to open this one and close others",
+            "  </div>",
+            "  <div className=\"collapse-content\">",
+            "    <p>hello</p>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Accordion with arrow icon"
+    },
+    "DaisyUI Accordion with plus/minus icon": {
+        "prefix": "du-accordion-plus-minus",
+        "body": [
+            "<div className=\"collapse collapse-plus bg-base-200\">",
+            "  <input type=\"radio\" name=\"my-accordion-3\" checked=\"checked\" />",
+            "  <div className=\"collapse-title text-xl font-medium\">",
+            "    Click to open this one and close others",
+            "  </div>",
+            "  <div className=\"collapse-content\">",
+            "    <p>hello</p>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Accordion with plus/minus icon"
+    },
+    "DaisyUI Using Accordion and Join together": {
+        "prefix": "du-accordion-join",
+        "body": [
+            "<div className=\"join join-vertical w-full\">",
+            "  <div className=\"collapse collapse-arrow join-item border border-base-300\">",
+            "    <input type=\"radio\" name=\"my-accordion-4\" checked=\"checked\" />",
+            "    <div className=\"collapse-title text-xl font-medium\">",
+            "      Click to open this one and close others",
+            "    </div>",
+            "    <div className=\"collapse-content\">",
+            "      <p>hello</p>",
+            "    </div>",
+            "  </div>",
+            "  <div className=\"collapse collapse-arrow join-item border border-base-300\">",
+            "    <input type=\"radio\" name=\"my-accordion-4\" />",
+            "    <div className=\"collapse-title text-xl font-medium\">",
+            "      Click to open this one and close others",
+            "    </div>",
+            "    <div className=\"collapse-content\">",
+            "      <p>hello</p>",
+            "    </div>",
+            "  </div>",
+            "  <div className=\"collapse collapse-arrow join-item border border-base-300\">",
+            "    <input type=\"radio\" name=\"my-accordion-4\" />",
+            "    <div className=\"collapse-title text-xl font-medium\">",
+            "      Click to open this one and close others",
+            "    </div>",
+            "    <div className=\"collapse-content\">",
+            "      <p>hello</p>",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Using Accordion and Join together"
+    },
+
+    // Avatar
+    "DaisyUI Avatar": {
+        "prefix": "du-avatar",
+        "body": [
+            "<div className=\"avatar\">",
+            "  <div className=\"w-24 rounded\">",
+            "    <img src=\"https://placehold.co/600x400\" />",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Avatar"
+    },
+    "DaisyUI Avatar in custom sizes": {
+        "prefix": "du-avatar-custom-sizes",
+        "body": [
+            "<div className=\"avatar\">",
+            "  <div className=\"w-32 rounded\">",
+            "    <img src=\"https://placehold.co/600x400\" />",
+            "  </div>",
+            "</div>",
+            "<div className=\"avatar\">",
+            "  <div className=\"w-20 rounded\">",
+            "    <img src=\"https://placehold.co/600x400\" alt=\"Tailwind-CSS-Avatar-component\" />",
+            "  </div>",
+            "</div>",
+            "<div className=\"avatar\">",
+            "  <div className=\"w-16 rounded\">",
+            "    <img src=\"https://placehold.co/600x400\" alt=\"Tailwind-CSS-Avatar-component\" />",
+            "  </div>",
+            "</div>",
+            "<div className=\"avatar\">",
+            "  <div className=\"w-8 rounded\">",
+            "    <img src=\"https://placehold.co/600x400\" alt=\"Tailwind-CSS-Avatar-component\" />",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Avatar in custom sizes"
+    },
+    "DaisyUI Avatar rounded": {
+        "prefix": "du-avatar-rounded",
+        "body": [
+            "<div className=\"avatar\">",
+            "  <div className=\"w-24 rounded-xl\">",
+            "    <img src=\"https://placehold.co/600x400\" />",
+            "  </div>",
+            "</div>",
+            "<div className=\"avatar\">",
+            "  <div className=\"w-24 rounded-full\">",
+            "    <img src=\"https://placehold.co/600x400\" />",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Avatar rounded"
+    },
+    "DaisyUI Avatar with mask": {
+        "prefix": "du-avatar-mask",
+        "body": [
+            "<div className=\"avatar\">",
+            "  <div className=\"w-24 mask mask-squircle\">",
+            "    <img src=\"https://placehold.co/600x400\" />",
+            "  </div>",
+            "</div>",
+            "<div className=\"avatar\">",
+            "  <div className=\"w-24 mask mask-hexagon\">",
+            "    <img src=\"https://placehold.co/600x400\" />",
+            "  </div>",
+            "</div>",
+            "<div className=\"avatar\">",
+            "  <div className=\"w-24 mask mask-triangle\">",
+            "    <img src=\"https://placehold.co/600x400\" />",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Avatar with mask"
+    },
+    "DaisyUI Avatar group": {
+        "prefix": "du-avatar-group",
+        "body": [
+            "<div className=\"avatar-group -space-x-6 rtl:space-x-reverse\">",
+            "  <div className=\"avatar\">",
+            "    <div className=\"w-12\">",
+            "      <img src=\"https://placehold.co/600x400\" />",
+            "    </div>",
+            "  </div>",
+            "  <div className=\"avatar\">",
+            "    <div className=\"w-12\">",
+            "      <img src=\"https://placehold.co/600x400\" />",
+            "    </div>",
+            "  </div>",
+            "  <div className=\"avatar\">",
+            "    <div className=\"w-12\">",
+            "      <img src=\"https://placehold.co/600x400\" />",
+            "    </div>",
+            "  </div>",
+            "  <div className=\"avatar\">",
+            "    <div className=\"w-12\">",
+            "      <img src=\"https://placehold.co/600x400\" />",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Avatar group"
+    },
+    "DaisyUI Avatar group with counter": {
+        "prefix": "du-avatar-group-counter",
+        "body": [
+            "<div className=\"avatar-group -space-x-6 rtl:space-x-reverse\">",
+            "  <div className=\"avatar\">",
+            "    <div className=\"w-12\">",
+            "      <img src=\"https://placehold.co/600x400\" />",
+            "    </div>",
+            "  </div>",
+            "  <div className=\"avatar\">",
+            "    <div className=\"w-12\">",
+            "      <img src=\"https://placehold.co/600x400\" />",
+            "    </div>",
+            "  </div>",
+            "  <div className=\"avatar\">",
+            "    <div className=\"w-12\">",
+            "      <img src=\"https://placehold.co/600x400\" />",
+            "    </div>",
+            "  </div>",
+            "  <div className=\"avatar placeholder\">",
+            "    <div className=\"w-12 bg-neutral text-neutral-content\">",
+            "      <span>+99</span>",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Avatar group with counter"
+    },
+    "DaisyUI Avatar with ring": {
+        "prefix": "du-avatar-ring",
+        "body": [
+            "<div className=\"avatar\">",
+            "  <div className=\"w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2\">",
+            "    <img src=\"https://placehold.co/600x400\" />",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Avatar with ring"
+    },
+    "DaisyUI Avatar with presence indicator": {
+        "prefix": "du-avatar-presence",
+        "body": [
+            "<div className=\"avatar online\">",
+            "  <div className=\"w-24 rounded-full\">",
+            "    <img src=\"https://placehold.co/600x400\" />",
+            "  </div>",
+            "</div>",
+            "<div className=\"avatar offline\">",
+            "  <div className=\"w-24 rounded-full\">",
+            "    <img src=\"https://placehold.co/600x400\" />",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Avatar with presence indicator"
+    },
+    "DaisyUI Avatar placeholder": {
+        "prefix": "du-avatar-placeholder",
+        "body": [
+            "<div className=\"avatar placeholder\">",
+            "  <div className=\"w-24 bg-neutral text-neutral-content\">",
+            "    <span>+99</span>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Avatar placeholder"
+    },
+    // badge
+
+    "DaisyUI Badge Default": {
+        "prefix": "du-badge-default",
+        "body": ["<div className=\"badge\">default</div>"],
+        "description": "DaisyUI Badge Default"
+    },
+    "DaisyUI Badge Neutral": {
+        "prefix": "du-badge-neutral",
+        "body": ["<div className=\"badge badge-neutral\">neutral</div>"],
+        "description": "DaisyUI Badge Neutral"
+    },
+    "DaisyUI Badge Primary": {
+        "prefix": "du-badge-primary",
+        "body": ["<div className=\"badge badge-primary\">primary</div>"],
+        "description": "DaisyUI Badge Primary"
+    },
+    "DaisyUI Badge Secondary": {
+        "prefix": "du-badge-secondary",
+        "body": ["<div className=\"badge badge-secondary\">secondary</div>"],
+        "description": "DaisyUI Badge Secondary"
+    },
+    "DaisyUI Badge Accent": {
+        "prefix": "du-badge-accent",
+        "body": ["<div className=\"badge badge-accent\">accent</div>"],
+        "description": "DaisyUI Badge Accent"
+    },
+    "DaisyUI Badge Ghost": {
+        "prefix": "du-badge-ghost",
+        "body": ["<div className=\"badge badge-ghost\">ghost</div>"],
+        "description": "DaisyUI Badge Ghost"
+    },
+    "DaisyUI Badge Outline Default": {
+        "prefix": "du-badge-outline-default",
+        "body": ["<div className=\"badge badge-outline\">default</div>"],
+        "description": "DaisyUI Badge Outline Default"
+    },
+    "DaisyUI Badge Outline Primary": {
+        "prefix": "du-badge-outline-primary",
+        "body": [
+            "<div className=\"badge badge-primary badge-outline\">primary</div>"
+        ],
+        "description": "DaisyUI Badge Outline Primary"
+    },
+    "DaisyUI Badge Outline Secondary": {
+        "prefix": "du-badge-outline-secondary",
+        "body": [
+            "<div className=\"badge badge-secondary badge-outline\">secondary</div>"
+        ],
+        "description": "DaisyUI Badge Outline Secondary"
+    },
+    "DaisyUI Badge Outline Accent": {
+        "prefix": "du-badge-outline-accent",
+        "body": [
+            "<div className=\"badge badge-accent badge-outline\">accent</div>"
+        ],
+        "description": "DaisyUI Badge Outline Accent"
+    },
+
+    "DaisyUI Badge Size Large": {
+        "prefix": "du-badge-lg",
+        "body": ["<div className=\"badge badge-lg\">987,654</div>"],
+        "description": "DaisyUI Badge Size Large"
+    },
+    "DaisyUI Badge Size Medium": {
+        "prefix": "du-badge-md",
+        "body": ["<div className=\"badge badge-md\">987,654</div>"],
+        "description": "DaisyUI Badge Size Medium"
+    },
+    "DaisyUI Badge Size Small": {
+        "prefix": "du-badge-sm",
+        "body": ["<div className=\"badge badge-sm\">987,654</div>"],
+        "description": "DaisyUI Badge Size Small"
+    },
+    "DaisyUI Badge Size Extra Small": {
+        "prefix": "du-badge-xs",
+        "body": ["<div className=\"badge badge-xs\">987,654</div>"],
+        "description": "DaisyUI Badge Size Extra Small"
+    },
+    "DaisyUI Empty Badge Size Large": {
+        "prefix": "du-empty-badge-lg",
+        "body": ["<div className=\"badge badge-primary badge-lg\"></div>"],
+        "description": "DaisyUI Empty Badge Size Large"
+    },
+    "DaisyUI Empty Badge Size Medium": {
+        "prefix": "du-empty-badge-md",
+        "body": ["<div className=\"badge badge-primary badge-md\"></div>"],
+        "description": "DaisyUI Empty Badge Size Medium"
+    },
+    "DaisyUI Empty Badge Size Small": {
+        "prefix": "du-empty-badge-sm",
+        "body": ["<div className=\"badge badge-primary badge-sm\"></div>"],
+        "description": "DaisyUI Empty Badge Size Small"
+    },
+    "DaisyUI Empty Badge Size Extra Small": {
+        "prefix": "du-empty-badge-xs",
+        "body": ["<div className=\"badge badge-primary badge-xs\"></div>"],
+        "description": "DaisyUI Empty Badge Size Extra Small"
+    },
+    "DaisyUI Badge Info": {
+        "prefix": "du-badge-info",
+        "body": [
+            "<div className=\"badge badge-info gap-2\">",
+            "  <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" className=\"inline-block w-4 h-4 stroke-current\"><path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M6 18L18 6M6 6l12 12\"></path></svg>",
+            "  info",
+            "</div>"
+        ],
+        "description": "DaisyUI Badge Info"
+    },
+    "DaisyUI Badge Success": {
+        "prefix": "du-badge-success",
+        "body": [
+            "<div className=\"badge badge-success gap-2\">",
+            "  <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" className=\"inline-block w-4 h-4 stroke-current\"><path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M6 18L18 6M6 6l12 12\"></path></svg>",
+            "  success",
+            "</div>"
+        ],
+        "description": "DaisyUI Badge Success"
+    },
+    "DaisyUI Badge Warning": {
+        "prefix": "du-badge-warning",
+        "body": [
+            "<div className=\"badge badge-warning gap-2\">",
+            "  <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" className=\"inline-block w-4 h-4 stroke-current\"><path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M6 18L18 6M6 6l12 12\"></path></svg>",
+            "  warning",
+            "</div>"
+        ],
+        "description": "DaisyUI Badge Warning"
+    },
+    "DaisyUI Badge Error": {
+        "prefix": "du-badge-error",
+        "body": [
+            "<div className=\"badge badge-error gap-2\">",
+            "  <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" className=\"inline-block w-4 h-4 stroke-current\"><path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M6 18L18 6M6 6l12 12\"></path></svg>",
+            "  error",
+            "</div>"
+        ],
+        "description": "DaisyUI Badge Error"
+    },
+    "DaisyUI Badge Text XL": {
+        "prefix": "du-badge-text-xl",
+        "body": [
+            "<h2 className=\"text-xl\">",
+            "  Heading",
+            "  <span className=\"badge badge-lg\">NEW</span>",
+            "</h2>"
+        ],
+        "description": "DaisyUI Badge Text XL"
+    },
+    "DaisyUI Badge Text LG": {
+        "prefix": "du-badge-text-lg",
+        "body": [
+            "<h3 className=\"text-lg\">",
+            "  Heading",
+            "  <span className=\"badge badge-md\">NEW</span>",
+            "</h3>"
+        ],
+        "description": "DaisyUI Badge Text LG"
+    },
+    "DaisyUI Badge Text Base": {
+        "prefix": "du-badge-text-base",
+        "body": [
+            "<h4 className=\"text-base\">",
+            "  Heading",
+            "  <span className=\"badge badge-sm\">NEW</span>",
+            "</h4>"
+        ],
+        "description": "DaisyUI Badge Text Base"
+    },
+    "DaisyUI Badge Text SM": {
+        "prefix": "du-badge-text-sm",
+        "body": [
+            "<h5 className=\"text-sm\">",
+            "  Heading",
+            "  <span className=\"badge badge-xs\">NEW</span>",
+            "</h5>"
+        ],
+        "description": "DaisyUI Badge Text SM"
+    },
+    "DaisyUI Badge Button": {
+        "prefix": "du-badge-button",
+        "body": [
+            "<button className=\"btn\">",
+            "  Inbox",
+            "  <div className=\"badge\">+99</div>",
+            "</button>"
+        ],
+        "description": "DaisyUI Badge Button"
+    },
+    "DaisyUI Badge Button Secondary": {
+        "prefix": "du-badge-button-secondary",
+        "body": [
+            "<button className=\"btn\">",
+            "  Inbox",
+            "  <div className=\"badge badge-secondary\">+99</div>",
+            "</button>"
+        ],
+        "description": "DaisyUI Badge Button Secondary"
+    },
+
+    // Card
+    "DaisyUI Card": {
+        "prefix": "du-card",
+        "body": [
+            "<div className=\"card w-96 bg-base-100 shadow-xl\">",
+            "  <figure><img src=\"/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg\" alt=\"Shoes\" /></figure>",
+            "  <div className=\"card-body\">",
+            "    <h2 className=\"card-title\">Shoes!</h2>",
+            "    <p>If a dog chews shoes whose shoes does he choose?</p>",
+            "    <div className=\"card-actions justify-end\">",
+            "      <button className=\"btn btn-primary\">Buy Now</button>",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Card"
+    },
+    "DaisyUI Compact Card": {
+        "prefix": "du-compact-card",
+        "body": [
+            "<div className=\"card card-compact w-96 bg-base-100 shadow-xl\">",
+            "  <figure><img src=\"/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg\" alt=\"Shoes\" /></figure>",
+            "  <div className=\"card-body\">",
+            "    <h2 className=\"card-title\">Shoes!</h2>",
+            "    <p>If a dog chews shoes whose shoes does he choose?</p>",
+            "    <div className=\"card-actions justify-end\">",
+            "      <button className=\"btn btn-primary\">Buy Now</button>",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Compact Card"
+    },
+    "DaisyUI Card with Badge": {
+        "prefix": "du-card-with-badge",
+        "body": [
+            "<div className=\"card w-96 bg-base-100 shadow-xl\">",
+            "  <figure><img src=\"/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg\" alt=\"Shoes\" /></figure>",
+            "  <div className=\"card-body\">",
+            "    <h2 className=\"card-title\">",
+            "      Shoes!",
+            "      <div className=\"badge badge-secondary\">NEW</div>",
+            "    </h2>",
+            "    <p>If a dog chews shoes whose shoes does he choose?</p>",
+            "    <div className=\"card-actions justify-end\">",
+            "      <div className=\"badge badge-outline\">Fashion</div>",
+            "      <div className=\"badge badge-outline\">Products</div>",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Card with Badge"
+    },
+    "DaisyUI Card with Bottom Image": {
+        "prefix": "du-card-with-bottom-image",
+        "body": [
+            "<div className=\"card w-96 bg-base-100 shadow-xl\">",
+            "  <div className=\"card-body\">",
+            "    <h2 className=\"card-title\">Shoes!</h2>",
+            "    <p>If a dog chews shoes whose shoes does he choose?</p>",
+            "  </div>",
+            "  <figure><img src=\"/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg\" alt=\"Shoes\" /></figure>",
+            "</div>"
+        ],
+        "description": "DaisyUI Card with Bottom Image"
+    },
+    "DaisyUI Card Centered Content": {
+        "prefix": "du-card-centered-content",
+        "body": [
+            "<div className=\"card w-96 bg-base-100 shadow-xl\">",
+            "  <figure className=\"px-10 pt-10\">",
+            "    <img src=\"/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg\" alt=\"Shoes\" className=\"rounded-xl\" />",
+            "  </figure>",
+            "  <div className=\"card-body items-center text-center\">",
+            "    <h2 className=\"card-title\">Shoes!</h2>",
+            "    <p>If a dog chews shoes whose shoes does he choose?</p>",
+            "    <div className=\"card-actions\">",
+            "      <button className=\"btn btn-primary\">Buy Now</button>",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Card with Centered Content"
+    },
+    "DaisyUI Card with Image Overlay": {
+        "prefix": "du-card-image-overlay",
+        "body": [
+            "<div className=\"card w-96 bg-base-100 shadow-xl image-full\">",
+            "  <figure><img src=\"/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg\" alt=\"Shoes\" /></figure>",
+            "  <div className=\"card-body\">",
+            "    <h2 className=\"card-title\">Shoes!</h2>",
+            "    <p>If a dog chews shoes whose shoes does he choose?</p>",
+            "    <div className=\"card-actions justify-end\">",
+            "      <button className=\"btn btn-primary\">Buy Now</button>",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Card with Image Overlay"
+    },
+    "DaisyUI Card with No Image": {
+        "prefix": "du-card-no-image",
+        "body": [
+            "<div className=\"card w-96 bg-base-100 shadow-xl\">",
+            "  <div className=\"card-body\">",
+            "    <h2 className=\"card-title\">Card title!</h2>",
+            "    <p>If a dog chews shoes whose shoes does he choose?</p>",
+            "    <div className=\"card-actions justify-end\">",
+            "      <button className=\"btn btn-primary\">Buy Now</button>",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Card with No Image"
+    },
+    "DaisyUI Card with Custom Color": {
+        "prefix": "du-card-custom-color",
+        "body": [
+            "<div className=\"card w-96 bg-primary text-primary-content\">",
+            "  <div className=\"card-body\">",
+            "    <h2 className=\"card-title\">Card title!</h2>",
+            "    <p>If a dog chews shoes whose shoes does he choose?</p>",
+            "    <div className=\"card-actions justify-end\">",
+            "      <button className=\"btn\">Buy Now</button>",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Card with Custom Color"
+    },
+    "DaisyUI Centered Card with Neutral Color": {
+        "prefix": "du-card-centered-neutral",
+        "body": [
+            "<div className=\"card w-96 bg-neutral text-neutral-content\">",
+            "  <div className=\"card-body items-center text-center\">",
+            "    <h2 className=\"card-title\">Cookies!</h2>",
+            "    <p>We are using cookies for no reason.</p>",
+            "    <div className=\"card-actions justify-end\">",
+            "      <button className=\"btn btn-primary\">Accept</button>",
+            "      <button className=\"btn btn-ghost\">Deny</button>",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Centered Card with Neutral Color"
+    },
+
+    "DaisyUI Card with Action on Top": {
+        "prefix": "du-card-action-on-top",
+        "body": [
+            "<div className=\"card w-96 bg-base-100 shadow-xl\">",
+            "  <div className=\"card-body\">",
+            "    <div className=\"card-actions justify-end\">",
+            "      <button className=\"btn btn-square btn-sm\">",
+            "        <svg xmlns=\"http://www.w3.org/2000/svg\" className=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M6 18L18 6M6 6l12 12\" /></svg>",
+            "      </button>",
+            "    </div>",
+            "    <p>We are using cookies for no reason.</p>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Card with Action on Top"
+    },
+    "DaisyUI Card Glass": {
+        "prefix": "du-card-glass",
+        "body": [
+            "<div className=\"card w-96 glass\">",
+            "  <figure><img src=\"/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg\" alt=\"car!\"/></figure>",
+            "  <div className=\"card-body\">",
+            "    <h2 className=\"card-title\">Life hack</h2>",
+            "    <p>How to park your car at your garage?</p>",
+            "    <div className=\"card-actions justify-end\">",
+            "      <button className=\"btn btn-primary\">Learn now!</button>",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Card Glass"
+    },
+    "DaisyUI Card Side": {
+        "prefix": "du-card-side",
+        "body": [
+            "<div className=\"card card-side bg-base-100 shadow-xl\">",
+            "  <figure><img src=\"/images/stock/photo-1635805737707-575885ab0820.jpg\" alt=\"Movie\"/></figure>",
+            "  <div className=\"card-body\">",
+            "    <h2 className=\"card-title\">New movie is released!</h2>",
+            "    <p>Click the button to watch on Jetflix app.</p>",
+            "    <div className=\"card-actions justify-end\">",
+            "      <button className=\"btn btn-primary\">Watch</button>",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Card Side"
+    },
+    "DaisyUI Responsive Card": {
+        "prefix": "du-responsive-card",
+        "body": [
+            "<div className=\"card lg:card-side bg-base-100 shadow-xl\">",
+            "  <figure><img src=\"/images/stock/photo-1494232410401-ad00d5433cfa.jpg\" alt=\"Album\"/></figure>",
+            "  <div className=\"card-body\">",
+            "    <h2 className=\"card-title\">New album is released!</h2>",
+            "    <p>Click the button to listen on Spotiwhy app.</p>",
+            "    <div className=\"card-actions justify-end\">",
+            "      <button className=\"btn btn-primary\">Listen</button>",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Responsive Card"
     }
 }

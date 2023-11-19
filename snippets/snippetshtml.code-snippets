@@ -1,0 +1,239 @@
+{
+    "DaisyUI Button": {
+        "prefix": "du-btn",
+        "body": ["<button class='btn'>Button</button>"],
+        "description": "DaisyUI Basic Button"
+    },
+    "DaisyUI Button Neutral": {
+        "prefix": "du-btn-neutral",
+        "body": ["<button class='btn btn-neutral'>Neutral</button>"],
+        "description": "DaisyUI Neutral Button"
+    },
+    "DaisyUI Button Primary": {
+        "prefix": "du-btn-primary",
+        "body": ["<button class='btn btn-primary'>Primary</button>"],
+        "description": "DaisyUI Primary Button"
+    },
+    "DaisyUI Button Secondary": {
+        "prefix": "du-btn-secondary",
+        "body": ["<button class='btn btn-secondary'>Secondary</button>"],
+        "description": "DaisyUI Secondary Button"
+    },
+    "DaisyUI Button Accent": {
+        "prefix": "du-btn-accent",
+        "body": ["<button class='btn btn-accent'>Accent</button>"],
+        "description": "DaisyUI Accent Button"
+    },
+    "DaisyUI Button Success": {
+        "prefix": "du-btn-success",
+        "body": ["<button class='btn btn-success'>Success</button>"],
+        "description": "DaisyUI Success Button"
+    },
+    "DaisyUI Button Link": {
+        "prefix": "du-btn-link",
+        "body": ["<button class='btn btn-link'>Link</button>"],
+        "description": "DaisyUI Link Button"
+    },
+    "DaisyUI Button Info": {
+        "prefix": "du-btn-info",
+        "body": ["<button class='btn btn-info'>Info</button>"],
+        "description": "DaisyUI Info Button"
+    },
+    "DaisyUI Button Small": {
+        "prefix": "du-btn-small",
+        "body": ["<button class='btn btn-sm'>Small</button>"],
+        "description": "DaisyUI Small Button"
+    },
+    "DaisyUI Button Extra Small": {
+        "prefix": "du-btn-xs",
+        "body": ["<button class='btn btn-xs'>Extra Small</button>"],
+        "description": "DaisyUI Extra Small Button"
+    },
+    "DaisyUI Button Glass": {
+        "prefix": "du-btn-glass",
+        "body": ["<button class='btn glass'>Glass</button>"],
+        "description": "DaisyUI Glass Button"
+    },
+    "DaisyUI Button Disabled": {
+        "prefix": "du-btn-disabled",
+        "body": ["<button class='btn btn-disabled'>Disabled</button>"],
+        "description": "DaisyUI Disabled Button"
+    },
+    "DaisyUI Button Square": {
+        "prefix": "du-btn-square",
+        "body": ["<button class='btn btn-square'>Square</button>"],
+        "description": "DaisyUI Square Button"
+    },
+    "DaisyUI Button Square Outline": {
+        "prefix": "du-btn-square-outline",
+        "body": [
+            "<button class='btn btn-square btn-outline'>Square Outline</button>"
+        ],
+        "description": "DaisyUI Square Outline Button"
+    },
+    "DaisyUI Button Circle": {
+        "prefix": "du-btn-circle",
+        "body": ["<button class='btn btn-circle'>Circle</button>"],
+        "description": "DaisyUI Circle Button"
+    },
+    "DaisyUI Button Circle Outline": {
+        "prefix": "du-btn-circle-outline",
+        "body": [
+            "<button class='btn btn-circle btn-outline'>Circle Outline</button>"
+        ],
+        "description": "DaisyUI Circle Outline Button"
+    },
+    "DaisyUI Loading Button": {
+        "prefix": "du-btn-loading",
+        "body": [
+            "<button class='btn loading'>",
+            "   <span class='loading loading-spinner'></span>",
+            "   Loading",
+            "</button>"
+        ],
+        "description": "DaisyUI Loading Button"
+    },
+    "DaisyUI Dropdown Menu": {
+        "prefix": "du-dropdown-menu",
+        "body": [
+            "<div class=\"dropdown\">",
+            "  <label tabindex=\"0\" class=\"btn m-1\">Click</label>",
+            "  <ul tabindex=\"0\" class=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
+            "    <li><a>Item 1</a></li>",
+            "    <li><a>Item 2</a></li>",
+            "  </ul>",
+            "</div>"
+        ],
+        "description": "DaisyUI Dropdown Menu"
+    },
+    "DaisyUI Dropdown Align to End": {
+        "prefix": "du-dropdown-align-end",
+        "body": [
+            "<div class=\"dropdown dropdown-end\">",
+            "  <label tabindex=\"0\" class=\"btn m-1\">Click</label>",
+            "  <ul tabindex=\"0\" class=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
+            "    <li><a>Item 1</a></li>",
+            "    <li><a>Item 2</a></li>",
+            "  </ul>",
+            "</div>"
+        ],
+        "description": "DaisyUI Dropdown Align to End"
+    },
+    "DaisyUI Dropdown Top": {
+        "prefix": "du-dropdown-top",
+        "body": [
+            "<div class=\"dropdown dropdown-top\">",
+            "  <label tabindex=\"0\" class=\"btn m-1\">Click</label>",
+            "  <ul tabindex=\"0\" class=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
+            "    <li><a>Item 1</a></li>",
+            "    <li><a>Item 2</a></li>",
+            "  </ul>",
+            "</div>"
+        ],
+        "description": "DaisyUI Dropdown Top"
+    },
+    "DaisyUI Dropdown Top Align to End": {
+        "prefix": "du-dropdown-top-align-end",
+        "body": [
+            "<div class=\"dropdown dropdown-top dropdown-end\">",
+            "  <label tabindex=\"0\" class=\"btn m-1\">Click</label>",
+            "  <ul tabindex=\"0\" class=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
+            "    <li><a>Item 1</a></li>",
+            "    <li><a>Item 2</a></li>",
+            "  </ul>",
+            "</div>"
+        ],
+        "description": "DaisyUI Dropdown Top Align to End"
+    },
+    "DaisyUI Dropdown Bottom": {
+        "prefix": "du-dropdown-bottom",
+        "body": [
+            "<div class=\"dropdown dropdown-bottom\">",
+            "  <label tabindex=\"0\" class=\"btn m-1\">Click</label>",
+            "  <ul tabindex=\"0\" class=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
+            "    <li><a>Item 1</a></li>",
+            "    <li><a>Item 2</a></li>",
+            "  </ul>",
+            "</div>"
+        ],
+        "description": "DaisyUI Dropdown Bottom"
+    },
+    "DaisyUI Dropdown Bottom Align to End": {
+        "prefix": "du-dropdown-bottom-align-end",
+        "body": [
+            "<div class=\"dropdown dropdown-bottom dropdown-end\">",
+            "  <label tabindex=\"0\" class=\"btn m-1\">Click</label>",
+            "  <ul tabindex=\"0\" class=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
+            "    <li><a>Item 1</a></li>",
+            "    <li><a>Item 2</a></li>",
+            "  </ul>",
+            "</div>"
+        ],
+        "description": "DaisyUI Dropdown Bottom Align to End"
+    },
+    "DaisyUI Dropdown Left": {
+        "prefix": "du-dropdown-left",
+        "body": [
+            "<div class=\"dropdown dropdown-left\">",
+            "  <label tabindex=\"0\" class=\"btn m-1\">Click</label>",
+            "  <ul tabindex=\"0\" class=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
+            "    <li><a>Item 1</a></li>",
+            "    <li><a>Item 2</a></li>",
+            "  </ul>",
+            "</div>"
+        ],
+        "description": "DaisyUI Dropdown Left"
+    },
+    "DaisyUI Dropdown Left Align to End": {
+        "prefix": "du-dropdown-left-align-end",
+        "body": [
+            "<div class=\"dropdown dropdown-left dropdown-end\">",
+            "  <label tabindex=\"0\" class=\"btn m-1\">Click</label>",
+            "  <ul tabindex=\"0\" class=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
+            "    <li><a>Item 1</a></li>",
+            "    <li><a>Item 2</a></li>",
+            "  </ul>",
+            "</div>"
+        ],
+        "description": "DaisyUI Dropdown Left Align to End"
+    },
+    "DaisyUI Dropdown Right": {
+        "prefix": "du-dropdown-right",
+        "body": [
+            "<div class=\"dropdown dropdown-right\">",
+            "  <label tabindex=\"0\" class=\"btn m-1\">Click</label>",
+            "  <ul tabindex=\"0\" class=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
+            "    <li><a>Item 1</a></li>",
+            "    <li><a>Item 2</a></li>",
+            "  </ul>",
+            "</div>"
+        ],
+        "description": "DaisyUI Dropdown Right"
+    },
+    "DaisyUI Dropdown Right Align to End": {
+        "prefix": "du-dropdown-right-align-end",
+        "body": [
+            "<div class=\"dropdown dropdown-right dropdown-end\">",
+            "  <label tabindex=\"0\" class=\"btn m-1\">Click</label>",
+            "  <ul tabindex=\"0\" class=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
+            "    <li><a>Item 1</a></li>",
+            "    <li><a>Item 2</a></li>",
+            "  </ul>",
+            "</div>"
+        ],
+        "description": "DaisyUI Dropdown Right Align to End"
+    },
+    "DaisyUI Dropdown Hover": {
+        "prefix": "du-dropdown-hover",
+        "body": [
+            "<div class=\"dropdown dropdown-hover\">",
+            "  <label tabindex=\"0\" class=\"btn m-1\">Hover</label>",
+            "  <ul tabindex=\"0\" class=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
+            "    <li><a>Item 1</a></li>",
+            "    <li><a>Item 2</a></li>",
+            "  </ul>",
+            "</div>"
+        ],
+        "description": "DaisyUI Dropdown Hover"
+    }
+}
