@@ -4,12 +4,12 @@ All notable changes to the "daisyui-snippet" extension will be documented in thi
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [0.0.1] - 2021-06-01
+## [0.0.1] - 2023-18-11
 
 -   Initial release
 -   Add snippets for only button components
 
-## [0.0.2] - 2021-06-02
+## [0.0.2] - 2023-19-11
 
 -   **Bug Fixes**
 -   fix html Language Support
@@ -24,3 +24,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 -   Add snippets for all Avatar components
 -   Add snippets for all Badge components
 -   Add snippets for all Card components
+
+## [0.0.3] - 2023-19-11
+
+-   Add License
+-   Update README.md
