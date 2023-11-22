@@ -29,3 +29,15 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 -   Add License
 -   Update README.md
+
+## [0.0.4] - 2023-23-11
+
+-   **Bug Fixes**
+-   fix Change Log year
+-   fix Add Missing Button Size
+    **Features**
+-   Add Carousel
+-   Add File Input
+-   Add Radio Input
+-   Add Text Input
+-   Add Checkbox Input

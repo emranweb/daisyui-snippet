@@ -1,7 +1,7 @@
 {
     "name": "daisyui-snippet",
     "displayName": "daisyui-snippet",
-    "description": "The DaisyUI Snippet extension for Visual Studio Code offers a rich collection of snippets, providing a quick and efficient way to integrate DaisyUI components and styles into your projects.",
+    "description": "The DaisyUI Snippet extension for Visual Studio Code offers a rich collection of DaisyUI Components snippets",
     "version": "0.0.3",
     "engines": {
         "vscode": "^1.84.0"
