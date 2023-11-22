@@ -49,6 +49,12 @@
         "body": ["<button className='btn btn-xs'>Extra Small</button>"],
         "description": "DaisyUI Extra Small Button"
     },
+    "DaisyUI Large Button": {
+        "prefix": "du-btn-lg",
+        "body": ["<button className=\"btn btn-lg\">Large</button>"],
+        "description": "DaisyUI Large Button"
+    },
+
     "DaisyUI Button Glass": {
         "prefix": "du-btn-glass",
         "body": ["<button className='btn glass'>Glass</button>"],
@@ -1713,5 +1719,320 @@
             "<input type=\"checkbox\" className=\"checkbox\" id=\"$1\" />"
         ],
         "description": "DaisyUI Indeterminate Checkbox"
+    },
+    // File Input
+    "DaisyUI File Input": {
+        "prefix": "du-file-input",
+        "body": [
+            "<input type=\"file\" className=\"file-input w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI File Input"
+    },
+    "DaisyUI File Input Bordered": {
+        "prefix": "du-file-input-bordered",
+        "body": [
+            "<input type=\"file\" className=\"file-input file-input-bordered w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI File Input with Border"
+    },
+    "DaisyUI File Input Ghost": {
+        "prefix": "du-file-input-ghost",
+        "body": [
+            "<input type=\"file\" className=\"file-input file-input-ghost w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI File Input Ghost"
+    },
+    "DaisyUI File Input with Form Control and Labels": {
+        "prefix": "du-file-input-label",
+        "body": [
+            "<div className=\"form-control w-full max-w-xs\">",
+            "  <label className=\"label\">",
+            "    <span className=\"label-text\">Pick a file</span>",
+            "    <span className=\"label-text-alt\">Alt label</span>",
+            "  </label>",
+            "  <input type=\"file\" className=\"file-input file-input-bordered w-full max-w-xs\" />",
+            "  <label className=\"label\">",
+            "    <span className=\"label-text-alt\">Alt label</span>",
+            "    <span className=\"label-text-alt\">Alt label</span>",
+            "  </label>",
+            "</div>"
+        ],
+        "description": "DaisyUI File Input with Form Control and Labels"
+    },
+    "DaisyUI File Input Primary Color": {
+        "prefix": "du-file-input-primary",
+        "body": [
+            "<input type=\"file\" className=\"file-input file-input-bordered file-input-primary w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI File Input with Primary Color"
+    },
+    "DaisyUI File Input Secondary Color": {
+        "prefix": "du-file-input-secondary",
+        "body": [
+            "<input type=\"file\" className=\"file-input file-input-bordered file-input-secondary w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI File Input with Secondary Color"
+    },
+    "DaisyUI File Input Info Color": {
+        "prefix": "du-file-input-info",
+        "body": [
+            "<input type=\"file\" className=\"file-input file-input-bordered file-input-info w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI File Input with Info Color"
+    },
+    "DaisyUI File Input Success Color": {
+        "prefix": "du-file-input-success",
+        "body": [
+            "<input type=\"file\" className=\"file-input file-input-bordered file-input-success w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI File Input with Success Color"
+    },
+    "DaisyUI File Input Warning Color": {
+        "prefix": "du-file-input-warning",
+        "body": [
+            "<input type=\"file\" className=\"file-input file-input-bordered file-input-warning w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI File Input with Warning Color"
+    },
+    "DaisyUI File Input Error Color": {
+        "prefix": "du-file-input-error",
+        "body": [
+            "<input type=\"file\" className=\"file-input file-input-bordered file-input-error w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI File Input with Error Color"
+    },
+    "DaisyUI File Input XS": {
+        "prefix": "du-file-input-xs",
+        "body": [
+            "<input type=\"file\" className=\"file-input file-input-bordered file-input-xs w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI File Input XS"
+    },
+    "DaisyUI File Input SM": {
+        "prefix": "du-file-input-sm",
+        "body": [
+            "<input type=\"file\" className=\"file-input file-input-bordered file-input-sm w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI File Input SM"
+    },
+    "DaisyUI File Input MD": {
+        "prefix": "du-file-input-md",
+        "body": [
+            "<input type=\"file\" className=\"file-input file-input-bordered file-input-md w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI File Input MD"
+    },
+    "DaisyUI File Input LG": {
+        "prefix": "du-file-input-lg",
+        "body": [
+            "<input type=\"file\" className=\"file-input file-input-bordered file-input-lg w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI File Input LG"
+    },
+    "DaisyUI Disabled File Input": {
+        "prefix": "du-file-input-disabled",
+        "body": [
+            "<input type=\"file\" placeholder=\"You can't touch this\" className=\"file-input file-input-bordered w-full max-w-xs\" disabled />"
+        ],
+        "description": "DaisyUI Disabled File Input"
+    },
+    "DaisyUI Basic Radio": {
+        "prefix": "du-radio-basic",
+        "body": ["<input type=\"radio\" name=\"$1\" className=\"radio\" $2 />"],
+        "description": "DaisyUI Basic Radio"
+    },
+
+    "DaisyUI Radio Primary": {
+        "prefix": "du-radio-primary",
+        "body": [
+            "<input type=\"radio\" name=\"$1\" className=\"radio radio-primary\" $2 />"
+        ],
+        "description": "DaisyUI Radio with primary Color"
+    },
+
+    "DaisyUI Radio Secondary": {
+        "prefix": "du-radio-secondary",
+        "body": [
+            "<input type=\"radio\" name=\"$1\" className=\"radio radio-secondary\" $2 />"
+        ],
+        "description": "DaisyUI Radio with Secondary Color"
+    },
+    "DaisyUI Radio Accent": {
+        "prefix": "du-radio-accent",
+        "body": [
+            "<input type=\"radio\" name=\"$1\" className=\"radio radio-accent\" $2 />"
+        ],
+        "description": "DaisyUI Radio with Accent Color"
+    },
+    "DaisyUI Radio Success": {
+        "prefix": "du-radio-success",
+        "body": [
+            "<input type=\"radio\" name=\"$1\" className=\"radio radio-success\" $2 />"
+        ],
+        "description": "DaisyUI Radio with Success Color"
+    },
+    "DaisyUI Radio Warning": {
+        "prefix": "du-radio-warning",
+        "body": [
+            "<input type=\"radio\" name=\"$1\" className=\"radio radio-warning\" $2 />"
+        ],
+        "description": "DaisyUI Radio with Warning Color"
+    },
+    "DaisyUI Radio Info": {
+        "prefix": "du-radio-info",
+        "body": [
+            "<input type=\"radio\" name=\"$1\" className=\"radio radio-info\" $2 />"
+        ],
+        "description": "DaisyUI Radio with Info Color"
+    },
+    "DaisyUI Radio Error": {
+        "prefix": "du-radio-error",
+        "body": [
+            "<input type=\"radio\" name=\"$1\" className=\"radio radio-error\" $2 />"
+        ],
+        "description": "DaisyUI Radio with Error Color"
+    },
+    "DaisyUI Radio Disabled": {
+        "prefix": "du-radio-disabled",
+        "body": [
+            "<input type=\"radio\" name=\"$1\" className=\"radio\" disabled $2 />"
+        ],
+        "description": "DaisyUI Disabled Radio"
+    },
+    "DaisyUI Radio Custom Color": {
+        "prefix": "du-radio-custom-color",
+        "body": [
+            "<div className=\"form-control\">",
+            "  <label className=\"label cursor-pointer\">",
+            "    <span className=\"label-text\">$1</span> ",
+            "    <input type=\"radio\" name=\"$2\" className=\"radio checked:bg-red-500 $3\" $4 />",
+            "  </label>",
+            "</div>"
+        ],
+        "description": "DaisyUI Radio Custom Color"
+    },
+    // Text Input
+    "DaisyUI Text Input": {
+        "prefix": "du-input-text",
+        "body": [
+            "<input type=\"text\" placeholder=\"$1\" className=\"input w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI Text Input"
+    },
+
+    "DaisyUI Text Input with Border": {
+        "prefix": "du-input-border",
+        "body": [
+            "<input type=\"text\" placeholder=\"$1\" className=\"input input-ghost w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI Text Input with Border"
+    },
+    "DaisyUI Ghost Text Input": {
+        "prefix": "du-input-ghost",
+        "body": [
+            "<input type=\"text\" placeholder=\"$1\" className=\"input input-ghost w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI Ghost Text Input"
+    },
+    "DaisyUI label Text Input": {
+        "prefix": "du-input-label",
+        "body": [
+            "<div className=\"form-control w-full max-w-xs\">",
+            "  <label className=\"label\">",
+            "    <span className=\"label-text\">$1</span>",
+            "    <span className=\"label-text-alt\">$2</span>",
+            "  </label>",
+            "  <input type=\"text\" placeholder=\"Type here\" className=\"input input-bordered w-full max-w-xs\" />",
+            "  <label className=\"label\">",
+            "    <span className=\"label-text-alt\">$3</span>",
+            "    <span className=\"label-text-alt\">$4</span>",
+            "  </label>",
+            "</div>"
+        ],
+        "description": "DaisyUI label Text Input"
+    },
+    "DaisyUI Text Input Primary": {
+        "prefix": "du-input-primary",
+        "body": [
+            "<input type=\"text\" placeholder=\"Type here\" className=\"input input-bordered input-primary w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI Text Input with Primary Color"
+    },
+    "DaisyUI Text Input Secondary": {
+        "prefix": "du-input-secondary",
+        "body": [
+            "<input type=\"text\" placeholder=\"Type here\" className=\"input input-bordered input-secondary w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI Text Input with Secondary Color"
+    },
+    "DaisyUI Text Input Accent": {
+        "prefix": "du-input-accent",
+        "body": [
+            "<input type=\"text\" placeholder=\"Type here\" className=\"input input-bordered input-accent w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI Text Input with Accent Color"
+    },
+    "DaisyUI Text Input Info": {
+        "prefix": "du-input-info",
+        "body": [
+            "<input type=\"text\" placeholder=\"Type here\" className=\"input input-bordered input-info w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI Text Input with Info Color"
+    },
+    "DaisyUI Text Input Success": {
+        "prefix": "du-input-success",
+        "body": [
+            "<input type=\"text\" placeholder=\"Type here\" className=\"input input-bordered input-success w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI Text Input with Success Color"
+    },
+    "DaisyUI Text Input Warning": {
+        "prefix": "du-input-warning",
+        "body": [
+            "<input type=\"text\" placeholder=\"Type here\" className=\"input input-bordered input-warning w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI Text Input with Warning Color"
+    },
+    "DaisyUI Text Input Error": {
+        "prefix": "du-input-error",
+        "body": [
+            "<input type=\"text\" placeholder=\"Type here\" className=\"input input-bordered input-error w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI Text Input with Error Color"
+    },
+    "DaisyUI Text Input XS": {
+        "prefix": "du-input-xs",
+        "body": [
+            "<input type=\"text\" placeholder=\"Type here\" className=\"input input-bordered input-xs w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI Text Input Extra Small"
+    },
+    "DaisyUI Text Input SM": {
+        "prefix": "du-input-sm",
+        "body": [
+            "<input type=\"text\" placeholder=\"Type here\" className=\"input input-bordered input-sm w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI Text Input Small"
+    },
+    "DaisyUI Text Input MD": {
+        "prefix": "du-input-md",
+        "body": [
+            "<input type=\"text\" placeholder=\"Type here\" className=\"input input-bordered input-md w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI Text Input Medium"
+    },
+    "DaisyUI Text Input LG": {
+        "prefix": "du-input-lg",
+        "body": [
+            "<input type=\"text\" placeholder=\"Type here\" className=\"input input-bordered input-lg w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI Text Input Large"
+    },
+    "DaisyUI Disabled Text Input": {
+        "prefix": "du-input-disabled",
+        "body": [
+            "<input type=\"text\" placeholder=\"You can't touch this\" className=\"input input-bordered w-full max-w-xs\" disabled />"
+        ],
+        "description": "DaisyUI Disabled Text Input"
     }
 }

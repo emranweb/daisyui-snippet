@@ -26,6 +26,7 @@ With this extension, you can quickly insert DaisyUI components and styles into y
 -   `du-btn-info` - DaisyUI Info Button
 -   `du-btn-small` - DaisyUI Small Button
 -   `du-btn-xs` - DaisyUI Extra Small Button
+-   `du-btn-lg` - DaisyUI Large Button
 -   `du-btn-glass` - DaisyUI Glass Button
 -   `du-btn-disabled` - DaisyUI Disabled Button
 -   `du-btn-square` - DaisyUI Square Button
@@ -53,9 +54,6 @@ With this extension, you can quickly insert DaisyUI components and styles into y
 -   `du-dropdown-force-open` - DaisyUI Dropdown Force Open
 -   `du-dropdown-as-card` - DaisyUI Dropdown as Card
 -   `du-dropdown-in-navbar` - DaisyUI Dropdown in Navbar
-
-**Helper Dropdown:**
-
 -   `du-helper-dropdown` - DaisyUI Helper Dropdown
 
 **Modal:**
@@ -155,6 +153,87 @@ With this extension, you can quickly insert DaisyUI components and styles into y
 -   `du-card-glass` - DaisyUI Card Glass
 -   `du-card-side` - DaisyUI Card Side
 -   `du-responsive-card` - DaisyUI Responsive Card
+
+**Carousel:**
+
+-   `du-carousel-snap-default` - DaisyUI Carousel Snap Default
+-   `du-carousel-snap-center` - DaisyUI Carousel Snap Center
+-   `du-carousel-snap-end` - DaisyUI Carousel Snap to end
+-   `du-carousel-full-width` - DaisyUI Carousel Full Width Items
+-   `du-carousel-vertica` - DaisyUI Carousel Vertical Items
+-   `du-carousel-half-width` - DaisyUI Carousel Half Width Items
+-   `du-carousel-full-bleed` - DaisyUI Carousel Full Bleed Items
+-   `du-carousel-indicators` - DaisyUI Carousel with Indicators
+-   `du-carousel-next-prev` - DaisyUI Carousel with Next/Prev Buttons
+
+**Checkbox Input:**
+
+-   `du-checkbox` - DaisyUI Checkbox
+-   `du-checkbox-label` - DaisyUI Checkbox with Label
+-   `du-checkbox-primary` - DaisyUI Checkbox Primary
+-   `du-checkbox-secondary` - DaisyUI Checkbox Secondary
+-   `du-checkbox-accent` - DaisyUI Checkbox Accent
+-   `du-checkbox-success` - DaisyUI Checkbox Success
+-   `du-checkbox-warning` - DaisyUI Checkbox Warning
+-   `du-checkbox-info` - DaisyUI Checkbox Info
+-   `du-checkbox-error` - DaisyUI Checkbox Error
+-   `du-checkbox-disabled` - DaisyUI Checkbox Disabled
+-   `du-checkbox-xs` - DaisyUI Checkbox Extra Small
+-   `du-checkbox-sm` - DaisyUI Checkbox Small
+-   `du-checkbox-md` - DaisyUI Checkbox Medium
+-   `du-checkbox-lg` - DaisyUI Checkbox Large
+-   `du-checkbox-indeterminate` - DaisyUI Checkbox Indeterminate
+
+**File Input:**
+
+-   `du-file-input` - DaisyUI File Input
+-   `du-file-input-bordered` - DaisyUI File Input Bordered
+-   `du-file-input-ghost` - DaisyUI File Input Ghost
+-   `du-file-input-label` - DaisyUI File Input with Label
+-   `du-file-input-primary` - DaisyUI File Input Primary
+-   `du-file-input-secondary` - DaisyUI File Input Secondary
+-   `du-file-input-accent` - DaisyUI File Input Accent
+-   `du-file-input-success` - DaisyUI File Input Success
+-   `du-file-input-warning` - DaisyUI File Input Warning
+-   `du-file-input-info` - DaisyUI File Input Info
+-   `du-file-input-error` - DaisyUI File Input Error
+-   `du-file-input-disabled` - DaisyUI File Input Disabled
+-   `du-file-input-xs` - DaisyUI File Input Extra Small
+-   `du-file-input-sm` - DaisyUI File Input Small
+-   `du-file-input-md` - DaisyUI File Input Medium
+-   `du-file-input-lg` - DaisyUI File Input Large
+
+**Radio Input:**
+
+-   `du-radio-basic` - DaisyUI Radio Input
+-   `du-radio-primary` - DaisyUI Radio Input Primary
+-   `du-radio-secondary` - DaisyUI Radio Input Secondary
+-   `du-radio-accent` - DaisyUI Radio Input Accent
+-   `du-radio-success` - DaisyUI Radio Input Success
+-   `du-radio-warning` - DaisyUI Radio Input Warning
+-   `du-radio-info` - DaisyUI Radio Input Info
+-   `du-radio-error` - DaisyUI Radio Input Error
+-   `du-radio-disabled` - DaisyUI Radio Input Disabled
+-   `du-radio-custom-color` - DaisyUI Radio Input Custom Color
+
+**Text Input:**
+
+-   `du-input-tex` - DaisyUI Text Input
+-   `du-input-border` - DaisyUI Text Input with Border
+-   `du-input-ghost` - DaisyUI Text Input Ghost
+-   `du-input-label` - DaisyUI Text Input with Label
+-   `du-input-primary` - DaisyUI Text Input Primary
+-   `du-input-secondary` - DaisyUI Text Input Secondary
+-   `du-input-accent` - DaisyUI Text Input Accent
+-   `du-input-success` - DaisyUI Text Input Success
+-   `du-input-warning` - DaisyUI Text Input Warning
+-   `du-input-info` - DaisyUI Text Input Info
+-   `du-input-error` - DaisyUI Text Input Error
+-   `du-input-disabled` - DaisyUI Text Input Disabled
+-   `du-input-xs` - DaisyUI Text Input Extra Small
+-   `du-input-sm` - DaisyUI Text Input Small
+-   `du-input-md` - DaisyUI Text Input Medium
+-   `du-input-lg` - DaisyUI Text Input Large
 
 ## More Coming Soon
 
