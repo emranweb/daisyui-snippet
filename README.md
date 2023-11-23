@@ -47,9 +47,6 @@ With this extension, you can quickly insert DaisyUI components and styles into y
 -   `du-dropdown-left-align-end` - DaisyUI Dropdown Left Align to End
 -   `du-dropdown-right` - DaisyUI Dropdown Right
 -   `du-dropdown-right-align-end` - DaisyUI Dropdown Right Align to End
-
-**Special Dropdowns:**
-
 -   `du-dropdown-hover` - DaisyUI Dropdown Hover
 -   `du-dropdown-force-open` - DaisyUI Dropdown Force Open
 -   `du-dropdown-as-card` - DaisyUI Dropdown as Card
@@ -58,19 +55,19 @@ With this extension, you can quickly insert DaisyUI components and styles into y
 
 **Modal:**
 
--   `du-dialog-modal` - DaisyUI Dialog Modal
--   `du-dialog-modal-outside-close` - DaisyUI Dialog Modal Closes When Clicked Outside
--   `du-dialog-modal-corner-close` - DaisyUI Dialog Modal with Close Button at Corner
--   `du-dialog-modal-custom-width` - DaisyUI Dialog Modal with Custom Width
--   `du-dialog-modal-responsive` - DaisyUI Dialog Modal Responsive
--   `du-dialog-modal-label-checkbox` - DaisyUI Dialog Modal Using Label + Hidden Checkbox
--   `du-dialog-modal-outside-close-label-checkbox` - DaisyUI Dialog Modal Closes When Clicked Outside Using Label + Hidden Checkbox
--   `du-dialog-modal-anchor-link` - DaisyUI Dialog Modal Using Anchor Link
+-   `du-modal-dialog` - DaisyUI Dialog Modal
+-   `du-modal-dialog-outside-close` - DaisyUI Dialog Modal Closes When Clicked Outside
+-   `du-modal-dialog-corner-close` - DaisyUI Dialog Modal with Close Button at Corner
+-   `du-modal-dialog-custom-width` - DaisyUI Dialog Modal with Custom Width
+-   `du-modal-dialog-responsive` - DaisyUI Dialog Modal Responsive
+-   `du-modal-dialog-label-checkbox` - DaisyUI Dialog Modal Using Label + Hidden Checkbox
+-   `du-modal-dialog-outside-close-checkbox` - DaisyUI Dialog Modal Closes When Clicked Outside Using Label + Hidden Checkbox
+-   `du-modal-dialog-anchor-link` - DaisyUI Dialog Modal Using Anchor Link
 
 **Swap:**
 
 -   `du-swap-text` - DaisyUI Swap Text
--   `DaisyUI du-swap-volume-icons` - Swap Volume Icons
+-   `du-swap-volume-icons` - Swap Volume Icons
 -   `du-swap-icons-rotate` - DaisyUI Swap Icons with Rotate Effect
 -   `du-hamburger-button` - DaisyUI Hamburger Button
 -   `du-swap-icons-flip` - DaisyUI Swap Icons with Flip Effect
@@ -141,7 +138,7 @@ With this extension, you can quickly insert DaisyUI components and styles into y
 **Card:**
 
 -   `du-card` - DaisyUI Card
--   `du-compact-card` - DaisyUI Compact Card
+-   `du-card-compact-` - DaisyUI Compact Card
 -   `du-card-with-badge` - DaisyUI Card with Badge
 -   `du-card-with-bottom-image` - DaisyUI Card with Bottom Image
 -   `du-card-centered-content` - DaisyUI Card with Centered Content
@@ -168,72 +165,91 @@ With this extension, you can quickly insert DaisyUI components and styles into y
 
 **Checkbox Input:**
 
--   `du-checkbox` - DaisyUI Checkbox
--   `du-checkbox-label` - DaisyUI Checkbox with Label
--   `du-checkbox-primary` - DaisyUI Checkbox Primary
--   `du-checkbox-secondary` - DaisyUI Checkbox Secondary
--   `du-checkbox-accent` - DaisyUI Checkbox Accent
--   `du-checkbox-success` - DaisyUI Checkbox Success
--   `du-checkbox-warning` - DaisyUI Checkbox Warning
--   `du-checkbox-info` - DaisyUI Checkbox Info
--   `du-checkbox-error` - DaisyUI Checkbox Error
--   `du-checkbox-disabled` - DaisyUI Checkbox Disabled
--   `du-checkbox-xs` - DaisyUI Checkbox Extra Small
--   `du-checkbox-sm` - DaisyUI Checkbox Small
--   `du-checkbox-md` - DaisyUI Checkbox Medium
--   `du-checkbox-lg` - DaisyUI Checkbox Large
--   `du-checkbox-indeterminate` - DaisyUI Checkbox Indeterminate
+-   `du-input-checkbox` - DaisyUI Checkbox
+-   `du-input-checkbox-label` - DaisyUI Checkbox with Label
+-   `du-input-checkbox-primary` - DaisyUI Checkbox Primary
+-   `du-input-checkbox-secondary` - DaisyUI Checkbox Secondary
+-   `du-input-checkbox-accent` - DaisyUI Checkbox Accent
+-   `du-input-checkbox-success` - DaisyUI Checkbox Success
+-   `du-input-checkbox-warning` - DaisyUI Checkbox Warning
+-   `du-input-checkbox-info` - DaisyUI Checkbox Info
+-   `du-input-checkbox-error` - DaisyUI Checkbox Error
+-   `du-input-checkbox-disabled` - DaisyUI Checkbox Disabled
+-   `du-input-checkbox-xs` - DaisyUI Checkbox Extra Small
+-   `du-input-checkbox-sm` - DaisyUI Checkbox Small
+-   `du-input-checkbox-md` - DaisyUI Checkbox Medium
+-   `du-input-checkbox-lg` - DaisyUI Checkbox Large
+-   `du-input-checkbox-indeterminate` - DaisyUI Checkbox Indeterminate
 
 **File Input:**
 
--   `du-file-input` - DaisyUI File Input
--   `du-file-input-bordered` - DaisyUI File Input Bordered
--   `du-file-input-ghost` - DaisyUI File Input Ghost
--   `du-file-input-label` - DaisyUI File Input with Label
--   `du-file-input-primary` - DaisyUI File Input Primary
--   `du-file-input-secondary` - DaisyUI File Input Secondary
--   `du-file-input-accent` - DaisyUI File Input Accent
--   `du-file-input-success` - DaisyUI File Input Success
--   `du-file-input-warning` - DaisyUI File Input Warning
--   `du-file-input-info` - DaisyUI File Input Info
--   `du-file-input-error` - DaisyUI File Input Error
--   `du-file-input-disabled` - DaisyUI File Input Disabled
--   `du-file-input-xs` - DaisyUI File Input Extra Small
--   `du-file-input-sm` - DaisyUI File Input Small
--   `du-file-input-md` - DaisyUI File Input Medium
--   `du-file-input-lg` - DaisyUI File Input Large
+-   `du-input-file` - DaisyUI Input File
+-   `du-input-file-bordered` - DaisyUI Input File Bordered
+-   `du-input-file-ghost` - DaisyUI Input File Ghost
+-   `du-input-file-label` - DaisyUI Input File with Label
+-   `du-input-file-primary` - DaisyUI Input File Primary
+-   `du-input-file-secondary` - DaisyUI Input File Secondary
+-   `du-input-file-accent` - DaisyUI Input File Accent
+-   `du-input-file-success` - DaisyUI Input File Success
+-   `du-input-file-warning` - DaisyUI Input File Warning
+-   `du-input-file-info` - DaisyUI Input File Info
+-   `du-input-file-error` - DaisyUI Input File Error
+-   `du-input-file-disabled` - DaisyUI Input File Disabled
+-   `du-input-file-xs` - DaisyUI Input File Extra Small
+-   `du-input-file-sm` - DaisyUI Input File Small
+-   `du-input-file-md` - DaisyUI Input File Medium
+-   `du-input-file-lg` - DaisyUI Input File Large
 
-**Radio Input:**
+**Input Radio:**
 
--   `du-radio-basic` - DaisyUI Radio Input
--   `du-radio-primary` - DaisyUI Radio Input Primary
--   `du-radio-secondary` - DaisyUI Radio Input Secondary
--   `du-radio-accent` - DaisyUI Radio Input Accent
--   `du-radio-success` - DaisyUI Radio Input Success
--   `du-radio-warning` - DaisyUI Radio Input Warning
--   `du-radio-info` - DaisyUI Radio Input Info
--   `du-radio-error` - DaisyUI Radio Input Error
--   `du-radio-disabled` - DaisyUI Radio Input Disabled
--   `du-radio-custom-color` - DaisyUI Radio Input Custom Color
+-   `du-input-radio` - DaisyUI RInput-adio
+-   `du-input-radio-primary` - DaisyUI Radio Input Primary
+-   `du-input-radio-secondary` - DaisyUI Radio Input Secondary
+-   `du-input-radio-accent` - DaisyUI Radio Input Accent
+-   `du-input-radio-success` - DaisyUI Radio Input Success
+-   `du-input-radio-warning` - DaisyUI Radio Input Warning
+-   `du-input-radio-info` - DaisyUI Radio Input Info
+-   `du-input-radio-error` - DaisyUI Radio Input Error
+-   `du-input-radio-disabled` - DaisyUI Radio Input Disabled
+-   `du-input-radio-custom-color` - DaisyUI Radio Input Custom Color
 
 **Text Input:**
 
--   `du-input-tex` - DaisyUI Text Input
--   `du-input-border` - DaisyUI Text Input with Border
--   `du-input-ghost` - DaisyUI Text Input Ghost
--   `du-input-label` - DaisyUI Text Input with Label
--   `du-input-primary` - DaisyUI Text Input Primary
--   `du-input-secondary` - DaisyUI Text Input Secondary
--   `du-input-accent` - DaisyUI Text Input Accent
--   `du-input-success` - DaisyUI Text Input Success
--   `du-input-warning` - DaisyUI Text Input Warning
--   `du-input-info` - DaisyUI Text Input Info
--   `du-input-error` - DaisyUI Text Input Error
--   `du-input-disabled` - DaisyUI Text Input Disabled
--   `du-input-xs` - DaisyUI Text Input Extra Small
--   `du-input-sm` - DaisyUI Text Input Small
--   `du-input-md` - DaisyUI Text Input Medium
--   `du-input-lg` - DaisyUI Text Input Large
+-   `du-input-text` - DaisyUI Text Input
+-   `du-input-text-border` - DaisyUI Text Input with Border
+-   `du-input-text-ghost` - DaisyUI Text Input Ghost
+-   `du-input-text-label` - DaisyUI Text Input with Label
+-   `du-input-text-primary` - DaisyUI Text Input Primary
+-   `du-input-text-secondary` - DaisyUI Text Input Secondary
+-   `du-input-text-accent` - DaisyUI Text Input Accent
+-   `du-input-text-success` - DaisyUI Text Input Success
+-   `du-input-text-warning` - DaisyUI Text Input Warning
+-   `du-input-text-info` - DaisyUI Text Input Info
+-   `du-input-text-error` - DaisyUI Text Input Error
+-   `du-input-text-disabled` - DaisyUI Text Input Disabled
+-   `du-input-text-xs` - DaisyUI Text Input Extra Small
+-   `du-input-text-sm` - DaisyUI Text Input Small
+-   `du-input-text-md` - DaisyUI Text Input Medium
+-   `du-input-text-lg` - DaisyUI Text Input Large
+
+**Input Rating**
+
+-   `du-input-rating` - DaisyUI Input Rating
+
+**Input Select**
+
+-   `du-input-select` - DaisyUI Select Input
+-   `du-input-select-bordered`- DaisyUI Input Select Input with Border
+
+**Input Textarea**
+
+-   `du-input-textarea` - DaisyUI Textarea
+-   `du-input-textarea-bordered`- DaisyUI Input- Bordered Textarea
+
+**Toggle Input**
+
+-   `du-input-toggle` - DaisyUI Input Toggle
+-   `du-input-toggle-label`- DaisyUI Input Toggle with Label
 
 ## More Coming Soon
 

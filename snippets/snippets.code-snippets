@@ -311,7 +311,7 @@
     },
     // Modal
     "DaisyUI Dialog Modal": {
-        "prefix": "du-dialog-modal",
+        "prefix": "du-modal-dialog",
         "body": [
             "<button className=\"btn\" onClick={() => document.getElementById('my_modal_1').showModal()}>open modal</button>",
             "<dialog id=\"my_modal_1\" className=\"modal\">",
@@ -329,7 +329,7 @@
         "description": "DaisyUI Dialog Modal"
     },
     "DaisyUI Dialog Modal Closes When Clicked Outside": {
-        "prefix": "du-dialog-modal-outside-close",
+        "prefix": "du-modal-dialog-utside-close",
         "body": [
             "<button className=\"btn\" onClick={() => document.getElementById('my_modal_2').showModal()}>open modal</button>",
             "<dialog id=\"my_modal_2\" className=\"modal\">",
@@ -345,7 +345,7 @@
         "description": "DaisyUI Dialog Modal Closes When Clicked Outside"
     },
     "DaisyUI Dialog Modal with Close Button at Corner": {
-        "prefix": "du-dialog-modal-corner-close",
+        "prefix": "du-modal-dialog-corner-close",
         "body": [
             "<button className=\"btn\" onClick={() => document.getElementById('my_modal_3').showModal()}>open modal</button>",
             "<dialog id=\"my_modal_3\" className=\"modal\">",
@@ -361,7 +361,7 @@
         "description": "DaisyUI Dialog Modal with Close Button at Corner"
     },
     "DaisyUI Dialog Modal with Custom Width": {
-        "prefix": "du-dialog-modal-custom-width",
+        "prefix": "du-modal-dialog-custom-width",
         "body": [
             "<button className=\"btn\" onClick={() => document.getElementById('my_modal_4').showModal()}>open modal</button>",
             "<dialog id=\"my_modal_4\" className=\"modal\">",
@@ -379,7 +379,7 @@
         "description": "DaisyUI Dialog Modal with Custom Width"
     },
     "DaisyUI Dialog Modal Responsive": {
-        "prefix": "du-dialog-modal-responsive",
+        "prefix": "du-modal-dialog-responsive",
         "body": [
             "<button className=\"btn\" onClick={() => document.getElementById('my_modal_5').showModal()}>open modal</button>",
             "<dialog id=\"my_modal_5\" className=\"modal modal-bottom sm:modal-middle\">",
@@ -397,7 +397,7 @@
         "description": "DaisyUI Dialog Modal Responsive"
     },
     "DaisyUI Dialog Modal Using Label + Hidden Checkbox": {
-        "prefix": "du-dialog-modal-label-checkbox",
+        "prefix": "du-modal-dialog-label-checkbox",
         "body": [
             "<label htmlFor=\"my_modal_6\" className=\"btn\">open modal</label>",
             "<input type=\"checkbox\" id=\"my_modal_6\" className=\"modal-toggle\" />",
@@ -414,7 +414,7 @@
         "description": "DaisyUI Dialog Modal Using Label + Hidden Checkbox"
     },
     "DaisyUI Dialog Modal Closes When Clicked Outside Using Label + Hidden Checkbox": {
-        "prefix": "du-dialog-modal-outside-close-label-checkbox",
+        "prefix": "du-modal-dialog-outside-close-checkbox",
         "body": [
             "<label htmlFor=\"my_modal_7\" className=\"btn\">open modal</label>",
             "<input type=\"checkbox\" id=\"my_modal_7\" className=\"modal-toggle\" />",
@@ -429,7 +429,7 @@
         "description": "DaisyUI Dialog Modal Closes When Clicked Outside Using Label + Hidden Checkbox"
     },
     "DaisyUI Dialog Modal Using Anchor Link": {
-        "prefix": "du-dialog-modal-anchor-link",
+        "prefix": "du--modal-dialog-anchor-link",
         "body": [
             "<a href=\"#my_modal_8\" className=\"btn\">open modal</a>",
             "<div className=\"modal\" role=\"dialog\" id=\"my_modal_8\">",
@@ -458,7 +458,7 @@
         "description": "DaisyUI Swap Text"
     },
     "DaisyUI Swap Volume Icons": {
-        "prefix": "DaisyUI du-swap-volume-icons",
+        "prefix": "du-swap-volume-icons",
         "body": [
             "<label className=\"swap\">",
             "  <input type=\"checkbox\" />",
@@ -480,7 +480,7 @@
         "description": "DaisyUI Swap Icons with Rotate Effect"
     },
     "DaisyUI Hamburger Button": {
-        "prefix": "du-hamburger-button",
+        "prefix": "du-swap-hamburger-button",
         "body": [
             "<label className=\"btn btn-circle swap swap-rotate\">",
             "  <input type=\"checkbox\" />",
@@ -502,7 +502,7 @@
         "description": "DaisyUI Swap Icons with Flip Effect"
     },
     "DaisyUI Activate using class name instead of checkbox": {
-        "prefix": "du-activate-class-name",
+        "prefix": "du-swap-class-name",
         "body": [
             "<label className=\"swap text-6xl\">",
             "  <div className=\"swap-on\">🥵</div>",
@@ -1103,7 +1103,7 @@
         "description": "DaisyUI Card"
     },
     "DaisyUI Compact Card": {
-        "prefix": "du-compact-card",
+        "prefix": "du-card-compact",
         "body": [
             "<div className=\"card card-compact w-96 bg-base-100 shadow-xl\">",
             "  <figure><img src=\"/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg\" alt=\"Shoes\" /></figure>",
@@ -1567,14 +1567,14 @@
 
     // Checkbox
     "DaisyUI Checkbox": {
-        "prefix": "du-checkbox",
+        "prefix": "du-input-checkbox",
         "body": [
             "<input type=\"checkbox\" checked=\"checked\" className=\"checkbox\" />"
         ],
-        "description": "DaisyUI Checkbox"
+        "description": "DaisyUI Input Checkbox"
     },
     "DaisyUI Checkbox with Label": {
-        "prefix": "du-checkbox-label",
+        "prefix": "du-input-checkbox-label",
         "body": [
             "<div className=\"form-control\">",
             "  <label className=\"label cursor-pointer\">",
@@ -1586,7 +1586,7 @@
         "description": "DaisyUI Checkbox with Label"
     },
     "DaisyUI Checkbox with Label (Primary)": {
-        "prefix": "du-checkbox-primary",
+        "prefix": "du-input-checkbox-primary",
         "body": [
             "<div className=\"form-control\">",
             "  <label className=\"label cursor-pointer\">",
@@ -1598,7 +1598,7 @@
         "description": "DaisyUI Checkbox with color (Primary)"
     },
     "DaisyUI Checkbox with Label (Secondary)": {
-        "prefix": "du-checkbox-secondary",
+        "prefix": "du-input-checkbox-secondary",
         "body": [
             "<div className=\"form-control\">",
             "  <label className=\"cursor-pointer label\">",
@@ -1610,7 +1610,7 @@
         "description": "DaisyUI Checkbox with color (Secondary)"
     },
     "DaisyUI Checkbox with Label (Accent)": {
-        "prefix": "du-checkbox-accent",
+        "prefix": "du-input-checkbox-accent",
         "body": [
             "<div className=\"form-control\">",
             "  <label className=\"cursor-pointer label\">",
@@ -1622,7 +1622,7 @@
         "description": "DaisyUI Checkbox with color (Accent)"
     },
     "DaisyUI Checkbox with Label (Success)": {
-        "prefix": "du-checkbox-success",
+        "prefix": "du-input-checkbox-success",
         "body": [
             "<div className=\"form-control\">",
             "  <label className=\"cursor-pointer label\">",
@@ -1634,7 +1634,7 @@
         "description": "DaisyUI Checkbox with color (Success)"
     },
     "DaisyUI Checkbox with Label (Warning)": {
-        "prefix": "du-checkbox-warning",
+        "prefix": "du-input-checkbox-warning",
         "body": [
             "<div className=\"form-control\">",
             "  <label className=\"cursor-pointer label\">",
@@ -1646,7 +1646,7 @@
         "description": "DaisyUI Checkbox with color (Warning)"
     },
     "DaisyUI Checkbox with Label (Info)": {
-        "prefix": "du-checkbox-info",
+        "prefix": "du-input-checkbox-info",
         "body": [
             "<div className=\"form-control\">",
             "  <label className=\"cursor-pointer label\">",
@@ -1658,7 +1658,7 @@
         "description": "DaisyUI Checkbox with color (Info)"
     },
     "DaisyUI Checkbox with Label (Error)": {
-        "prefix": "du-checkbox-error",
+        "prefix": "du-input-checkbox-error",
         "body": [
             "<div className=\"form-control\">",
             "  <label className=\"cursor-pointer label\">",
@@ -1670,47 +1670,47 @@
         "description": "DaisyUI Checkbox with color (Error)"
     },
     "DaisyUI Checkbox (XS)": {
-        "prefix": "du-checkbox-xs",
+        "prefix": "du-input-checkbox-xs",
         "body": [
             "<input type=\"checkbox\" checked=\"checked\" className=\"checkbox checkbox-xs\" />"
         ],
         "description": "DaisyUI Checkbox (XS)"
     },
     "DaisyUI Checkbox (SM)": {
-        "prefix": "du-checkbox-sm",
+        "prefix": "du-input-checkbox-sm",
         "body": [
             "<input type=\"checkbox\" checked=\"checked\" className=\"checkbox checkbox-sm\" />"
         ],
         "description": "DaisyUI Checkbox (SM)"
     },
     "DaisyUI Checkbox (MD)": {
-        "prefix": "du-checkbox-md",
+        "prefix": "du-input-checkbox-md",
         "body": [
             "<input type=\"checkbox\" checked=\"checked\" className=\"checkbox checkbox-md\" />"
         ],
         "description": "DaisyUI Checkbox (MD)"
     },
     "DaisyUI Checkbox (LG)": {
-        "prefix": "du-checkbox-lg",
+        "prefix": "du-input-checkbox-lg",
         "body": [
             "<input type=\"checkbox\" checked=\"checked\" className=\"checkbox checkbox-lg\" />"
         ],
         "description": "DaisyUI Checkbox (LG)"
     },
     "DaisyUI Disabled Checkbox": {
-        "prefix": "du-checkbox-disabled",
+        "prefix": "du-input-checkbox-disabled",
         "body": ["<input type=\"checkbox\" className=\"checkbox\" disabled />"],
         "description": "DaisyUI Disabled Checkbox"
     },
     "DaisyUI Disabled and Checked Checkbox": {
-        "prefix": "du-checkbox-disabled-checked",
+        "prefix": "du-input-checkbox-disabled-checked",
         "body": [
             "<input type=\"checkbox\" className=\"checkbox\" disabled checked />"
         ],
         "description": "DaisyUI Disabled and Checked Checkbox"
     },
     "DaisyUI Indeterminate Checkbox": {
-        "prefix": "du-checkbox-indeterminate",
+        "prefix": "du-input-checkbox-indeterminate",
         "body": [
             "<!-- You can make a checkbox indeterminate using JS -->",
             "<script>",
@@ -1722,28 +1722,28 @@
     },
     // File Input
     "DaisyUI File Input": {
-        "prefix": "du-file-input",
+        "prefix": "du-input-file",
         "body": [
             "<input type=\"file\" className=\"file-input w-full max-w-xs\" />"
         ],
         "description": "DaisyUI File Input"
     },
     "DaisyUI File Input Bordered": {
-        "prefix": "du-file-input-bordered",
+        "prefix": "du-input-file-bordered",
         "body": [
             "<input type=\"file\" className=\"file-input file-input-bordered w-full max-w-xs\" />"
         ],
         "description": "DaisyUI File Input with Border"
     },
     "DaisyUI File Input Ghost": {
-        "prefix": "du-file-input-ghost",
+        "prefix": "du-input-file-ghost",
         "body": [
             "<input type=\"file\" className=\"file-input file-input-ghost w-full max-w-xs\" />"
         ],
         "description": "DaisyUI File Input Ghost"
     },
     "DaisyUI File Input with Form Control and Labels": {
-        "prefix": "du-file-input-label",
+        "prefix": "du-input-file-label",
         "body": [
             "<div className=\"form-control w-full max-w-xs\">",
             "  <label className=\"label\">",
@@ -1760,90 +1760,91 @@
         "description": "DaisyUI File Input with Form Control and Labels"
     },
     "DaisyUI File Input Primary Color": {
-        "prefix": "du-file-input-primary",
+        "prefix": "du-input-file-primary",
         "body": [
             "<input type=\"file\" className=\"file-input file-input-bordered file-input-primary w-full max-w-xs\" />"
         ],
         "description": "DaisyUI File Input with Primary Color"
     },
     "DaisyUI File Input Secondary Color": {
-        "prefix": "du-file-input-secondary",
+        "prefix": "du-input-file-secondary",
         "body": [
             "<input type=\"file\" className=\"file-input file-input-bordered file-input-secondary w-full max-w-xs\" />"
         ],
         "description": "DaisyUI File Input with Secondary Color"
     },
     "DaisyUI File Input Info Color": {
-        "prefix": "du-file-input-info",
+        "prefix": "du-input-file-info",
         "body": [
             "<input type=\"file\" className=\"file-input file-input-bordered file-input-info w-full max-w-xs\" />"
         ],
         "description": "DaisyUI File Input with Info Color"
     },
     "DaisyUI File Input Success Color": {
-        "prefix": "du-file-input-success",
+        "prefix": "du-input-file-success",
         "body": [
             "<input type=\"file\" className=\"file-input file-input-bordered file-input-success w-full max-w-xs\" />"
         ],
         "description": "DaisyUI File Input with Success Color"
     },
     "DaisyUI File Input Warning Color": {
-        "prefix": "du-file-input-warning",
+        "prefix": "du-input-file-warning",
         "body": [
             "<input type=\"file\" className=\"file-input file-input-bordered file-input-warning w-full max-w-xs\" />"
         ],
         "description": "DaisyUI File Input with Warning Color"
     },
     "DaisyUI File Input Error Color": {
-        "prefix": "du-file-input-error",
+        "prefix": "du-input-file-error",
         "body": [
             "<input type=\"file\" className=\"file-input file-input-bordered file-input-error w-full max-w-xs\" />"
         ],
         "description": "DaisyUI File Input with Error Color"
     },
     "DaisyUI File Input XS": {
-        "prefix": "du-file-input-xs",
+        "prefix": "du-input-file-xs",
         "body": [
             "<input type=\"file\" className=\"file-input file-input-bordered file-input-xs w-full max-w-xs\" />"
         ],
         "description": "DaisyUI File Input XS"
     },
     "DaisyUI File Input SM": {
-        "prefix": "du-file-input-sm",
+        "prefix": "du-input-file-sm",
         "body": [
             "<input type=\"file\" className=\"file-input file-input-bordered file-input-sm w-full max-w-xs\" />"
         ],
         "description": "DaisyUI File Input SM"
     },
     "DaisyUI File Input MD": {
-        "prefix": "du-file-input-md",
+        "prefix": "du-input-file-md",
         "body": [
             "<input type=\"file\" className=\"file-input file-input-bordered file-input-md w-full max-w-xs\" />"
         ],
         "description": "DaisyUI File Input MD"
     },
     "DaisyUI File Input LG": {
-        "prefix": "du-file-input-lg",
+        "prefix": "du-input-file-lg",
         "body": [
             "<input type=\"file\" className=\"file-input file-input-bordered file-input-lg w-full max-w-xs\" />"
         ],
         "description": "DaisyUI File Input LG"
     },
     "DaisyUI Disabled File Input": {
-        "prefix": "du-file-input-disabled",
+        "prefix": "du-input-file-disabled",
         "body": [
             "<input type=\"file\" placeholder=\"You can't touch this\" className=\"file-input file-input-bordered w-full max-w-xs\" disabled />"
         ],
         "description": "DaisyUI Disabled File Input"
     },
+    // Radio Input
     "DaisyUI Basic Radio": {
-        "prefix": "du-radio-basic",
+        "prefix": "du-input-radio",
         "body": ["<input type=\"radio\" name=\"$1\" className=\"radio\" $2 />"],
         "description": "DaisyUI Basic Radio"
     },
 
     "DaisyUI Radio Primary": {
-        "prefix": "du-radio-primary",
+        "prefix": "du-input-radio-primary",
         "body": [
             "<input type=\"radio\" name=\"$1\" className=\"radio radio-primary\" $2 />"
         ],
@@ -1851,56 +1852,56 @@
     },
 
     "DaisyUI Radio Secondary": {
-        "prefix": "du-radio-secondary",
+        "prefix": "du-input-radio-secondary",
         "body": [
             "<input type=\"radio\" name=\"$1\" className=\"radio radio-secondary\" $2 />"
         ],
         "description": "DaisyUI Radio with Secondary Color"
     },
     "DaisyUI Radio Accent": {
-        "prefix": "du-radio-accent",
+        "prefix": "du-input-radio-accent",
         "body": [
             "<input type=\"radio\" name=\"$1\" className=\"radio radio-accent\" $2 />"
         ],
         "description": "DaisyUI Radio with Accent Color"
     },
     "DaisyUI Radio Success": {
-        "prefix": "du-radio-success",
+        "prefix": "du-input-radio-success",
         "body": [
             "<input type=\"radio\" name=\"$1\" className=\"radio radio-success\" $2 />"
         ],
         "description": "DaisyUI Radio with Success Color"
     },
     "DaisyUI Radio Warning": {
-        "prefix": "du-radio-warning",
+        "prefix": "du-input-radio-warning",
         "body": [
             "<input type=\"radio\" name=\"$1\" className=\"radio radio-warning\" $2 />"
         ],
         "description": "DaisyUI Radio with Warning Color"
     },
     "DaisyUI Radio Info": {
-        "prefix": "du-radio-info",
+        "prefix": "du-input-radio-info",
         "body": [
             "<input type=\"radio\" name=\"$1\" className=\"radio radio-info\" $2 />"
         ],
         "description": "DaisyUI Radio with Info Color"
     },
     "DaisyUI Radio Error": {
-        "prefix": "du-radio-error",
+        "prefix": "du-input-radio-error",
         "body": [
             "<input type=\"radio\" name=\"$1\" className=\"radio radio-error\" $2 />"
         ],
         "description": "DaisyUI Radio with Error Color"
     },
     "DaisyUI Radio Disabled": {
-        "prefix": "du-radio-disabled",
+        "prefix": "du-input-radio-disabled",
         "body": [
             "<input type=\"radio\" name=\"$1\" className=\"radio\" disabled $2 />"
         ],
         "description": "DaisyUI Disabled Radio"
     },
     "DaisyUI Radio Custom Color": {
-        "prefix": "du-radio-custom-color",
+        "prefix": "du-input-radio-custom-color",
         "body": [
             "<div className=\"form-control\">",
             "  <label className=\"label cursor-pointer\">",
@@ -1921,21 +1922,21 @@
     },
 
     "DaisyUI Text Input with Border": {
-        "prefix": "du-input-border",
+        "prefix": "du-input-text-border",
         "body": [
-            "<input type=\"text\" placeholder=\"$1\" className=\"input input-ghost w-full max-w-xs\" />"
+            "<input type=\"text\" placeholder=\"$1\" className=\"input input-bordered w-full max-w-xs\" />"
         ],
         "description": "DaisyUI Text Input with Border"
     },
     "DaisyUI Ghost Text Input": {
-        "prefix": "du-input-ghost",
+        "prefix": "du-input-text-ghost",
         "body": [
             "<input type=\"text\" placeholder=\"$1\" className=\"input input-ghost w-full max-w-xs\" />"
         ],
         "description": "DaisyUI Ghost Text Input"
     },
     "DaisyUI label Text Input": {
-        "prefix": "du-input-label",
+        "prefix": "du-input-text-label",
         "body": [
             "<div className=\"form-control w-full max-w-xs\">",
             "  <label className=\"label\">",
@@ -1952,87 +1953,198 @@
         "description": "DaisyUI label Text Input"
     },
     "DaisyUI Text Input Primary": {
-        "prefix": "du-input-primary",
+        "prefix": "du-input-text-primary",
         "body": [
             "<input type=\"text\" placeholder=\"Type here\" className=\"input input-bordered input-primary w-full max-w-xs\" />"
         ],
         "description": "DaisyUI Text Input with Primary Color"
     },
     "DaisyUI Text Input Secondary": {
-        "prefix": "du-input-secondary",
+        "prefix": "du-input-text-secondary",
         "body": [
             "<input type=\"text\" placeholder=\"Type here\" className=\"input input-bordered input-secondary w-full max-w-xs\" />"
         ],
         "description": "DaisyUI Text Input with Secondary Color"
     },
     "DaisyUI Text Input Accent": {
-        "prefix": "du-input-accent",
+        "prefix": "du-input-text-accent",
         "body": [
             "<input type=\"text\" placeholder=\"Type here\" className=\"input input-bordered input-accent w-full max-w-xs\" />"
         ],
         "description": "DaisyUI Text Input with Accent Color"
     },
     "DaisyUI Text Input Info": {
-        "prefix": "du-input-info",
+        "prefix": "du-input-text-info",
         "body": [
             "<input type=\"text\" placeholder=\"Type here\" className=\"input input-bordered input-info w-full max-w-xs\" />"
         ],
         "description": "DaisyUI Text Input with Info Color"
     },
     "DaisyUI Text Input Success": {
-        "prefix": "du-input-success",
+        "prefix": "du-input-text-success",
         "body": [
             "<input type=\"text\" placeholder=\"Type here\" className=\"input input-bordered input-success w-full max-w-xs\" />"
         ],
         "description": "DaisyUI Text Input with Success Color"
     },
     "DaisyUI Text Input Warning": {
-        "prefix": "du-input-warning",
+        "prefix": "du-input-text-warning",
         "body": [
             "<input type=\"text\" placeholder=\"Type here\" className=\"input input-bordered input-warning w-full max-w-xs\" />"
         ],
         "description": "DaisyUI Text Input with Warning Color"
     },
     "DaisyUI Text Input Error": {
-        "prefix": "du-input-error",
+        "prefix": "du-input-text-error",
         "body": [
             "<input type=\"text\" placeholder=\"Type here\" className=\"input input-bordered input-error w-full max-w-xs\" />"
         ],
         "description": "DaisyUI Text Input with Error Color"
     },
     "DaisyUI Text Input XS": {
-        "prefix": "du-input-xs",
+        "prefix": "du-input-text-xs",
         "body": [
             "<input type=\"text\" placeholder=\"Type here\" className=\"input input-bordered input-xs w-full max-w-xs\" />"
         ],
         "description": "DaisyUI Text Input Extra Small"
     },
     "DaisyUI Text Input SM": {
-        "prefix": "du-input-sm",
+        "prefix": "du-input-text-sm",
         "body": [
             "<input type=\"text\" placeholder=\"Type here\" className=\"input input-bordered input-sm w-full max-w-xs\" />"
         ],
         "description": "DaisyUI Text Input Small"
     },
     "DaisyUI Text Input MD": {
-        "prefix": "du-input-md",
+        "prefix": "du-input-text-md",
         "body": [
             "<input type=\"text\" placeholder=\"Type here\" className=\"input input-bordered input-md w-full max-w-xs\" />"
         ],
         "description": "DaisyUI Text Input Medium"
     },
     "DaisyUI Text Input LG": {
-        "prefix": "du-input-lg",
+        "prefix": "du-input-text-lg",
         "body": [
             "<input type=\"text\" placeholder=\"Type here\" className=\"input input-bordered input-lg w-full max-w-xs\" />"
         ],
         "description": "DaisyUI Text Input Large"
     },
     "DaisyUI Disabled Text Input": {
-        "prefix": "du-input-disabled",
+        "prefix": "du-input-text-disabled",
         "body": [
             "<input type=\"text\" placeholder=\"You can't touch this\" className=\"input input-bordered w-full max-w-xs\" disabled />"
         ],
         "description": "DaisyUI Disabled Text Input"
+    },
+    // Input Range
+    "DaisyUI Range Input": {
+        "prefix": "du-input-range",
+        "body": [
+            "<input type=\"range\" min={0} max=\"100\" value=\"40\" className=\"range\" />"
+        ],
+        "description": "DaisyUI Range Input"
+    },
+    "DaisyUI Range Input XS": {
+        "prefix": "du-input-range-xs",
+        "body": [
+            "<input type=\"range\" min={0} max=\"100\" value=\"40\" className=\"range range-xs\" />"
+        ],
+        "description": "DaisyUI Range Input XS"
+    },
+    "DaisyUI Range Input SM": {
+        "prefix": "du-input-range-sm",
+        "body": [
+            "<input type=\"range\" min={0} max=\"100\" value=\"50\" className=\"range range-sm\" />"
+        ],
+        "description": "DaisyUI Range Input SM"
+    },
+    "DaisyUI Range Input MD": {
+        "prefix": "du-input-range-md",
+        "body": [
+            "<input type=\"range\" min={0} max=\"100\" value=\"60\" className=\"range range-md\" />"
+        ],
+        "description": "DaisyUI Range Input MD"
+    },
+
+    "DaisyUI Range Input LG": {
+        "prefix": "du-input-range-lg",
+        "body": [
+            "<input type=\"range\" min={0} max=\"100\" value=\"70\" className=\"range range-lg\" />"
+        ],
+        "description": "DaisyUI Range Input LG"
+    },
+    // Input Rating
+    "DaisyUI Rating": {
+        "prefix": "du-input-rating",
+        "body": [
+            "<div className=\"rating\">",
+            "  <input type=\"radio\" name=\"rating-1\" className=\"mask mask-star\" />",
+            "  <input type=\"radio\" name=\"rating-1\" className=\"mask mask-star\" checked />",
+            "  <input type=\"radio\" name=\"rating-1\" className=\"mask mask-star\" />",
+            "  <input type=\"radio\" name=\"rating-1\" className=\"mask mask-star\" />",
+            "  <input type=\"radio\" name=\"rating-1\" className=\"mask mask-star\" />",
+            "</div>"
+        ],
+        "description": "DaisyUI Rating"
+    },
+    //  Select Input
+    "DaisyUI Select": {
+        "prefix": "du-input-select",
+        "body": [
+            "<select className=\"select w-full max-w-xs\">",
+            "  <option disabled selected>Pick your favorite</option>",
+            "  <option>Option 1</option>",
+            "  <option>Option 2</option>",
+            "  <option>Option 3</option>",
+            "  <option>Option 4</option>",
+            "  <option>Option 5</option>",
+            "</select>"
+        ],
+        "description": "DaisyUI Select Input"
+    },
+    "DaisyUI Select Bordered": {
+        "prefix": "du-input-select-bordered",
+        "body": [
+            "<select className=\"select select-bordered w-full max-w-xs\">",
+            "  <option disabled selected>Select an option</option>",
+            "  <option>Option 1</option>",
+            "  <option>Option 2</option>",
+            "  <option>Option 3</option>",
+            "</select>"
+        ],
+        "description": "DaisyUI Input Select Input with Border"
+    },
+    // Input Text Area
+    "DaisyUI Textarea": {
+        "prefix": "du-input-textarea",
+        "body": [
+            "<textarea className=\"textarea\" placeholder=\"$1\"></textarea>"
+        ],
+        "description": "DaisyUI Textarea"
+    },
+    "DaisyUI Bordered Textarea": {
+        "prefix": "du-input-textarea-bordered",
+        "body": [
+            "<textarea className=\"textarea textarea-bordered\" placeholder=\"$1\"></textarea>"
+        ],
+        "description": "DaisyUI Input- Bordered Textarea"
+    },
+    // Toggle Input
+    "DaisyUI Toggle": {
+        "prefix": "du-input-toggle",
+        "body": ["<input type=\"checkbox\" className=\"toggle\" checked />"],
+        "description": "DaisyUI Input Toggle"
+    },
+    "DaisyUI Toggle with Label": {
+        "prefix": "du-input-toggle-label",
+        "body": [
+            "<div className=\"form-control\">",
+            "  <label className=\"label cursor-pointer\">",
+            "    <span className=\"label-text\">$1</span>",
+            "    <input type=\"checkbox\" className=\"toggle\" checked />",
+            "  </label>",
+            "</div>"
+        ],
+        "description": "DaisyUI Input Toggle with Label"
     }
 }
