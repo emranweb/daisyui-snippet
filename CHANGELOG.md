@@ -12,7 +12,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [0.0.2] - 2023-19-11
 
 -   **Bug Fixes**
--   fix html Language Support
+-   Fix html Language Support
 
 -   **Features**
 -   Update the prefix of all snippets to `du-`
@@ -33,11 +33,23 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [0.0.4] - 2023-23-11
 
 -   **Bug Fixes**
--   fix Change Log year
--   fix Add Missing Button Size
-    **Features**
+-   Fix Change Log year
+-   Fix Add Missing Button Size
+-   **Features**
 -   Add Carousel
 -   Add File Input
 -   Add Radio Input
 -   Add Text Input
 -   Add Checkbox Input
+
+## [0.0.5] - 23-23-11
+
+-   **Bug Fixes**
+-   Fix input border issue
+-   Fix input prefix issue
+
+-   **Features**
+-   Add Rating Input
+-   Add Select Input
+-   Add Textarea input
+-   Add toggle input
