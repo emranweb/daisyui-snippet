@@ -1923,7 +1923,7 @@
     "DaisyUI Text Input with Border": {
         "prefix": "du-input-border",
         "body": [
-            "<input type=\"text\" placeholder=\"$1\" className=\"input input-ghost w-full max-w-xs\" />"
+            "<input type=\"text\" placeholder=\"$1\" className=\"input input-bordered w-full max-w-xs\" />"
         ],
         "description": "DaisyUI Text Input with Border"
     },
