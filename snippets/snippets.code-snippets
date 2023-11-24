@@ -429,7 +429,7 @@
         "description": "DaisyUI Dialog Modal Closes When Clicked Outside Using Label + Hidden Checkbox"
     },
     "DaisyUI Dialog Modal Using Anchor Link": {
-        "prefix": "du--modal-dialog-anchor-link",
+        "prefix": "du-modal-dialog-anchor-link",
         "body": [
             "<a href=\"#my_modal_8\" className=\"btn\">open modal</a>",
             "<div className=\"modal\" role=\"dialog\" id=\"my_modal_8\">",
@@ -1563,8 +1563,550 @@
         ],
         "description": "DaisyUI Carousel with Next/Prev Buttons"
     },
-    // Input Field
 
+    // Chat Bubble
+
+    "DaisyUI Chat Bubble": {
+        "prefix": "du-chat-bubble",
+        "body": [
+            "<div className=\"chat chat-start\">",
+            "  <div className=\"chat-bubble\">$1</div>",
+            "</div>",
+            "<div className=\"chat chat-end\">",
+            "  <div className=\"chat-bubble\">$2</div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Chat Bubble"
+    },
+    "DaisyUI Chat with Image": {
+        "prefix": "du-chat-image",
+        "body": [
+            "<div className=\"chat chat-start\">",
+            "  <div className=\"chat-image avatar\">",
+            "    <div className=\"w-10 rounded-full\">",
+            "      <img alt=\"$1\" src=\"$2\" />",
+            "    </div>",
+            "  </div>",
+            "  <div className=\"chat-bubble\">$3</div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Chat with Image"
+    },
+    // "DaisyUI Collapse {
+    "DaisyUI Collapse": {
+        "prefix": "du-collapse",
+        "body": [
+            "<div tabIndex={0} className=\"collapse bg-base-200\">",
+            "  <div className=\"collapse-title text-xl font-medium\">",
+            "    $1",
+            "  </div>",
+            "  <div className=\"collapse-content\">",
+            "    $2",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Collapse"
+    },
+    "DaisyUI Collapse with Arrow": {
+        "prefix": "du-collapse-arrow",
+        "body": [
+            "<div tabIndex={0} className=\"collapse collapse-arrow border border-base-300 bg-base-200\">",
+            "  <div className=\"collapse-title text-xl font-medium\">",
+            "    $1",
+            "  </div>",
+            "  <div className=\"collapse-content\">",
+            "    $2",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Collapse with Arrow"
+    },
+    // Countdown
+    "DaisyUI Countdown": {
+        "prefix": "du-countdown",
+        "body": [
+            "<span className=\"countdown\">",
+            "  <span style={\"--value\": $1}></span>",
+            "</span>"
+        ],
+        "description": "DaisyUI Countdown"
+    },
+    "DaisyUI Clock Countdown": {
+        "prefix": "du-countdown-clock",
+        "body": [
+            "<span className=\"countdown font-mono text-2xl\">",
+            "  <span style={\"--value\": $1}></span>:",
+            "  <span style={\"--value\": $2}></span>:",
+            "  <span style={\"--value\": $3}></span>",
+            "</span>"
+        ],
+        "description": "DaisyUI Clock Countdown"
+    },
+    // Diff
+    "DaisyUI Diff": {
+        "prefix": "du-diff-image",
+        "body": [
+            "<div className=\"diff aspect-[16/9]\">",
+            "  <div className=\"diff-item-1\">",
+            "    <img alt=\"$1\" src=\"$2\" />",
+            "  </div>",
+            "  <div className=\"diff-item-2\">",
+            "    <img alt=\"$3\" src=\"$4\" />",
+            "  </div>",
+            "  <div className=\"diff-resizer\"></div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Diff Image"
+    },
+
+    "DaisyUI Diff Text": {
+        "prefix": "du-diff-text",
+        "body": [
+            "<div className=\"diff aspect-[16/9]\">",
+            "  <div className=\"diff-item-1\">",
+            "    <div className=\"bg-primary text-primary-content text-9xl font-black grid place-content-center\">$1</div>",
+            "  </div>",
+            "  <div className=\"diff-item-2\">",
+            "    <div className=\"bg-base-200 text-9xl font-black grid place-content-center\">$2</div>",
+            "  </div>",
+            "  <div className=\"diff-resizer\"></div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Diff Text"
+    },
+
+    // KBD
+    "DaisyUI Kbd": {
+        "prefix": "du-kbd",
+        "body": ["<kbd className=\"kbd\">$1</kbd>"],
+        "description": "DaisyUI Kbd"
+    },
+    "DaisyUI Key Combination": {
+        "prefix": "du-key-combination",
+        "body": [
+            "<kbd className=\"kbd\">ctrl</kbd>",
+            "+",
+            "<kbd className=\"kbd\">shift</kbd>",
+            "+",
+            "<kbd className=\"kbd\">del</kbd>"
+        ],
+        "description": "DaisyUI Key Combination"
+    },
+
+    // Stat
+    "DaisyUI Stat": {
+        "prefix": "du-stat",
+        "body": [
+            "<div className=\"stats shadow\">",
+            "  <div className=\"stat\">",
+            "    <div className=\"stat-title\">Total Page Views</div>",
+            "    <div className=\"stat-value\">89,400</div>",
+            "    <div className=\"stat-desc\">21% more than last month</div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Stat"
+    },
+
+    "DaisyUI Stat with Icons or Images": {
+        "prefix": "du-stat-icons-image",
+        "body": [
+            "<div className=\"stats shadow\">",
+            "  <div className=\"stat\">",
+            "    <div className=\"stat-figure text-primary\">",
+            "      <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" className=\"inline-block w-8 h-8 stroke-current\"><path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z\"></path></svg>",
+            "    </div>",
+            "    <div className=\"stat-title\">Total Likes</div>",
+            "    <div className=\"stat-value text-primary\">25.6K</div>",
+            "    <div className=\"stat-desc\">21% more than last month</div>",
+            "  </div>",
+            "  ",
+            "  <div className=\"stat\">",
+            "    <div className=\"stat-figure text-secondary\">",
+            "      <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" className=\"inline-block w-8 h-8 stroke-current\"><path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M13 10V3L4 14h7v7l9-11h-7z\"></path></svg>",
+            "    </div>",
+            "    <div className=\"stat-title\">Page Views</div>",
+            "    <div className=\"stat-value text-secondary\">2.6M</div>",
+            "    <div className=\"stat-desc\">21% more than last month</div>",
+            "  </div>",
+            "  ",
+            "  <div className=\"stat\">",
+            "    <div className=\"stat-figure text-secondary\">",
+            "      <div className=\"avatar online\">",
+            "        <div className=\"w-16 rounded-full\">",
+            "          <img src=\"/images/stock/photo-1534528741775-53994a69daeb.jpg\" />",
+            "        </div>",
+            "      </div>",
+            "    </div>",
+            "    <div className=\"stat-value\">86%</div>",
+            "    <div className=\"stat-title\">Tasks done</div>",
+            "    <div className=\"stat-desc text-secondary\">31 tasks remaining</div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Stat with Icons or Images"
+    },
+    // Table
+    "DaisyUI Table": {
+        "prefix": "du-table",
+        "body": [
+            "<div className=\"overflow-x-auto\">",
+            "  <table className=\"table\">",
+            "    {/* head */}",
+            "    <thead>",
+            "      <tr>",
+            "        <th></th>",
+            "        <th>Name</th>",
+            "        <th>Job</th>",
+            "        <th>Favorite Color</th>",
+            "      </tr>",
+            "    </thead>",
+            "    <tbody>",
+            "      {/* row 1 */}",
+            "      <tr>",
+            "        <th>1</th>",
+            "        <td>Cy Ganderton</td>",
+            "        <td>Quality Control Specialist</td>",
+            "        <td>Blue</td>",
+            "      </tr>",
+            "      {/* row 2 */}",
+            "      <tr>",
+            "        <th>2</th>",
+            "        <td>Hart Hagerty</td>",
+            "        <td>Desktop Support Technician</td>",
+            "        <td>Purple</td>",
+            "      </tr>",
+            "      {/* row 3 */}",
+            "      <tr>",
+            "        <th>3</th>",
+            "        <td>Brice Swyre</td>",
+            "        <td>Tax Accountant</td>",
+            "        <td>Red</td>",
+            "      </tr>",
+            "    </tbody>",
+            "  </table>",
+            "</div>"
+        ],
+        "description": "DaisyUI Table"
+    },
+    // Timeline
+    "DaisyUI Timeline": {
+        "prefix": "du-timeline",
+        "body": [
+            "<ul className=\"timeline\">",
+            "  <li>",
+            "    <div className=\"timeline-start\">1984</div>",
+            "    <div className=\"timeline-middle\">",
+            "      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\" className=\"w-5 h-5\"><path fillRule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z\" clipRule=\"evenodd\" /></svg>",
+            "    </div>",
+            "    <div className=\"timeline-end timeline-box\">First Macintosh computer</div>",
+            "    <hr/>",
+            "  </li>",
+            "  <li>",
+            "    <hr/>",
+            "    <div className=\"timeline-start\">1998</div>",
+            "    <div className=\"timeline-middle\">",
+            "      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\" className=\"w-5 h-5\"><path fillRule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z\" clipRule=\"evenodd\" /></svg>",
+            "    </div>",
+            "    <div className=\"timeline-end timeline-box\">iMac</div>",
+            "    <hr/>",
+            "  </li>",
+            "  <li>",
+            "    <hr/>",
+            "    <div className=\"timeline-start\">2001</div>",
+            "    <div className=\"timeline-middle\">",
+            "      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\" className=\"w-5 h-5\"><path fillRule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z\" clipRule=\"evenodd\" /></svg>",
+            "    </div>",
+            "    <div className=\"timeline-end timeline-box\">iPod</div>",
+            "    <hr/>",
+            "  </li>",
+            "  <li>",
+            "    <hr/>",
+            "    <div className=\"timeline-start\">2007</div>",
+            "    <div className=\"timeline-middle\">",
+            "      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\" className=\"w-5 h-5\"><path fillRule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z\" clipRule=\"evenodd\" /></svg>",
+            "    </div>",
+            "    <div className=\"timeline-end timeline-box\">iPhone</div>",
+            "    <hr/>",
+            "  </li>",
+            "  <li>",
+            "    <hr/>",
+            "    <div className=\"timeline-start\">2015</div>",
+            "    <div className=\"timeline-middle\">",
+            "      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\" className=\"w-5 h-5\"><path fillRule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z\" clipRule=\"evenodd\" /></svg>",
+            "    </div>",
+            "    <div className=\"timeline-end timeline-box\">Apple Watch</div>",
+            "  </li>",
+            "</ul>"
+        ],
+        "description": "DaisyUI Timeline"
+    },
+
+    // Breadcrumbs
+    "DaisyUI Breadcrumbs": {
+        "prefix": "du-breadcrumbs",
+        "body": [
+            "<div className=\"text-sm breadcrumbs\">",
+            "  <ul>",
+            "    <li><a href=\"#\">Home</a></li>",
+            "    <li><a href=\"#\">Documents</a></li>",
+            "    <li>Add Document</li>",
+            "  </ul>",
+            "</div>"
+        ],
+        "description": "DaisyUI Breadcrumbs"
+    },
+
+    //Bottom Navigation
+    "DaisyUI Bottom Navigation": {
+        "prefix": "du-bottom-nav",
+        "body": [
+            "<div className=\"btm-nav\">",
+            "  <button>",
+            "    <svg xmlns=\"http://www.w3.org/2000/svg\" className=\"h-5 w-5\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6\" /></svg>",
+            "  </button>",
+            "  <button className=\"active\">",
+            "    <svg xmlns=\"http://www.w3.org/2000/svg\" className=\"h-5 w-5\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\" /></svg>",
+            "  </button>",
+            "  <button>",
+            "    <svg xmlns=\"http://www.w3.org/2000/svg\" className=\"h-5 w-5\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z\" /></svg>",
+            "  </button>",
+            "</div>"
+        ],
+        "description": "DaisyUI Bottom Navigation"
+    },
+    // Link
+    "DaisyUI Link": {
+        "prefix": "du-link",
+        "body": ["<a className=\"link\">I'm a simple link</a>"],
+        "description": "DaisyUI Link"
+    },
+
+    // Menu
+
+    "DaisyUI Menu": {
+        "prefix": "du-menu",
+        "body": [
+            "<ul className=\"menu bg-base-200 w-56 rounded-box\">",
+            "  <li><a>Item 1</a></li>",
+            "  <li><a>Item 2</a></li>",
+            "  <li><a>Item 3</a></li>",
+            "</ul>"
+        ],
+        "description": "DaisyUI Menu"
+    },
+
+    "DaisyUI Responsive Menu": {
+        "prefix": "du-menu-horizontal",
+        "body": [
+            "<ul className=\"menu menu-vertical lg:menu-horizontal bg-base-200 rounded-box\">",
+            "  <li><a>Item 1</a></li>",
+            "  <li><a>Item 2</a></li>",
+            "  <li><a>Item 3</a></li>",
+            "</ul>"
+        ],
+        "description": "DaisyUI  horizontal Responsive Menu"
+    },
+
+    // Navbar
+    "DaisyUI Navbar": {
+        "prefix": "du-navbar",
+        "body": [
+            "<div className=\"navbar bg-base-100\">",
+            "  <a className=\"btn btn-ghost text-xl\">daisyUI</a>",
+            "</div>"
+        ],
+        "description": "DaisyUI Navbar"
+    },
+    "DaisyUI Navbar with Title and Icon": {
+        "prefix": "du-navbar-icon-end",
+        "body": [
+            "<div className=\"navbar bg-base-100\">",
+            "  <div className=\"flex-1\">",
+            "    <a className=\"btn btn-ghost text-xl\">daisyUI</a>",
+            "  </div>",
+            "  <div className=\"flex-none\">",
+            "    <button className=\"btn btn-square btn-ghost\">",
+            "      <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" className=\"inline-block w-5 h-5 stroke-current\"><path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z\"></path></svg>",
+            "    </button>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Navbar with Title and Icon"
+    },
+
+    "DaisyUI Navbar with Icons at Start and End": {
+        "prefix": "du-navbar-icons-start-end",
+        "body": [
+            "<div className=\"navbar bg-base-100\">",
+            "  <div className=\"flex-none\">",
+            "    <button className=\"btn btn-square btn-ghost\">",
+            "      <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" className=\"inline-block w-5 h-5 stroke-current\"><path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M4 6h16M4 12h16M4 18h16\"></path></svg>",
+            "    </button>",
+            "  </div>",
+            "  <div className=\"flex-1\">",
+            "    <a className=\"btn btn-ghost text-xl\">daisyUI</a>",
+            "  </div>",
+            "  <div className=\"flex-none\">",
+            "    <button className=\"btn btn-square btn-ghost\">",
+            "      <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" className=\"inline-block w-5 h-5 stroke-current\"><path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z\"></path></svg>",
+            "    </button>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Navbar with Icons at Start and End"
+    },
+
+    "DaisyUI Navbar with Menu": {
+        "prefix": "du-navbar-menu",
+        "body": [
+            "<div className=\"navbar bg-base-100\">",
+            "  <div className=\"flex-1\">",
+            "    <a className=\"btn btn-ghost text-xl\">daisyUI</a>",
+            "  </div>",
+            "  <div className=\"flex-none\">",
+            "    <ul className=\"menu menu-horizontal px-1\">",
+            "      <li><a>Link</a></li>",
+            "      <li>",
+            "        <details>",
+            "          <summary>",
+            "            Parent",
+            "          </summary>",
+            "          <ul className=\"p-2 bg-base-100\">",
+            "            <li><a>Link 1</a></li>",
+            "            <li><a>Link 2</a></li>",
+            "          </ul>",
+            "        </details>",
+            "      </li>",
+            "    </ul>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Navbar with Menu"
+    },
+
+    "DaisyUI Navbar with Menu Button": {
+        "prefix": "du-navbar-menu-button",
+        "body": [
+            "<div className=\"navbar bg-base-100\">",
+            "  <div className=\"navbar-start\">",
+            "    <div className=\"dropdown\">",
+            "      <label tabIndex={0} className=\"btn btn-ghost lg:hidden\">",
+            "        <svg xmlns=\"http://www.w3.org/2000/svg\" className=\"h-5 w-5\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M4 6h16M4 12h8m-8 6h16\" /></svg>",
+            "      </label>",
+            "      <ul tabIndex={0} className=\"menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52\">",
+            "        <li><a>Item 1</a></li>",
+            "        <li>",
+            "          <a>Parent</a>",
+            "          <ul className=\"p-2\">",
+            "            <li><a>Submenu 1</a></li>",
+            "            <li><a>Submenu 2</a></li>",
+            "          </ul>",
+            "        </li>",
+            "        <li><a>Item 3</a></li>",
+            "      </ul>",
+            "    </div>",
+            "    <a className=\"btn btn-ghost text-xl\">daisyUI</a>",
+            "  </div>",
+            "  <div className=\"navbar-center hidden lg:flex\">",
+            "    <ul className=\"menu menu-horizontal px-1\">",
+            "      <li><a>Item 1</a></li>",
+            "      <li tabIndex={0}>",
+            "        <details>",
+            "          <summary>Parent</summary>",
+            "          <ul className=\"p-2\">",
+            "            <li><a>Submenu 1</a></li>",
+            "            <li><a>Submenu 2</a></li>",
+            "          </ul>",
+            "        </details>",
+            "      </li>",
+            "      <li><a>Item 3</a></li>",
+            "    </ul>",
+            "  </div>",
+            "  <div className=\"navbar-end\">",
+            "    <a className=\"btn\">Button</a>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Navbar with Menu Button"
+    },
+    // Pagination
+    "DaisyUI Pagination": {
+        "prefix": "du-pagination",
+        "body": [
+            "<div className=\"join\">",
+            "  <button className=\"join-item btn\">1</button>",
+            "  <button className=\"join-item btn btn-active\">2</button>",
+            "  <button className=\"join-item btn\">3</button>",
+            "  <button className=\"join-item btn\">4</button>",
+            "</div>"
+        ],
+        "description": "DaisyUI Pagination"
+    },
+    "DaisyUI Next/Prev": {
+        "prefix": "du-pagination-nextprev",
+        "body": [
+            "<div className=\"join grid grid-cols-2\">",
+            "  <button className=\"join-item btn btn-outline\">Previous page</button>",
+            "  <button className=\"join-item btn btn-outline\">Next</button>",
+            "</div>"
+        ],
+        "description": "DaisyUI Next/Prev"
+    },
+    // Steps
+    "DaisyUI Steps": {
+        "prefix": "du-steps",
+        "body": [
+            "<ul className=\"steps\">",
+            "  <li className=\"step step-primary\">Register</li>",
+            "  <li className=\"step step-primary\">Choose plan</li>",
+            "  <li className=\"step\">Purchase</li>",
+            "  <li className=\"step\">Receive Product</li>",
+            "</ul>"
+        ],
+        "description": "DaisyUI Steps"
+    },
+
+    "DaisyUI Vertical Steps": {
+        "prefix": "du-steps-vertical",
+        "body": [
+            "<ul className=\"steps steps-vertical\">",
+            "  <li className=\"step step-primary\">Register</li>",
+            "  <li className=\"step step-primary\">Choose plan</li>",
+            "  <li className=\"step\">Purchase</li>",
+            "  <li className=\"step\">Receive Product</li>",
+            "</ul>"
+        ],
+        "description": "DaisyUI Vertical Steps"
+    },
+
+    // Tabs
+
+    "DaisyUI Tabs": {
+        "prefix": "du-tabs",
+        "body": [
+            "<div role=\"tablist\" className=\"tabs\">",
+            "  <a role=\"tab\" className=\"tab\">Tab 1</a>",
+            "  <a role=\"tab\" className=\"tab tab-active\">Tab 2</a>",
+            "  <a role=\"tab\" className=\"tab\">Tab 3</a>",
+            "</div>"
+        ],
+        "description": "DaisyUI Tabs"
+    },
+
+    "DaisyUI Tabs Boxed": {
+        "prefix": "du-tabs-boxed",
+        "body": [
+            "<div role=\"tablist\" className=\"tabs tabs-boxed\">",
+            "  <a role=\"tab\" className=\"tab\">Tab 1</a>",
+            "  <a role=\"tab\" className=\"tab tab-active\">Tab 2</a>",
+            "  <a role=\"tab\" className=\"tab\">Tab 3</a>",
+            "</div>"
+        ],
+        "description": "DaisyUI Tabs Boxed"
+    },
+
+    // Input
     // Checkbox
     "DaisyUI Checkbox": {
         "prefix": "du-input-checkbox",

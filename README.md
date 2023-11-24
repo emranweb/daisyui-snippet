@@ -1,7 +1,5 @@
 # DaisyUI Snippet Extension for Visual Studio Code
 
-![DaisyUI Snippet Extension Logo](icon.png)
-
 ## Overview
 
 The DaisyUI Snippet extension for Visual Studio Code provides a collection of handy snippets for working with DaisyUI, a set of components and utilities for Tailwind CSS.
