@@ -1,4 +1,5 @@
 {
+    // Buttons
     "DaisyUI Button": {
         "prefix": "du-btn",
         "body": ["<button className='btn'>Button</button>"],
@@ -115,7 +116,7 @@
         "description": "DaisyUI Dropdown Menu"
     },
     "DaisyUI Dropdown Align to End": {
-        "prefix": "du-dropdown-align-end",
+        "prefix": "du-dropdown-end",
         "body": [
             "<div className=\"dropdown dropdown-end\">",
             "  <label tabIndex={0} className=\"btn m-1\">Click</label>",
@@ -141,7 +142,7 @@
         "description": "DaisyUI Dropdown Top"
     },
     "DaisyUI Dropdown Top Align to End": {
-        "prefix": "du-dropdown-top-align-end",
+        "prefix": "du-dropdown-top-end",
         "body": [
             "<div className=\"dropdown dropdown-top dropdown-end\">",
             "  <label tabIndex={0} className=\"btn m-1\">Click</label>",
@@ -167,7 +168,7 @@
         "description": "DaisyUI Dropdown Bottom"
     },
     "DaisyUI Dropdown Bottom Align to End": {
-        "prefix": "du-dropdown-bottom-align-end",
+        "prefix": "du-dropdown-bottom-end",
         "body": [
             "<div className=\"dropdown dropdown-bottom dropdown-end\">",
             "  <label tabIndex={0} className=\"btn m-1\">Click</label>",
@@ -193,7 +194,7 @@
         "description": "DaisyUI Dropdown Left"
     },
     "DaisyUI Dropdown Left Align to End": {
-        "prefix": "du-dropdown-left-align-end",
+        "prefix": "du-dropdown-left-end",
         "body": [
             "<div className=\"dropdown dropdown-left dropdown-end\">",
             "  <label tabIndex={0} className=\"btn m-1\">Click</label>",
@@ -219,7 +220,7 @@
         "description": "DaisyUI Dropdown Right"
     },
     "DaisyUI Dropdown Right Align to End": {
-        "prefix": "du-dropdown-right-align-end",
+        "prefix": "du-dropdown-right-end",
         "body": [
             "<div className=\"dropdown dropdown-right dropdown-end\">",
             "  <label tabIndex={0} className=\"btn m-1\">Click</label>",
@@ -297,7 +298,7 @@
         "description": "DaisyUI Dropdown in Navbar"
     },
     "DaisyUI Helper Dropdown": {
-        "prefix": "du-helper-dropdown",
+        "prefix": "du-dropdown-helper",
         "body": [
             "<div className=\"dropdown\">",
             "  <label tabIndex={0} className=\"btn m-1\">Helper Dropdown</label>",
@@ -329,7 +330,7 @@
         "description": "DaisyUI Dialog Modal"
     },
     "DaisyUI Dialog Modal Closes When Clicked Outside": {
-        "prefix": "du-modal-dialog-utside-close",
+        "prefix": "du-modal-dialog-outside-close",
         "body": [
             "<button className=\"btn\" onClick={() => document.getElementById('my_modal_2').showModal()}>open modal</button>",
             "<dialog id=\"my_modal_2\" className=\"modal\">",
@@ -397,7 +398,7 @@
         "description": "DaisyUI Dialog Modal Responsive"
     },
     "DaisyUI Dialog Modal Using Label + Hidden Checkbox": {
-        "prefix": "du-modal-dialog-label-checkbox",
+        "prefix": "du-modal-checkbox",
         "body": [
             "<label htmlFor=\"my_modal_6\" className=\"btn\">open modal</label>",
             "<input type=\"checkbox\" id=\"my_modal_6\" className=\"modal-toggle\" />",
@@ -414,7 +415,7 @@
         "description": "DaisyUI Dialog Modal Using Label + Hidden Checkbox"
     },
     "DaisyUI Dialog Modal Closes When Clicked Outside Using Label + Hidden Checkbox": {
-        "prefix": "du-modal-dialog-outside-close-checkbox",
+        "prefix": "du-modal-checkbox-outside-close",
         "body": [
             "<label htmlFor=\"my_modal_7\" className=\"btn\">open modal</label>",
             "<input type=\"checkbox\" id=\"my_modal_7\" className=\"modal-toggle\" />",
@@ -429,7 +430,7 @@
         "description": "DaisyUI Dialog Modal Closes When Clicked Outside Using Label + Hidden Checkbox"
     },
     "DaisyUI Dialog Modal Using Anchor Link": {
-        "prefix": "du-modal-dialog-anchor-link",
+        "prefix": "du-modal-anchor-link",
         "body": [
             "<a href=\"#my_modal_8\" className=\"btn\">open modal</a>",
             "<div className=\"modal\" role=\"dialog\" id=\"my_modal_8\">",
@@ -1281,7 +1282,7 @@
         "description": "DaisyUI Card Side"
     },
     "DaisyUI Responsive Card": {
-        "prefix": "du-responsive-card",
+        "prefix": "du-card-responsive",
         "body": [
             "<div className=\"card lg:card-side bg-base-100 shadow-xl\">",
             "  <figure><img src=\"/images/stock/photo-1494232410401-ad00d5433cfa.jpg\" alt=\"Album\"/></figure>",
@@ -2256,223 +2257,6 @@
         ],
         "description": "DaisyUI Toast with Alert - Info"
     },
-
-    // Artboard
-    "DaisyUI Artboard (Phone 1)": {
-        "prefix": "du-artboard",
-        "body": ["<div className=\"artboard phone-1\">320×568</div>"],
-        "description": "DaisyUI Artboard - Phone 1 (320×568)"
-    },
-
-    "DaisyUI Artboard (Horizontal Phone 3)": {
-        "prefix": "du-artboard-horizontal",
-        "body": [
-            "<div className=\"artboard artboard-horizontal phone-3\">736×414</div>"
-        ],
-        "description": "DaisyUI Artboard - Horizontal Phone 3 (736×414)"
-    },
-
-    // Divider
-    "DaisyUI Divider - Default": {
-        "prefix": "du-divider",
-        "body": ["<div className=\"divider\">Default</div>"],
-        "description": "DaisyUI Divider - Default"
-    },
-    "DaisyUI Divider - Neutral": {
-        "prefix": "du-divider-neutral",
-        "body": ["<div className=\"divider divider-neutral\">Neutral</div>"],
-        "description": "DaisyUI Divider - Neutral"
-    },
-
-    // Drawer
-    "DaisyUI Drawer": {
-        "prefix": "du-drawer",
-        "body": [
-            "<div className=\"drawer\">",
-            "  <input id=\"my-drawer\" type=\"checkbox\" className=\"drawer-toggle\" />",
-            "  <div className=\"drawer-content\">",
-            "    {/* Page content here */}",
-            "    <label htmlFor=\"my-drawer\" className=\"btn btn-primary drawer-button\">Open drawer</label>",
-            "  </div>",
-            "  <div className=\"drawer-side\">",
-            "    <label htmlFor=\"my-drawer\" aria-label=\"close sidebar\" className=\"drawer-overlay\"></label>",
-            "    <ul className=\"menu p-4 w-80 min-h-full bg-base-200 text-base-content\">",
-            "      {/* Sidebar content here */}",
-            "      <li><a>Sidebar Item 1</a></li>",
-            "      <li><a>Sidebar Item 2</a></li>",
-            "    </ul>",
-            "  </div>",
-            "</div>"
-        ],
-        "description": "DaisyUI Drawer"
-    },
-
-    // Footer
-    "DaisyUI Footer": {
-        "prefix": "du-footer",
-        "body": [
-            "<footer className=\"footer p-10 bg-neutral text-neutral-content\">",
-            "  <nav>",
-            "    <header className=\"footer-title\">Services</header>",
-            "    <a className=\"link link-hover\">Branding</a>",
-            "    <a className=\"link link-hover\">Design</a>",
-            "    <a className=\"link link-hover\">Marketing</a>",
-            "    <a className=\"link link-hover\">Advertisement</a>",
-            "  </nav>",
-            "  <nav>",
-            "    <header className=\"footer-title\">Company</header>",
-            "    <a className=\"link link-hover\">About us</a>",
-            "    <a className=\"link link-hover\">Contact</a>",
-            "    <a className=\"link link-hover\">Jobs</a>",
-            "    <a className=\"link link-hover\">Press kit</a>",
-            "  </nav>",
-            "  <nav>",
-            "    <header className=\"footer-title\">Legal</header>",
-            "    <a className=\"link link-hover\">Terms of use</a>",
-            "    <a className=\"link link-hover\">Privacy policy</a>",
-            "    <a className=\"link link-hover\">Cookie policy</a>",
-            "  </nav>",
-            "</footer>"
-        ],
-        "description": "DaisyUI Footer"
-    },
-
-    // Footer with Logo Section
-    "DaisyUI Footer with Logo": {
-        "prefix": "du-footer-logo",
-        "body": [
-            "<footer className=\"footer p-10 bg-base-200 text-base-content\">",
-            "  <aside>",
-            "    <svg width=\"50\" height=\"50\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" fillRule=\"evenodd\" clipRule=\"evenodd\" className=\"fill-current\"><path d=\"M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z\"></path></svg>",
-            "    <p>ACME Industries Ltd.<br/>Providing reliable tech since 1992</p>",
-            "  </aside>",
-            "  <nav>",
-            "    <header className=\"footer-title\">Services</header>",
-            "    <a className=\"link link-hover\">Branding</a>",
-            "    <a className=\"link link-hover\">Design</a>",
-            "    <a className=\"link link-hover\">Marketing</a>",
-            "    <a className=\"link link-hover\">Advertisement</a>",
-            "  </nav>",
-            "  <nav>",
-            "    <header className=\"footer-title\">Company</header>",
-            "    <a className=\"link link-hover\">About us</a>",
-            "    <a className=\"link link-hover\">Contact</a>",
-            "    <a className=\"link link-hover\">Jobs</a>",
-            "    <a className=\"link link-hover\">Press kit</a>",
-            "  </nav>",
-            "  <nav>",
-            "    <header className=\"footer-title\">Legal</header>",
-            "    <a className=\"link link-hover\">Terms of use</a>",
-            "    <a className=\"link link-hover\">Privacy policy</a>",
-            "    <a className=\"link link-hover\">Cookie policy</a>",
-            "  </nav>",
-            "</footer>"
-        ],
-        "description": "DaisyUI Footer with Logo"
-    },
-    // Centered Hero
-    "DaisyUI Centered Hero": {
-        "prefix": "du-centered-hero",
-        "body": [
-            "<div className=\"hero min-h-screen bg-base-200\">",
-            "  <div className=\"hero-content text-center\">",
-            "    <div className=\"max-w-md\">",
-            "      <h1 className=\"text-5xl font-bold\">Hello there</h1>",
-            "      <p className=\"py-6\">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>",
-            "      <button className=\"btn btn-primary\">Get Started</button>",
-            "    </div>",
-            "  </div>",
-            "</div>"
-        ],
-        "description": "DaisyUI Centered Hero"
-    },
-
-    // Indicator
-    "DaisyUI Indicator": {
-        "prefix": "du-indicator",
-        "body": [
-            "<div className=\"indicator\">",
-            "  <span className=\"indicator-item badge badge-secondary\"></span>",
-            "  <div className=\"grid w-32 h-32 bg-base-300 place-items-center\">content</div>",
-            "</div>"
-        ],
-        "description": "DaisyUI Indicator"
-    },
-
-    // Mask - Squircle
-    "DaisyUI Mask - Squircle": {
-        "prefix": "du-mask-squircle",
-        "body": [
-            "<img className=\"mask mask-squircle\" src=\"/images/stock/photo-1567653418876-5bb0e566e1c2.jpg\" />"
-        ],
-        "description": "DaisyUI Mask - Squircle"
-    },
-
-    // Join
-    "DaisyUI Join": {
-        "prefix": "du-join",
-        "body": [
-            "<div className=\"join\">",
-            "  <button className=\"btn join-item\">Button</button>",
-            "  <button className=\"btn join-item\">Button</button>",
-            "  <button className=\"btn join-item\">Button</button>",
-            "</div>"
-        ],
-        "description": "DaisyUI Join"
-    },
-
-    // Stack
-    "DaisyUI Stack": {
-        "prefix": "du-stack",
-        "body": [
-            "<div>",
-            "  <div className=\"grid w-32 h-20 rounded bg-primary text-primary-content place-content-center\">1</div>",
-            "  <div className=\"grid w-32 h-20 rounded bg-accent text-accent-content place-content-center\">2</div>",
-            "  <div className=\"grid w-32 h-20 rounded bg-secondary text-secondary-content place-content-center\">3</div>",
-            "</div>"
-        ],
-        "description": "DaisyUI Stack"
-    },
-
-    // Browser Mockup
-    "DaisyUI Browser Mockup": {
-        "prefix": "du-browser-mockup",
-        "body": [
-            "<div className=\"mockup-browser border border-base-300\">",
-            "  <div className=\"mockup-browser-toolbar\">",
-            "    <div className=\"input border border-base-300\">https://daisyui.com</div>",
-            "  </div>",
-            "  <div className=\"flex justify-center px-4 py-16 border-t border-base-300\">Hello!</div>",
-            "</div>"
-        ],
-        "description": "DaisyUI Browser Mockup"
-    },
-
-    // Code Mockup
-    "DaisyUI Code Mockup": {
-        "prefix": "du-code-mockup",
-        "body": [
-            "<div className=\"mockup-code\">",
-            "  <pre data-prefix=\"$\"><code>npm i daisyui</code></pre>",
-            "</div>"
-        ],
-        "description": "DaisyUI Code Mockup"
-    },
-
-    // Phone Mockup
-    "DaisyUI Phone Mockup": {
-        "prefix": "du-phone-mockup",
-        "body": [
-            "<div className=\"mockup-phone\">",
-            "  <div className=\"camera\"></div>",
-            "  <div className=\"display\">",
-            "    <div className=\"artboard artboard-demo phone-1\">Hi.</div>",
-            "  </div>",
-            "</div>"
-        ],
-        "description": "DaisyUI Phone Mockup"
-    },
-
     // Input
     // Checkbox
     "DaisyUI Checkbox": {
@@ -3055,5 +2839,221 @@
             "</div>"
         ],
         "description": "DaisyUI Input Toggle with Label"
+    },
+
+    // Artboard
+    "DaisyUI Artboard (Phone 1)": {
+        "prefix": "du-artboard",
+        "body": ["<div className=\"artboard phone-1\">320×568</div>"],
+        "description": "DaisyUI Artboard - Phone 1 (320×568)"
+    },
+
+    "DaisyUI Artboard (Horizontal Phone 3)": {
+        "prefix": "du-artboard-horizontal",
+        "body": [
+            "<div className=\"artboard artboard-horizontal phone-3\">736×414</div>"
+        ],
+        "description": "DaisyUI Artboard - Horizontal Phone 3 (736×414)"
+    },
+
+    // Divider
+    "DaisyUI Divider - Default": {
+        "prefix": "du-divider",
+        "body": ["<div className=\"divider\">Default</div>"],
+        "description": "DaisyUI Divider - Default"
+    },
+    "DaisyUI Divider - Neutral": {
+        "prefix": "du-divider-neutral",
+        "body": ["<div className=\"divider divider-neutral\">Neutral</div>"],
+        "description": "DaisyUI Divider - Neutral"
+    },
+
+    // Drawer
+    "DaisyUI Drawer": {
+        "prefix": "du-drawer",
+        "body": [
+            "<div className=\"drawer\">",
+            "  <input id=\"my-drawer\" type=\"checkbox\" className=\"drawer-toggle\" />",
+            "  <div className=\"drawer-content\">",
+            "    {/* Page content here */}",
+            "    <label htmlFor=\"my-drawer\" className=\"btn btn-primary drawer-button\">Open drawer</label>",
+            "  </div>",
+            "  <div className=\"drawer-side\">",
+            "    <label htmlFor=\"my-drawer\" aria-label=\"close sidebar\" className=\"drawer-overlay\"></label>",
+            "    <ul className=\"menu p-4 w-80 min-h-full bg-base-200 text-base-content\">",
+            "      {/* Sidebar content here */}",
+            "      <li><a>Sidebar Item 1</a></li>",
+            "      <li><a>Sidebar Item 2</a></li>",
+            "    </ul>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Drawer"
+    },
+
+    // Footer
+    "DaisyUI Footer": {
+        "prefix": "du-footer",
+        "body": [
+            "<footer className=\"footer p-10 bg-neutral text-neutral-content\">",
+            "  <nav>",
+            "    <header className=\"footer-title\">Services</header>",
+            "    <a className=\"link link-hover\">Branding</a>",
+            "    <a className=\"link link-hover\">Design</a>",
+            "    <a className=\"link link-hover\">Marketing</a>",
+            "    <a className=\"link link-hover\">Advertisement</a>",
+            "  </nav>",
+            "  <nav>",
+            "    <header className=\"footer-title\">Company</header>",
+            "    <a className=\"link link-hover\">About us</a>",
+            "    <a className=\"link link-hover\">Contact</a>",
+            "    <a className=\"link link-hover\">Jobs</a>",
+            "    <a className=\"link link-hover\">Press kit</a>",
+            "  </nav>",
+            "  <nav>",
+            "    <header className=\"footer-title\">Legal</header>",
+            "    <a className=\"link link-hover\">Terms of use</a>",
+            "    <a className=\"link link-hover\">Privacy policy</a>",
+            "    <a className=\"link link-hover\">Cookie policy</a>",
+            "  </nav>",
+            "</footer>"
+        ],
+        "description": "DaisyUI Footer"
+    },
+
+    // Footer with Logo Section
+    "DaisyUI Footer with Logo": {
+        "prefix": "du-footer-logo",
+        "body": [
+            "<footer className=\"footer p-10 bg-base-200 text-base-content\">",
+            "  <aside>",
+            "    <svg width=\"50\" height=\"50\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" fillRule=\"evenodd\" clipRule=\"evenodd\" className=\"fill-current\"><path d=\"M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z\"></path></svg>",
+            "    <p>ACME Industries Ltd.<br/>Providing reliable tech since 1992</p>",
+            "  </aside>",
+            "  <nav>",
+            "    <header className=\"footer-title\">Services</header>",
+            "    <a className=\"link link-hover\">Branding</a>",
+            "    <a className=\"link link-hover\">Design</a>",
+            "    <a className=\"link link-hover\">Marketing</a>",
+            "    <a className=\"link link-hover\">Advertisement</a>",
+            "  </nav>",
+            "  <nav>",
+            "    <header className=\"footer-title\">Company</header>",
+            "    <a className=\"link link-hover\">About us</a>",
+            "    <a className=\"link link-hover\">Contact</a>",
+            "    <a className=\"link link-hover\">Jobs</a>",
+            "    <a className=\"link link-hover\">Press kit</a>",
+            "  </nav>",
+            "  <nav>",
+            "    <header className=\"footer-title\">Legal</header>",
+            "    <a className=\"link link-hover\">Terms of use</a>",
+            "    <a className=\"link link-hover\">Privacy policy</a>",
+            "    <a className=\"link link-hover\">Cookie policy</a>",
+            "  </nav>",
+            "</footer>"
+        ],
+        "description": "DaisyUI Footer with Logo"
+    },
+    // Centered Hero
+    "DaisyUI Centered Hero": {
+        "prefix": "du-hero-center",
+        "body": [
+            "<div className=\"hero min-h-screen bg-base-200\">",
+            "  <div className=\"hero-content text-center\">",
+            "    <div className=\"max-w-md\">",
+            "      <h1 className=\"text-5xl font-bold\">Hello there</h1>",
+            "      <p className=\"py-6\">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>",
+            "      <button className=\"btn btn-primary\">Get Started</button>",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Centered Hero"
+    },
+
+    // Indicator
+    "DaisyUI Indicator": {
+        "prefix": "du-indicator",
+        "body": [
+            "<div className=\"indicator\">",
+            "  <span className=\"indicator-item badge badge-secondary\"></span>",
+            "  <div className=\"grid w-32 h-32 bg-base-300 place-items-center\">content</div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Indicator"
+    },
+
+    // Mask - Squircle
+    "DaisyUI Mask - Squircle": {
+        "prefix": "du-mask-squircle",
+        "body": [
+            "<img className=\"mask mask-squircle\" src=\"/images/stock/photo-1567653418876-5bb0e566e1c2.jpg\" />"
+        ],
+        "description": "DaisyUI Mask - Squircle"
+    },
+
+    // Join
+    "DaisyUI Join": {
+        "prefix": "du-join",
+        "body": [
+            "<div className=\"join\">",
+            "  <button className=\"btn join-item\">Button</button>",
+            "  <button className=\"btn join-item\">Button</button>",
+            "  <button className=\"btn join-item\">Button</button>",
+            "</div>"
+        ],
+        "description": "DaisyUI Join"
+    },
+
+    // Stack
+    "DaisyUI Stack": {
+        "prefix": "du-stack",
+        "body": [
+            "<div>",
+            "  <div className=\"grid w-32 h-20 rounded bg-primary text-primary-content place-content-center\">1</div>",
+            "  <div className=\"grid w-32 h-20 rounded bg-accent text-accent-content place-content-center\">2</div>",
+            "  <div className=\"grid w-32 h-20 rounded bg-secondary text-secondary-content place-content-center\">3</div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Stack"
+    },
+
+    // Browser Mockup
+    "DaisyUI Browser Mockup": {
+        "prefix": "du-mockup-browser",
+        "body": [
+            "<div className=\"mockup-browser border border-base-300\">",
+            "  <div className=\"mockup-browser-toolbar\">",
+            "    <div className=\"input border border-base-300\">https://daisyui.com</div>",
+            "  </div>",
+            "  <div className=\"flex justify-center px-4 py-16 border-t border-base-300\">Hello!</div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Browser Mockup"
+    },
+
+    // Code Mockup
+    "DaisyUI Code Mockup": {
+        "prefix": "du-mockup-code",
+        "body": [
+            "<div className=\"mockup-code\">",
+            "  <pre data-prefix=\"$\"><code>npm i daisyui</code></pre>",
+            "</div>"
+        ],
+        "description": "DaisyUI Code Mockup"
+    },
+
+    // Phone Mockup
+    "DaisyUI Phone Mockup": {
+        "prefix": "du-mockup-phone",
+        "body": [
+            "<div className=\"mockup-phone\">",
+            "  <div className=\"camera\"></div>",
+            "  <div className=\"display\">",
+            "    <div className=\"artboard artboard-demo phone-1\">Hi.</div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Phone Mockup"
     }
 }

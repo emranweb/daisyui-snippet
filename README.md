@@ -12,7 +12,7 @@ With this extension, you can quickly insert DaisyUI components and styles into y
 
 ## Snippets
 
-**Buttons:**
+**Buttons:** | [Demo](https://daisyui.com/components/button)
 
 -   `du-btn` - DaisyUI Basic Button
 -   `du-btn-neutral` - DaisyUI Neutral Button
@@ -33,45 +33,45 @@ With this extension, you can quickly insert DaisyUI components and styles into y
 -   `du-btn-circle-outline` - DaisyUI Circle Outline Button
 -   `du-btn-loading` - DaisyUI Loading Button
 
-**Dropdown Menu:**
+**Dropdown Menu:** | [Demo](https://daisyui.com/components/dropdown)
 
 -   `du-dropdown-menu` - DaisyUI Dropdown Menu
--   `du-dropdown-align-end` - DaisyUI Dropdown Align to End
+-   `du-dropdown-end` - DaisyUI Dropdown Align to End
 -   `du-dropdown-top` - DaisyUI Dropdown Top
--   `du-dropdown-top-align-end` - DaisyUI Dropdown Top Align to End
+-   `du-dropdown-top-end` - DaisyUI Dropdown Top Align to End
 -   `du-dropdown-bottom` - DaisyUI Dropdown Bottom
--   `du-dropdown-bottom-align-end` - DaisyUI Dropdown Bottom Align to End
+-   `du-dropdown-bottom-end` - DaisyUI Dropdown Bottom Align to End
 -   `du-dropdown-left` - DaisyUI Dropdown Left
--   `du-dropdown-left-align-end` - DaisyUI Dropdown Left Align to End
+-   `du-dropdown-left-end` - DaisyUI Dropdown Left Align to End
 -   `du-dropdown-right` - DaisyUI Dropdown Right
--   `du-dropdown-right-align-end` - DaisyUI Dropdown Right Align to End
+-   `du-dropdown-right-end` - DaisyUI Dropdown Right Align to End
 -   `du-dropdown-hover` - DaisyUI Dropdown Hover
 -   `du-dropdown-force-open` - DaisyUI Dropdown Force Open
 -   `du-dropdown-as-card` - DaisyUI Dropdown as Card
 -   `du-dropdown-in-navbar` - DaisyUI Dropdown in Navbar
--   `du-helper-dropdown` - DaisyUI Helper Dropdown
+-   `du-dropdown-helper-` - DaisyUI Helper Dropdown
 
-**Modal:**
+**Modal:** | [Demo](https://daisyui.com/components/modal)
 
 -   `du-modal-dialog` - DaisyUI Dialog Modal
 -   `du-modal-dialog-outside-close` - DaisyUI Dialog Modal Closes When Clicked Outside
 -   `du-modal-dialog-corner-close` - DaisyUI Dialog Modal with Close Button at Corner
 -   `du-modal-dialog-custom-width` - DaisyUI Dialog Modal with Custom Width
 -   `du-modal-dialog-responsive` - DaisyUI Dialog Modal Responsive
--   `du-modal-dialog-label-checkbox` - DaisyUI Dialog Modal Using Label + Hidden Checkbox
--   `du-modal-dialog-outside-close-checkbox` - DaisyUI Dialog Modal Closes When Clicked Outside Using Label + Hidden Checkbox
--   `du-modal-dialog-anchor-link` - DaisyUI Dialog Modal Using Anchor Link
+-   `du-modal-checkbox` - DaisyUI Dialog Modal Using Label + Hidden Checkbox
+-   `du-modal-checkbox-outside-close` - DaisyUI Dialog Modal Closes When Clicked Outside Using Label + Hidden Checkbox
+-   `du-modal-anchor-link` - DaisyUI Dialog Modal Using Anchor Link
 
-**Swap:**
+**Swap:** | [Demo](https://daisyui.com/components/swap)
 
 -   `du-swap-text` - DaisyUI Swap Text
 -   `du-swap-volume-icons` - Swap Volume Icons
 -   `du-swap-icons-rotate` - DaisyUI Swap Icons with Rotate Effect
--   `du-hamburger-button` - DaisyUI Hamburger Button
+-   `du-swap-hamburger-button` - DaisyUI Hamburger Button
 -   `du-swap-icons-flip` - DaisyUI Swap Icons with Flip Effect
--   `du-activate-class-name` - DaisyUI Activate using class name instead of checkbox
+-   `du-swap-class-name` - DaisyUI Activate using class name instead of checkbox
 
-**Theme Controller:**
+**Theme Controller:** | [Demo](https://daisyui.com/components/theme-controller)
 
 -   `du-theme-toggle` - DaisyUI Theme Controller using a toggle
 -   `du-theme-checkbox` - DaisyUI Theme Controller using a checkbox
@@ -83,14 +83,14 @@ With this extension, you can quickly insert DaisyUI components and styles into y
 -   `du-theme-radio-input` - DaisyUI Theme Controller using a radio input
 -   `du-theme-radio-button` - DaisyUI Theme Controller using a radio button
 
-**Accordion:**
+**Accordion:** | [Demo](https://daisyui.com/components/accordion)
 
 -   `du-accordion-radio` - DaisyUI Accordion using radio inputs
 -   `du-accordion-arrow` - DaisyUI Accordion with arrow icon
 -   `du-accordion-plus-minus` - DaisyUI Accordion with plus/minus icon
 -   `du-accordion-join` - DaisyUI Using Accordion and Join together
 
-**Avatar:**
+**Avatar:** | [Demo](https://daisyui.com/components/avatar)
 
 -   `du-avatar` - DaisyUI Avatar
 -   `du-avatar-custom-sizes` - DaisyUI Avatar in custom sizes
@@ -102,7 +102,7 @@ With this extension, you can quickly insert DaisyUI components and styles into y
 -   `du-avatar-presence` - DaisyUI Avatar with presence indicator
 -   `du-avatar-placeholder` - DaisyUI Avatar placeholder
 
-**Badge:**
+**Badge:** | [Demo](https://daisyui.com/components/badge)
 
 -   `du-badge-default` - DaisyUI Badge Default
 -   `du-badge-neutral` - DaisyUI Badge Neutral
@@ -133,10 +133,10 @@ With this extension, you can quickly insert DaisyUI components and styles into y
 -   `du-badge-button` - DaisyUI Badge Button
 -   `du-badge-button-secondary` - DaisyUI Badge Button Secondary
 
-**Card:**
+**Card:** | [Demo](https://daisyui.com/components/card)
 
 -   `du-card` - DaisyUI Card
--   `du-card-compact-` - DaisyUI Compact Card
+-   `du-card-compact` - DaisyUI Compact Card
 -   `du-card-with-badge` - DaisyUI Card with Badge
 -   `du-card-with-bottom-image` - DaisyUI Card with Bottom Image
 -   `du-card-centered-content` - DaisyUI Card with Centered Content
@@ -147,21 +147,131 @@ With this extension, you can quickly insert DaisyUI components and styles into y
 -   `du-card-action-on-top` - DaisyUI Card with Action on Top
 -   `du-card-glass` - DaisyUI Card Glass
 -   `du-card-side` - DaisyUI Card Side
--   `du-responsive-card` - DaisyUI Responsive Card
+-   `du-card-responsive` - DaisyUI Responsive Card
 
-**Carousel:**
+**Carousel:** | [Demo](https://daisyui.com/components/carousel)
 
 -   `du-carousel-snap-default` - DaisyUI Carousel Snap Default
 -   `du-carousel-snap-center` - DaisyUI Carousel Snap Center
 -   `du-carousel-snap-end` - DaisyUI Carousel Snap to end
 -   `du-carousel-full-width` - DaisyUI Carousel Full Width Items
--   `du-carousel-vertica` - DaisyUI Carousel Vertical Items
+-   `du-carousel-vertical` - DaisyUI Carousel Vertical Items
 -   `du-carousel-half-width` - DaisyUI Carousel Half Width Items
 -   `du-carousel-full-bleed` - DaisyUI Carousel Full Bleed Items
 -   `du-carousel-indicators` - DaisyUI Carousel with Indicators
 -   `du-carousel-next-prev` - DaisyUI Carousel with Next/Prev Buttons
 
-**Checkbox Input:**
+**Chat bubble:** | [Demo](https://daisyui.com/components/chat/)
+
+-   `du-chat-bubble` - DaisyUI Chat Bubble
+-   `du-chat-image` - DaisyUI Chat Bubble with Image
+
+**Collapse:** | [Demo](https://daisyui.com/components/collapse/)
+
+-   `du-collapse` - DaisyUI Collapse
+-   `du-collapse-arrow` - DaisyUI Collapse with Arrow
+
+**Countdown:** | [Demo](https://daisyui.com/components/countdown/)
+
+-   `du-countdown` - DaisyUI Countdown
+-   `du-countdown-clock` - DaisyUI Countdown Clock
+
+**Diff** | [Demo](https://daisyui.com/components/diff/)
+
+-   `du-diff-image` - DaisyUI Diff Image
+-   `du-diff-text` - DaisyUI Diff Text
+
+**Keyboard Input:** | [Demo](https://daisyui.com/components/kbd/)
+
+-   `du-kbd` - DaisyUI Keyboard Input
+-   `du-key-combinations` - DaisyUI Keyboard Input with Key Combinations
+
+**Stat:** | [Demo](https://daisyui.com/components/stat/)
+
+-   `du-stat` - DaisyUI Stat
+-   `du-stat-icons-image` - DaisyUI Stat with Icons and Image
+
+**Table:** | [Demo](https://daisyui.com/components/table/)
+
+-   `du-table` - DaisyUI Table
+
+**Timeline:** | [Demo](https://daisyui.com/components/timeline/)
+
+-   `du-timeline` - DaisyUI Timeline
+
+**Breadcrumbs:** | [Demo](https://daisyui.com/components/breadcrumbs/)
+
+-   `du-breadcrumbs` - DaisyUI Breadcrumbs
+
+**Bottom Navigation:** | [Demo](https://daisyui.com/components/bottom-navigation/)
+
+-   `du-bottom-nav` - DaisyUI Bottom Navigation
+
+**Link:** | [Demo](https://daisyui.com/components/link/)
+
+-   `du-link` - DaisyUI Link
+
+**Menu:** | [Demo](https://daisyui.com/components/menu/)
+
+-   `du-menu` - DaisyUI Menu
+-   `du-menu-horizontal` - DaisyUI Horizontal Menu
+
+**Navbar:** | [Demo](https://daisyui.com/components/navbar/)
+
+-   `du-navbar` - DaisyUI Navbar
+-   `du-navbar-icon-end` - DaisyUI Navbar with Icon at End
+-   `du-navbar-icons-start-end` - DaisyUI Navbar with Icons at Start and End
+-   `du-navbar-menu` - DaisyUI Navbar with Menu
+-   `du-navbar-menu-button` - DaisyUI Navbar with Menu Button
+
+**Pagination:** | [Demo](https://daisyui.com/components/pagination/)
+
+-   `du-pagination` - DaisyUI Pagination
+-   `du-pagination-nextprev` - DaisyUI Pagination with Next/Prev Buttons
+
+**Steps:** | [Demo](https://daisyui.com/components/steps/)
+
+-   `du-steps` - DaisyUI Steps
+-   `du-steps-vertical` - DaisyUI Vertical Steps
+
+**Tabs:** | [Demo](https://daisyui.com/components/tabs/)
+
+-   `du-tabs` - DaisyUI Tabs
+-   `du-tabs-boxed` - DaisyUI Boxed Tabs
+
+**Alert:** | [Demo](https://daisyui.com/components/alert/)
+
+-   `du-alert` - DaisyUI Alert
+-   `du-alert-info` - DaisyUI Alert Info
+-   `du-alert-success` - DaisyUI Alert Success
+-   `du-alert-warning` - DaisyUI Alert Warning
+-   `du-alert-error` - DaisyUI Alert Error
+
+**Loading:** | [Demo](https://daisyui.com/components/loading/)
+
+-   `du-loading-spinner` - DaisyUI Loading
+-   `du-loading-ring` - DaisyUI Loading Ring
+
+**Progress:** | [Demo](https://daisyui.com/components/progress/)
+
+-   `du-progress-bar` - DaisyUI Progress
+-   `du-progress-radial` - DaisyUI Radial Progress
+
+**Skeleton:** | [Demo](https://daisyui.com/components/skeleton/)
+
+-   `du-skeleton` - DaisyUI Skeleton
+-   `du-skeleton-circle` - DaisyUI Skeleton Circle
+-   `du-skeleton-rectangle` - DaisyUI Skeleton Rectangle
+
+**Tooltip:** | [Demo](https://daisyui.com/components/tooltip/)
+
+-   `du-tooltip` - DaisyUI Tooltip
+
+**Toast:** | [Demo](https://daisyui.com/components/toast/)
+
+-   `du-toast` - DaisyUI Toast
+
+**Checkbox Input:** | [Demo](https://daisyui.com/components/checkbox)
 
 -   `du-input-checkbox` - DaisyUI Checkbox
 -   `du-input-checkbox-label` - DaisyUI Checkbox with Label
@@ -179,7 +289,7 @@ With this extension, you can quickly insert DaisyUI components and styles into y
 -   `du-input-checkbox-lg` - DaisyUI Checkbox Large
 -   `du-input-checkbox-indeterminate` - DaisyUI Checkbox Indeterminate
 
-**File Input:**
+**File Input:** | [Demo](https://daisyui.com/components/file)
 
 -   `du-input-file` - DaisyUI Input File
 -   `du-input-file-bordered` - DaisyUI Input File Bordered
@@ -198,7 +308,7 @@ With this extension, you can quickly insert DaisyUI components and styles into y
 -   `du-input-file-md` - DaisyUI Input File Medium
 -   `du-input-file-lg` - DaisyUI Input File Large
 
-**Input Radio:**
+**Input Radio:** | [Demo](https://daisyui.com/components/radio)
 
 -   `du-input-radio` - DaisyUI RInput-adio
 -   `du-input-radio-primary` - DaisyUI Radio Input Primary
@@ -211,7 +321,7 @@ With this extension, you can quickly insert DaisyUI components and styles into y
 -   `du-input-radio-disabled` - DaisyUI Radio Input Disabled
 -   `du-input-radio-custom-color` - DaisyUI Radio Input Custom Color
 
-**Text Input:**
+**Text Input:** | [Demo](https://daisyui.com/components/text-input)
 
 -   `du-input-text` - DaisyUI Text Input
 -   `du-input-text-border` - DaisyUI Text Input with Border
@@ -230,28 +340,71 @@ With this extension, you can quickly insert DaisyUI components and styles into y
 -   `du-input-text-md` - DaisyUI Text Input Medium
 -   `du-input-text-lg` - DaisyUI Text Input Large
 
-**Input Rating**
+**Input Rating** | [Demo](https://daisyui.com/components/rating/)
 
 -   `du-input-rating` - DaisyUI Input Rating
 
-**Input Select**
+**Input Select** | [Demo](https://daisyui.com/components/select/)
 
 -   `du-input-select` - DaisyUI Select Input
 -   `du-input-select-bordered`- DaisyUI Input Select Input with Border
 
-**Input Textarea**
+**Input Textarea** | [Demo](https://daisyui.com/components/textarea/)
 
 -   `du-input-textarea` - DaisyUI Textarea
 -   `du-input-textarea-bordered`- DaisyUI Input- Bordered Textarea
 
-**Toggle Input**
+**Toggle Input** | [Demo](https://daisyui.com/components/toggle/)
 
 -   `du-input-toggle` - DaisyUI Input Toggle
 -   `du-input-toggle-label`- DaisyUI Input Toggle with Label
 
-## More Coming Soon
+**Artboard:** | [Demo](https://daisyui.com/components/artboard/)
 
-More snippets are coming soon. If you have any suggestions for snippets you'd like to see, please [open an issue on GitHub](https://github.com/emranweb/daisyui-snippet)
+-   `du-artboard` - DaisyUI Artboard
+-   `du-artboard-horizontal` - DaisyUI Horizontal Artboard
+
+**Divider:** | [Demo](https://daisyui.com/components/divider/)
+
+-   `du-divider` - DaisyUI Divider
+-   `du-divider-neutral` - DaisyUI Neutral Divider
+
+**Drawer:** | [Demo](https://daisyui.com/components/drawer/)
+
+-   `du-drawer` - DaisyUI Drawer
+
+**Footer:** | [Demo](https://daisyui.com/components/footer/)
+
+-   `du-footer` - DaisyUI Footer
+-   `du-footer-logo` - DaisyUI Footer with Logo
+
+**Hero:** | [Demo](https://daisyui.com/components/hero/)
+
+-   `du-hero-center` - DaisyUI Hero
+
+**Indicator:** | [Demo](https://daisyui.com/components/indicator/)
+
+-   `du-indicator` - DaisyUI Indicator
+
+**Mask:** | [Demo](https://daisyui.com/components/mask/)
+
+-   `du-mask-squircle` - DaisyUI Mask Squircle
+
+**Stack:** | [Demo](https://daisyui.com/components/stack/)
+
+-   `du-stack` - DaisyUI Stack
+
+**Browser Mockup:** | [Demo](https://daisyui.com/components/browser-mockup/)
+
+-   `du-mockup-browser` - DaisyUI Browser Mockup
+
+**Code Mockup:** | [Demo](https://daisyui.com/components/code-mockup/)
+
+-   `du-mockup-code` - DaisyUI Code Mockup
+
+**Phone Mockup:** | [Demo](https://daisyui.com/components/phone-mockup/)
+
+-   `du-mockup-phone` - DaisyUI Phone Mockup
 
 ## Installation
 
@@ -281,7 +434,7 @@ If you encounter any issues or have suggestions for improvements, please [report
 
 DaisyUI is a UI framework built on top of Tailwind CSS, designed to improve your development workflow by providing a set of customizable components and utilities.
 
-Learn more about DaisyUI on [GitHub](https://github.com/emranweb/daisyui-snippet).
+Learn more about DaisyUI on [Website](https://daisyui.com/).
 
 ## Enjoy!
 
