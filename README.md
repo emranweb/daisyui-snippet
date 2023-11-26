@@ -8,7 +8,7 @@ With this extension, you can quickly insert DaisyUI components and styles into y
 
 ## Features
 
--   **DaisyUI Snippets**: Easily insert DaisyUI components with various styles and configurations into your code.
+**DaisyUI Snippets**: Easily insert DaisyUI components with various styles and configurations into your code.
 
 ## Snippets
 

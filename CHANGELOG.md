@@ -35,9 +35,34 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 -   **Bug Fixes**
 -   fix Change Log year
 -   fix Add Missing Button Size
-    **Features**
+-   **Features**
 -   Add Carousel
 -   Add File Input
 -   Add Radio Input
 -   Add Text Input
 -   Add Checkbox Input
+
+[0.0.5] - 23-23-11
+
+-   **Bug Fixes**
+    -Fix input border issue
+    -Fix input prefix issue
+
+-   **Features**
+    -Add Rating Input
+    -Add Select Input
+    -Add Textarea input
+    -Add toggle input
+
+[0.0.6] - 23-26-11
+
+-   **Bug Fixes**
+-   Fix `--` issue on accordion
+-   Fix Update from snippets prefix
+
+-   **Features**
+-   ADD all Data display components
+-   ADD all Navigation components
+-   ADD all Feedback components
+-   ADD all Layout components
+-   ADD all Mockup
