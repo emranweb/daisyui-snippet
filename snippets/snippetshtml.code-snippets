@@ -1,4 +1,5 @@
 {
+    // Buttons
     "DaisyUI Button": {
         "prefix": "du-btn",
         "body": ["<button class='btn'>Button</button>"],
@@ -49,6 +50,12 @@
         "body": ["<button class='btn btn-xs'>Extra Small</button>"],
         "description": "DaisyUI Extra Small Button"
     },
+    "DaisyUI Large Button": {
+        "prefix": "du-btn-lg",
+        "body": ["<button class=\"btn btn-lg\">Large</button>"],
+        "description": "DaisyUI Large Button"
+    },
+
     "DaisyUI Button Glass": {
         "prefix": "du-btn-glass",
         "body": ["<button class='btn glass'>Glass</button>"],
@@ -93,12 +100,14 @@
         ],
         "description": "DaisyUI Loading Button"
     },
+
+    // Dropdown Menu
     "DaisyUI Dropdown Menu": {
         "prefix": "du-dropdown-menu",
         "body": [
             "<div class=\"dropdown\">",
-            "  <label tabindex=\"0\" class=\"btn m-1\">Click</label>",
-            "  <ul tabindex=\"0\" class=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
+            "  <label tabindex={0} class=\"btn m-1\">Click</label>",
+            "  <ul tabindex={0} class=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
             "    <li><a>Item 1</a></li>",
             "    <li><a>Item 2</a></li>",
             "  </ul>",
@@ -107,11 +116,11 @@
         "description": "DaisyUI Dropdown Menu"
     },
     "DaisyUI Dropdown Align to End": {
-        "prefix": "du-dropdown-align-end",
+        "prefix": "du-dropdown-end",
         "body": [
             "<div class=\"dropdown dropdown-end\">",
-            "  <label tabindex=\"0\" class=\"btn m-1\">Click</label>",
-            "  <ul tabindex=\"0\" class=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
+            "  <label tabindex={0} class=\"btn m-1\">Click</label>",
+            "  <ul tabindex={0} class=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
             "    <li><a>Item 1</a></li>",
             "    <li><a>Item 2</a></li>",
             "  </ul>",
@@ -123,8 +132,8 @@
         "prefix": "du-dropdown-top",
         "body": [
             "<div class=\"dropdown dropdown-top\">",
-            "  <label tabindex=\"0\" class=\"btn m-1\">Click</label>",
-            "  <ul tabindex=\"0\" class=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
+            "  <label tabindex={0} class=\"btn m-1\">Click</label>",
+            "  <ul tabindex={0} class=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
             "    <li><a>Item 1</a></li>",
             "    <li><a>Item 2</a></li>",
             "  </ul>",
@@ -133,11 +142,11 @@
         "description": "DaisyUI Dropdown Top"
     },
     "DaisyUI Dropdown Top Align to End": {
-        "prefix": "du-dropdown-top-align-end",
+        "prefix": "du-dropdown-top-end",
         "body": [
             "<div class=\"dropdown dropdown-top dropdown-end\">",
-            "  <label tabindex=\"0\" class=\"btn m-1\">Click</label>",
-            "  <ul tabindex=\"0\" class=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
+            "  <label tabindex={0} class=\"btn m-1\">Click</label>",
+            "  <ul tabindex={0} class=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
             "    <li><a>Item 1</a></li>",
             "    <li><a>Item 2</a></li>",
             "  </ul>",
@@ -149,8 +158,8 @@
         "prefix": "du-dropdown-bottom",
         "body": [
             "<div class=\"dropdown dropdown-bottom\">",
-            "  <label tabindex=\"0\" class=\"btn m-1\">Click</label>",
-            "  <ul tabindex=\"0\" class=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
+            "  <label tabindex={0} class=\"btn m-1\">Click</label>",
+            "  <ul tabindex={0} class=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
             "    <li><a>Item 1</a></li>",
             "    <li><a>Item 2</a></li>",
             "  </ul>",
@@ -159,11 +168,11 @@
         "description": "DaisyUI Dropdown Bottom"
     },
     "DaisyUI Dropdown Bottom Align to End": {
-        "prefix": "du-dropdown-bottom-align-end",
+        "prefix": "du-dropdown-bottom-end",
         "body": [
             "<div class=\"dropdown dropdown-bottom dropdown-end\">",
-            "  <label tabindex=\"0\" class=\"btn m-1\">Click</label>",
-            "  <ul tabindex=\"0\" class=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
+            "  <label tabindex={0} class=\"btn m-1\">Click</label>",
+            "  <ul tabindex={0} class=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
             "    <li><a>Item 1</a></li>",
             "    <li><a>Item 2</a></li>",
             "  </ul>",
@@ -175,8 +184,8 @@
         "prefix": "du-dropdown-left",
         "body": [
             "<div class=\"dropdown dropdown-left\">",
-            "  <label tabindex=\"0\" class=\"btn m-1\">Click</label>",
-            "  <ul tabindex=\"0\" class=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
+            "  <label tabindex={0} class=\"btn m-1\">Click</label>",
+            "  <ul tabindex={0} class=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
             "    <li><a>Item 1</a></li>",
             "    <li><a>Item 2</a></li>",
             "  </ul>",
@@ -185,11 +194,11 @@
         "description": "DaisyUI Dropdown Left"
     },
     "DaisyUI Dropdown Left Align to End": {
-        "prefix": "du-dropdown-left-align-end",
+        "prefix": "du-dropdown-left-end",
         "body": [
             "<div class=\"dropdown dropdown-left dropdown-end\">",
-            "  <label tabindex=\"0\" class=\"btn m-1\">Click</label>",
-            "  <ul tabindex=\"0\" class=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
+            "  <label tabindex={0} class=\"btn m-1\">Click</label>",
+            "  <ul tabindex={0} class=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
             "    <li><a>Item 1</a></li>",
             "    <li><a>Item 2</a></li>",
             "  </ul>",
@@ -201,8 +210,8 @@
         "prefix": "du-dropdown-right",
         "body": [
             "<div class=\"dropdown dropdown-right\">",
-            "  <label tabindex=\"0\" class=\"btn m-1\">Click</label>",
-            "  <ul tabindex=\"0\" class=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
+            "  <label tabindex={0} class=\"btn m-1\">Click</label>",
+            "  <ul tabindex={0} class=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
             "    <li><a>Item 1</a></li>",
             "    <li><a>Item 2</a></li>",
             "  </ul>",
@@ -211,11 +220,11 @@
         "description": "DaisyUI Dropdown Right"
     },
     "DaisyUI Dropdown Right Align to End": {
-        "prefix": "du-dropdown-right-align-end",
+        "prefix": "du-dropdown-right-end",
         "body": [
             "<div class=\"dropdown dropdown-right dropdown-end\">",
-            "  <label tabindex=\"0\" class=\"btn m-1\">Click</label>",
-            "  <ul tabindex=\"0\" class=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
+            "  <label tabindex={0} class=\"btn m-1\">Click</label>",
+            "  <ul tabindex={0} class=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
             "    <li><a>Item 1</a></li>",
             "    <li><a>Item 2</a></li>",
             "  </ul>",
@@ -223,17 +232,2824 @@
         ],
         "description": "DaisyUI Dropdown Right Align to End"
     },
+
     "DaisyUI Dropdown Hover": {
         "prefix": "du-dropdown-hover",
         "body": [
             "<div class=\"dropdown dropdown-hover\">",
-            "  <label tabindex=\"0\" class=\"btn m-1\">Hover</label>",
-            "  <ul tabindex=\"0\" class=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
+            "  <label tabindex={0} class=\"btn m-1\">Hover</label>",
+            "  <ul tabindex={0} class=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
             "    <li><a>Item 1</a></li>",
             "    <li><a>Item 2</a></li>",
             "  </ul>",
             "</div>"
         ],
         "description": "DaisyUI Dropdown Hover"
+    },
+    "DaisyUI Dropdown Force Open": {
+        "prefix": "du-dropdown-force-open",
+        "body": [
+            "<div class=\"dropdown dropdown-open\">",
+            "  <label tabindex={0} class=\"btn m-1\">Button</label>",
+            "  <ul tabindex={0} class=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
+            "    <li><a>Item 1</a></li>",
+            "    <li><a>Item 2</a></li>",
+            "  </ul>",
+            "</div>"
+        ],
+        "description": "DaisyUI Dropdown Force Open"
+    },
+    "DaisyUI Dropdown as Card": {
+        "prefix": "du-dropdown-as-card",
+        "body": [
+            "<div class=\"dropdown\">",
+            "  <label tabindex={0} class=\"btn m-1\">Click</label>",
+            "  <div tabindex={0} class=\"dropdown-content z-[1] card card-compact w-64 p-2 shadow bg-primary text-primary-content\">",
+            "    <div class=\"card-body\">",
+            "      <h3 class=\"card-title\">Card title!</h3>",
+            "      <p>you can use any element as a dropdown.</p>",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Dropdown as Card"
+    },
+    "DaisyUI Dropdown in Navbar": {
+        "prefix": "du-dropdown-in-navbar",
+        "body": [
+            "<div class=\"navbar bg-base-300 rounded-box\">",
+            "  <div class=\"flex-1 px-2 lg:flex-none\">",
+            "    <a class=\"text-lg font-bold\">daisyUI</a>",
+            "  </div>",
+            "  <div class=\"flex justify-end flex-1 px-2\">",
+            "    <div class=\"flex items-stretch\">",
+            "      <a class=\"btn btn-ghost rounded-btn\">Button</a>",
+            "      <div class=\"dropdown dropdown-end\">",
+            "        <label tabindex={0} class=\"btn btn-ghost rounded-btn\">Dropdown</label>",
+            "        <ul tabindex={0} class=\"menu dropdown-content z-[1] p-2 shadow bg-base-100 rounded-box w-52 mt-4\">",
+            "          <li><a>Item 1</a></li>",
+            "          <li><a>Item 2</a></li>",
+            "        </ul>",
+            "      </div>",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Dropdown in Navbar"
+    },
+    "DaisyUI Helper Dropdown": {
+        "prefix": "du-dropdown-helper",
+        "body": [
+            "<div class=\"dropdown\">",
+            "  <label tabindex={0} class=\"btn m-1\">Helper Dropdown</label>",
+            "  <ul tabindex={0} class=\"dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52\">",
+            "    <li><a>Item 1</a></li>",
+            "    <li><a>Item 2</a></li>",
+            "  </ul>",
+            "</div>"
+        ],
+        "description": "DaisyUI Helper Dropdown"
+    },
+    // Modal
+    "DaisyUI Dialog Modal": {
+        "prefix": "du-modal-dialog",
+        "body": [
+            "<button class=\"btn\" onClick={() => document.getElementById('my_modal_1').showModal()}>open modal</button>",
+            "<dialog id=\"my_modal_1\" class=\"modal\">",
+            "  <div class=\"modal-box\">",
+            "    <h3 class=\"font-bold text-lg\">Hello!</h3>",
+            "    <p class=\"py-4\">Press ESC key or click the button below to close</p>",
+            "    <div class=\"modal-action\">",
+            "      <form method=\"dialog\">",
+            "        <button class=\"btn\">Close</button>",
+            "      </form>",
+            "    </div>",
+            "  </div>",
+            "</dialog>"
+        ],
+        "description": "DaisyUI Dialog Modal"
+    },
+    "DaisyUI Dialog Modal Closes When Clicked Outside": {
+        "prefix": "du-modal-dialog-outside-close",
+        "body": [
+            "<button class=\"btn\" onClick={() => document.getElementById('my_modal_2').showModal()}>open modal</button>",
+            "<dialog id=\"my_modal_2\" class=\"modal\">",
+            "  <div class=\"modal-box\">",
+            "    <h3 class=\"font-bold text-lg\">Hello!</h3>",
+            "    <p class=\"py-4\">Press ESC key or click outside to close</p>",
+            "  </div>",
+            "  <form method=\"dialog\" class=\"modal-backdrop\">",
+            "    <button>close</button>",
+            "  </form>",
+            "</dialog>"
+        ],
+        "description": "DaisyUI Dialog Modal Closes When Clicked Outside"
+    },
+    "DaisyUI Dialog Modal with Close Button at Corner": {
+        "prefix": "du-modal-dialog-corner-close",
+        "body": [
+            "<button class=\"btn\" onClick={() => document.getElementById('my_modal_3').showModal()}>open modal</button>",
+            "<dialog id=\"my_modal_3\" class=\"modal\">",
+            "  <div class=\"modal-box\">",
+            "    <form method=\"dialog\">",
+            "      <button class=\"btn btn-sm btn-circle btn-ghost absolute right-2 top-2\">✕</button>",
+            "    </form>",
+            "    <h3 class=\"font-bold text-lg\">Hello!</h3>",
+            "    <p class=\"py-4\">Press ESC key or click on ✕ button to close</p>",
+            "  </div>",
+            "</dialog>"
+        ],
+        "description": "DaisyUI Dialog Modal with Close Button at Corner"
+    },
+    "DaisyUI Dialog Modal with Custom Width": {
+        "prefix": "du-modal-dialog-custom-width",
+        "body": [
+            "<button class=\"btn\" onClick={() => document.getElementById('my_modal_4').showModal()}>open modal</button>",
+            "<dialog id=\"my_modal_4\" class=\"modal\">",
+            "  <div class=\"modal-box w-11/12 max-w-5xl\">",
+            "    <h3 class=\"font-bold text-lg\">Hello!</h3>",
+            "    <p class=\"py-4\">Click the button below to close</p>",
+            "    <div class=\"modal-action\">",
+            "      <form method=\"dialog\">",
+            "        <button class=\"btn\">Close</button>",
+            "      </form>",
+            "    </div>",
+            "  </div>",
+            "</dialog>"
+        ],
+        "description": "DaisyUI Dialog Modal with Custom Width"
+    },
+    "DaisyUI Dialog Modal Responsive": {
+        "prefix": "du-modal-dialog-responsive",
+        "body": [
+            "<button class=\"btn\" onClick={() => document.getElementById('my_modal_5').showModal()}>open modal</button>",
+            "<dialog id=\"my_modal_5\" class=\"modal modal-bottom sm:modal-middle\">",
+            "  <div class=\"modal-box\">",
+            "    <h3 class=\"font-bold text-lg\">Hello!</h3>",
+            "    <p class=\"py-4\">Press ESC key or click the button below to close</p>",
+            "    <div class=\"modal-action\">",
+            "      <form method=\"dialog\">",
+            "        <button class=\"btn\">Close</button>",
+            "      </form>",
+            "    </div>",
+            "  </div>",
+            "</dialog>"
+        ],
+        "description": "DaisyUI Dialog Modal Responsive"
+    },
+    "DaisyUI Dialog Modal Using Label + Hidden Checkbox": {
+        "prefix": "du-modal-checkbox",
+        "body": [
+            "<label for=\"my_modal_6\" class=\"btn\">open modal</label>",
+            "<input type=\"checkbox\" id=\"my_modal_6\" class=\"modal-toggle\" />",
+            "<div class=\"modal\" role=\"dialog\">",
+            "  <div class=\"modal-box\">",
+            "    <h3 class=\"font-bold text-lg\">Hello!</h3>",
+            "    <p class=\"py-4\">This modal works with a hidden checkbox!</p>",
+            "    <div class=\"modal-action\">",
+            "      <label for=\"my_modal_6\" class=\"btn\">Close!</label>",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Dialog Modal Using Label + Hidden Checkbox"
+    },
+    "DaisyUI Dialog Modal Closes When Clicked Outside Using Label + Hidden Checkbox": {
+        "prefix": "du-modal-checkbox-outside-close",
+        "body": [
+            "<label for=\"my_modal_7\" class=\"btn\">open modal</label>",
+            "<input type=\"checkbox\" id=\"my_modal_7\" class=\"modal-toggle\" />",
+            "<div class=\"modal\" role=\"dialog\">",
+            "  <div class=\"modal-box\">",
+            "    <h3 class=\"text-lg font-bold\">Hello!</h3>",
+            "    <p class=\"py-4\">This modal works with a hidden checkbox!</p>",
+            "  </div>",
+            "  <label class=\"modal-backdrop\" for=\"my_modal_7\">Close</label>",
+            "</div>"
+        ],
+        "description": "DaisyUI Dialog Modal Closes When Clicked Outside Using Label + Hidden Checkbox"
+    },
+    "DaisyUI Dialog Modal Using Anchor Link": {
+        "prefix": "du-modal-anchor-link",
+        "body": [
+            "<a href=\"#my_modal_8\" class=\"btn\">open modal</a>",
+            "<div class=\"modal\" role=\"dialog\" id=\"my_modal_8\">",
+            "  <div class=\"modal-box\">",
+            "    <h3 class=\"font-bold text-lg\">Hello!</h3>",
+            "    <p class=\"py-4\">This modal works with anchor links</p>",
+            "    <div class=\"modal-action\">",
+            "      <a href=\"#\" class=\"btn\">Yay!</a>",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Dialog Modal Using Anchor Link"
+    },
+
+    // Swap Text
+    "DaisyUI Swap Text": {
+        "prefix": "du-swap-text",
+        "body": [
+            "<label class=\"swap\">",
+            "  <input type=\"checkbox\" />",
+            "  <div class=\"swap-on\">ON</div>",
+            "  <div class=\"swap-off\">OFF</div>",
+            "</label>"
+        ],
+        "description": "DaisyUI Swap Text"
+    },
+    "DaisyUI Swap Volume Icons": {
+        "prefix": "du-swap-volume-icons",
+        "body": [
+            "<label class=\"swap\">",
+            "  <input type=\"checkbox\" />",
+            "  <svg class=\"swap-on fill-current\" xmlns=\"http://www.w3.org/2000/svg\" width=\"48\" height=\"48\" viewBox=\"0 0 24 24\"><path d=\"M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12</path></svg>",
+            "  <svg class=\"swap-off fill-current\" xmlns=\"http://www.w3.org/2000/svg\" width=\"48\" height=\"48\" viewBox=\"0 0 24 24\"><path d=\"M3,9V15H7L12,20V4L7,9H3Z\"/></svg>",
+            "</label>"
+        ],
+        "description": "Swap Volume Icons"
+    },
+    "DaisyUI Swap Icons with Rotate Effect": {
+        "prefix": "du-swap-icons-rotate",
+        "body": [
+            "<label class=\"swap swap-rotate\">",
+            "  <input type=\"checkbox\" />",
+            "  <svg class=\"swap-on fill-current w-10 h-10\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M5.64,17l-.71.71a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0l.71-.71A1,1,0,0,0,5.64,17ZM5,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H4A1,1,0,0,0,5,12Zm7-7a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V4A1,1,0,0,0,12,5ZM5.64,7.05a1,1,0,0,0,.7.29,1,1,0,0,0,.71-.29,1,1,0,0,0,0-1.41l-.71-.71A1,1,0,0,0,4.93,6.34Zm12,.29a1,1,0,0,0,.7-.29l.71-.71a1,1,0,1,0-1.41-1.41L17,5.64a1,1,0,0,0,0,1.41A1,1,0,0,0,17.66,7.34ZM21,11H20a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm-9,8a1,1,0,0,0-1,1v1a1,1,0,0,0,2,0V20A1,1,0,0,0,12,19ZM18.36,17A1,1,0,0,0,17,18.36l.71.71a1,1,0,0,0,1.41,0,1,1,0,0,0,0-1.41ZM12,6.5A5.5,5.5,0,1,0,17.5,12,5.51,5.51,0,0,0,12,6.5Zm0,9A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z\"/></svg>",
+            "  <svg class=\"swap-off fill-current w-10 h-10\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z\"/></svg>",
+            "</label>"
+        ],
+        "description": "DaisyUI Swap Icons with Rotate Effect"
+    },
+    "DaisyUI Hamburger Button": {
+        "prefix": "du-swap-hamburger-button",
+        "body": [
+            "<label class=\"btn btn-circle swap swap-rotate\">",
+            "  <input type=\"checkbox\" />",
+            "  <svg class=\"swap-off fill-current\" xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" viewBox=\"0 0 512 512\"><path d=\"M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z\"/></svg>",
+            "  <svg class=\"swap-on fill-current\" xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" viewBox=\"0 0 512 512\"><polygon points=\"400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49\"/></svg>",
+            "</label>"
+        ],
+        "description": "DaisyUI Hamburger Button"
+    },
+    "DaisyUI Swap Icons with Flip Effect": {
+        "prefix": "du-swap-icons-flip",
+        "body": [
+            "<label class=\"swap swap-flip text-9xl\">",
+            "  <input type=\"checkbox\" />",
+            "  <div class=\"swap-on\">😈</div>",
+            "  <div class=\"swap-off\">😇</div>",
+            "</label>"
+        ],
+        "description": "DaisyUI Swap Icons with Flip Effect"
+    },
+    "DaisyUI Activate using class name instead of checkbox": {
+        "prefix": "du-swap-class-name",
+        "body": [
+            "<label class=\"swap text-6xl\">",
+            "  <div class=\"swap-on\">🥵</div>",
+            "  <div class=\"swap-off\">🥶</div>",
+            "</label>",
+            "<label class=\"swap swap-active text-6xl\">",
+            "  <div class=\"swap-on\">🥳</div>",
+            "  <div class=\"swap-off\">😭</div>",
+            "</label>"
+        ],
+        "description": "DaisyUI Activate using class name instead of checkbox"
+    },
+    // Theme Controller
+    "DaisyUI Theme Controller using a toggle": {
+        "prefix": "du-theme-toggle",
+        "body": [
+            "<input type=\"checkbox\" value=\"synthwave\" class=\"toggle theme-controller\"/>"
+        ],
+        "description": "DaisyUI Theme Controller using a toggle"
+    },
+    "DaisyUI Theme Controller using a checkbox": {
+        "prefix": "du-theme-checkbox",
+        "body": [
+            "<input type=\"checkbox\" value=\"synthwave\" class=\"checkbox theme-controller\"/>"
+        ],
+        "description": "DaisyUI Theme Controller using a checkbox"
+    },
+    "DaisyUI Theme Controller using a swap": {
+        "prefix": "du-theme-swap",
+        "body": [
+            "<label class=\"swap swap-rotate\">",
+            "  {/* this hidden checkbox controls the state */}",
+            "  <input type=\"checkbox\" class=\"theme-controller\" value=\"synthwave\" />",
+            "  {/* sun icon */}",
+            "  <svg class=\"swap-on fill-current w-10 h-10\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M5.64,17l-.71.71a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0l.71-.71A1,1,0,0,0,5.64,17ZM5,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H4A1,1,0,0,0,5,12Zm7-7a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V4A1,1,0,0,0,12,5ZM5.64,7.05a1,1,0,0,0,.7.29,1,1,0,0,0,.71-.29,1,1,0,0,0,0-1.41l-.71-.71A1,1,0,0,0,4.93,6.34Zm12,.29a1,1,0,0,0,.7-.29l.71-.71a1,1,0,1,0-1.41-1.41L17,5.64a1,1,0,0,0,0,1.41A1,1,0,0,0,17.66,7.34ZM21,11H20a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm-9,8a1,1,0,0,0-1,1v1a1,1,0,0,0,2,0V20A1,1,0,0,0,12,19ZM18.36,17A1,1,0,0,0,17,18.36l.71.71a1,1,0,0,0,1.41,0,1,1,0,0,0,0-1.41ZM12,6.5A5.5,5.5,0,1,0,17.5,12,5.51,5.51,0,0,0,12,6.5Zm0,9A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z\"/></svg>",
+            "  {/* moon icon */}",
+            "  <svg class=\"swap-off fill-current w-10 h-10\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z\"/></svg>",
+            "</label>"
+        ],
+        "description": "DaisyUI Theme Controller using a swap"
+    },
+    "DaisyUI Theme Controller using a toggle with text": {
+        "prefix": "du-theme-toggle-text",
+        "body": [
+            "<label class=\"flex cursor-pointer gap-2\">",
+            "  <span class=\"label-text\">Current</span> ",
+            "  <input type=\"checkbox\" value=\"synthwave\" class=\"toggle theme-controller\"/>",
+            "  <span class=\"label-text\">Synthwave</span> ",
+            "</label>"
+        ],
+        "description": "DaisyUI Theme Controller using a toggle with text"
+    },
+    "DaisyUI Theme Controller using a toggle with icons": {
+        "prefix": "du-theme-toggle-icons",
+        "body": [
+            "<label class=\"flex cursor-pointer gap-2\">",
+            "  <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"5\"/><path d=\"M12 1v2M12 21v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M1 12h2M21 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4\"/></svg>",
+            "  <input type=\"checkbox\" value=\"synthwave\" class=\"toggle theme-controller\"/>",
+            "  <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\"><path d=\"M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z\"></path></svg>",
+            "</label>"
+        ],
+        "description": "DaisyUI Theme Controller using a toggle with icons"
+    },
+    "DaisyUI Theme Controller using a toggle with icons inside": {
+        "prefix": "du-theme-toggle-icons-inside",
+        "body": [
+            "<label class=\"cursor-pointer grid place-items-center\">",
+            "  <input type=\"checkbox\" value=\"synthwave\" class=\"toggle theme-controller bg-base-content row-start-1 col-start-1 col-span-2\"/>",
+            "  <svg class=\"col-start-1 row-start-1 stroke-base-100 fill-base-100\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"5\"/><path d=\"M12 1v2M12 21v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M1 12h2M21 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4\"/></svg>",
+            "  <svg class=\"col-start-2 row-start-1 stroke-base-100 fill-base-100\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\"><path d=\"M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z\"></path></svg>",
+            "</label>"
+        ],
+        "description": "Theme Controller using a toggle with icons inside"
+    },
+    "DaisyUI Theme Controller using a toggle with custom colors": {
+        "prefix": "du-theme-toggle-custom-colors",
+        "body": [
+            "<input type=\"checkbox\" value=\"synthwave\" class=\"toggle theme-controller bg-amber-300 border-sky-400 [--tglbg:theme(colors.sky.500)] checked:bg-blue-300 checked:border-blue-800 checked:[--tglbg:theme(colors.blue.900)] row-start-1 col-start-1 col-span-2\"/>"
+        ],
+        "description": "DaisyUI Theme Controller using a toggle with custom colors"
+    },
+    "DaisyUI Theme Controller using a radio input": {
+        "prefix": "du-theme-radio-input",
+        "body": [
+            "<div class=\"form-control\">",
+            "  <label class=\"label cursor-pointer gap-4\">",
+            "    <span class=\"label-text\">Default</span>",
+            "    <input type=\"radio\" name=\"theme-radios\" class=\"radio theme-controller\" value=\"default\"/>",
+            "  </label>",
+            "</div>",
+            "<div class=\"form-control\">",
+            "  <label class=\"label cursor-pointer gap-4\">",
+            "    <span class=\"label-text\">Retro</span>",
+            "    <input type=\"radio\" name=\"theme-radios\" class=\"radio theme-controller\" value=\"retro\"/>",
+            "  </label>",
+            "</div>",
+            "<div class=\"form-control\">",
+            "  <label class=\"label cursor-pointer gap-4\">",
+            "    <span class=\"label-text\">Cyberpunk</span>",
+            "    <input type=\"radio\" name=\"theme-radios\" class=\"radio theme-controller\" value=\"cyberpunk\"/>",
+            "  </label>",
+            "</div>",
+            "<div class=\"form-control\">",
+            "  <label class=\"label cursor-pointer gap-4\">",
+            "    <span class=\"label-text\">Valentine</span>",
+            "    <input type=\"radio\" name=\"theme-radios\" class=\"radio theme-controller\" value=\"valentine\"/>",
+            "  </label>",
+            "</div>",
+            "<div class=\"form-control\">",
+            "  <label class=\"label cursor-pointer gap-4\">",
+            "    <span class=\"label-text\">Aqua</span>",
+            "    <input type=\"radio\" name=\"theme-radios\" class=\"radio theme-controller\" value=\"aqua\"/>",
+            "  </label>",
+            "</div>"
+        ],
+        "description": "DaisyUI Theme Controller using a radio input"
+    },
+    "DaisyUI Theme Controller using a radio button": {
+        "prefix": "du-theme-radio-button",
+        "body": [
+            "<div class=\"join join-vertical\">",
+            "  <input type=\"radio\" name=\"theme-buttons\" class=\"btn theme-controller join-item\" aria-label=\"Default\" value=\"default\"/>",
+            "  <input type=\"radio\" name=\"theme-buttons\" class=\"btn theme-controller join-item\" aria-label=\"Retro\" value=\"retro\"/>",
+            "  <input type=\"radio\" name=\"theme-buttons\" class=\"btn theme-controller join-item\" aria-label=\"Cyberpunk\" value=\"cyberpunk\"/>",
+            "  <input type=\"radio\" name=\"theme-buttons\" class=\"btn theme-controller join-item\" aria-label=\"Valentine\" value=\"valentine\"/>",
+            "  <input type=\"radio\" name=\"theme-buttons\" class=\"btn theme-controller join-item\" aria-label=\"Aqua\" value=\"aqua\"/>",
+            "</div>"
+        ],
+        "description": "DaisyUI Theme Controller using a radio button"
+    },
+    // Accordion
+
+    "DaisyUI Accordion using radio inputs": {
+        "prefix": "du-accordion-radio",
+        "body": [
+            "<div class=\"collapse bg-base-200\">",
+            "  <input type=\"radio\" name=\"my-accordion-1\" checked=\"checked\" />",
+            "  <div class=\"collapse-title text-xl font-medium\">",
+            "    Click to open this one and close others",
+            "  </div>",
+            "  <div class=\"collapse-content\">",
+            "    <p>hello</p>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Accordion using radio inputs"
+    },
+    "DaisyUI Accordion with arrow icon": {
+        "prefix": "du-accordion-arrow",
+        "body": [
+            "<div class=\"collapse collapse-arrow bg-base-200\">",
+            "  <input type=\"radio\" name=\"my-accordion-2\" checked=\"checked\" />",
+            "  <div class=\"collapse-title text-xl font-medium\">",
+            "    Click to open this one and close others",
+            "  </div>",
+            "  <div class=\"collapse-content\">",
+            "    <p>hello</p>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Accordion with arrow icon"
+    },
+    "DaisyUI Accordion with plus/minus icon": {
+        "prefix": "du-accordion-plus-minus",
+        "body": [
+            "<div class=\"collapse collapse-plus bg-base-200\">",
+            "  <input type=\"radio\" name=\"my-accordion-3\" checked=\"checked\" />",
+            "  <div class=\"collapse-title text-xl font-medium\">",
+            "    Click to open this one and close others",
+            "  </div>",
+            "  <div class=\"collapse-content\">",
+            "    <p>hello</p>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Accordion with plus/minus icon"
+    },
+    "DaisyUI Using Accordion and Join together": {
+        "prefix": "du-accordion-join",
+        "body": [
+            "<div class=\"join join-vertical w-full\">",
+            "  <div class=\"collapse collapse-arrow join-item border border-base-300\">",
+            "    <input type=\"radio\" name=\"my-accordion-4\" checked=\"checked\" />",
+            "    <div class=\"collapse-title text-xl font-medium\">",
+            "      Click to open this one and close others",
+            "    </div>",
+            "    <div class=\"collapse-content\">",
+            "      <p>hello</p>",
+            "    </div>",
+            "  </div>",
+            "  <div class=\"collapse collapse-arrow join-item border border-base-300\">",
+            "    <input type=\"radio\" name=\"my-accordion-4\" />",
+            "    <div class=\"collapse-title text-xl font-medium\">",
+            "      Click to open this one and close others",
+            "    </div>",
+            "    <div class=\"collapse-content\">",
+            "      <p>hello</p>",
+            "    </div>",
+            "  </div>",
+            "  <div class=\"collapse collapse-arrow join-item border border-base-300\">",
+            "    <input type=\"radio\" name=\"my-accordion-4\" />",
+            "    <div class=\"collapse-title text-xl font-medium\">",
+            "      Click to open this one and close others",
+            "    </div>",
+            "    <div class=\"collapse-content\">",
+            "      <p>hello</p>",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Using Accordion and Join together"
+    },
+
+    // Avatar
+    "DaisyUI Avatar": {
+        "prefix": "du-avatar",
+        "body": [
+            "<div class=\"avatar\">",
+            "  <div class=\"w-24 rounded\">",
+            "    <img src=\"https://placehold.co/600x400\" />",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Avatar"
+    },
+    "DaisyUI Avatar in custom sizes": {
+        "prefix": "du-avatar-custom-sizes",
+        "body": [
+            "<div class=\"avatar\">",
+            "  <div class=\"w-32 rounded\">",
+            "    <img src=\"https://placehold.co/600x400\" />",
+            "  </div>",
+            "</div>",
+            "<div class=\"avatar\">",
+            "  <div class=\"w-20 rounded\">",
+            "    <img src=\"https://placehold.co/600x400\" alt=\"Tailwind-CSS-Avatar-component\" />",
+            "  </div>",
+            "</div>",
+            "<div class=\"avatar\">",
+            "  <div class=\"w-16 rounded\">",
+            "    <img src=\"https://placehold.co/600x400\" alt=\"Tailwind-CSS-Avatar-component\" />",
+            "  </div>",
+            "</div>",
+            "<div class=\"avatar\">",
+            "  <div class=\"w-8 rounded\">",
+            "    <img src=\"https://placehold.co/600x400\" alt=\"Tailwind-CSS-Avatar-component\" />",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Avatar in custom sizes"
+    },
+    "DaisyUI Avatar rounded": {
+        "prefix": "du-avatar-rounded",
+        "body": [
+            "<div class=\"avatar\">",
+            "  <div class=\"w-24 rounded-xl\">",
+            "    <img src=\"https://placehold.co/600x400\" />",
+            "  </div>",
+            "</div>",
+            "<div class=\"avatar\">",
+            "  <div class=\"w-24 rounded-full\">",
+            "    <img src=\"https://placehold.co/600x400\" />",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Avatar rounded"
+    },
+    "DaisyUI Avatar with mask": {
+        "prefix": "du-avatar-mask",
+        "body": [
+            "<div class=\"avatar\">",
+            "  <div class=\"w-24 mask mask-squircle\">",
+            "    <img src=\"https://placehold.co/600x400\" />",
+            "  </div>",
+            "</div>",
+            "<div class=\"avatar\">",
+            "  <div class=\"w-24 mask mask-hexagon\">",
+            "    <img src=\"https://placehold.co/600x400\" />",
+            "  </div>",
+            "</div>",
+            "<div class=\"avatar\">",
+            "  <div class=\"w-24 mask mask-triangle\">",
+            "    <img src=\"https://placehold.co/600x400\" />",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Avatar with mask"
+    },
+    "DaisyUI Avatar group": {
+        "prefix": "du-avatar-group",
+        "body": [
+            "<div class=\"avatar-group -space-x-6 rtl:space-x-reverse\">",
+            "  <div class=\"avatar\">",
+            "    <div class=\"w-12\">",
+            "      <img src=\"https://placehold.co/600x400\" />",
+            "    </div>",
+            "  </div>",
+            "  <div class=\"avatar\">",
+            "    <div class=\"w-12\">",
+            "      <img src=\"https://placehold.co/600x400\" />",
+            "    </div>",
+            "  </div>",
+            "  <div class=\"avatar\">",
+            "    <div class=\"w-12\">",
+            "      <img src=\"https://placehold.co/600x400\" />",
+            "    </div>",
+            "  </div>",
+            "  <div class=\"avatar\">",
+            "    <div class=\"w-12\">",
+            "      <img src=\"https://placehold.co/600x400\" />",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Avatar group"
+    },
+    "DaisyUI Avatar group with counter": {
+        "prefix": "du-avatar-group-counter",
+        "body": [
+            "<div class=\"avatar-group -space-x-6 rtl:space-x-reverse\">",
+            "  <div class=\"avatar\">",
+            "    <div class=\"w-12\">",
+            "      <img src=\"https://placehold.co/600x400\" />",
+            "    </div>",
+            "  </div>",
+            "  <div class=\"avatar\">",
+            "    <div class=\"w-12\">",
+            "      <img src=\"https://placehold.co/600x400\" />",
+            "    </div>",
+            "  </div>",
+            "  <div class=\"avatar\">",
+            "    <div class=\"w-12\">",
+            "      <img src=\"https://placehold.co/600x400\" />",
+            "    </div>",
+            "  </div>",
+            "  <div class=\"avatar placeholder\">",
+            "    <div class=\"w-12 bg-neutral text-neutral-content\">",
+            "      <span>+99</span>",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Avatar group with counter"
+    },
+    "DaisyUI Avatar with ring": {
+        "prefix": "du-avatar-ring",
+        "body": [
+            "<div class=\"avatar\">",
+            "  <div class=\"w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2\">",
+            "    <img src=\"https://placehold.co/600x400\" />",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Avatar with ring"
+    },
+    "DaisyUI Avatar with presence indicator": {
+        "prefix": "du-avatar-presence",
+        "body": [
+            "<div class=\"avatar online\">",
+            "  <div class=\"w-24 rounded-full\">",
+            "    <img src=\"https://placehold.co/600x400\" />",
+            "  </div>",
+            "</div>",
+            "<div class=\"avatar offline\">",
+            "  <div class=\"w-24 rounded-full\">",
+            "    <img src=\"https://placehold.co/600x400\" />",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Avatar with presence indicator"
+    },
+    "DaisyUI Avatar placeholder": {
+        "prefix": "du-avatar-placeholder",
+        "body": [
+            "<div class=\"avatar placeholder\">",
+            "  <div class=\"w-24 bg-neutral text-neutral-content\">",
+            "    <span>+99</span>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Avatar placeholder"
+    },
+    // badge
+
+    "DaisyUI Badge Default": {
+        "prefix": "du-badge-default",
+        "body": ["<div class=\"badge\">default</div>"],
+        "description": "DaisyUI Badge Default"
+    },
+    "DaisyUI Badge Neutral": {
+        "prefix": "du-badge-neutral",
+        "body": ["<div class=\"badge badge-neutral\">neutral</div>"],
+        "description": "DaisyUI Badge Neutral"
+    },
+    "DaisyUI Badge Primary": {
+        "prefix": "du-badge-primary",
+        "body": ["<div class=\"badge badge-primary\">primary</div>"],
+        "description": "DaisyUI Badge Primary"
+    },
+    "DaisyUI Badge Secondary": {
+        "prefix": "du-badge-secondary",
+        "body": ["<div class=\"badge badge-secondary\">secondary</div>"],
+        "description": "DaisyUI Badge Secondary"
+    },
+    "DaisyUI Badge Accent": {
+        "prefix": "du-badge-accent",
+        "body": ["<div class=\"badge badge-accent\">accent</div>"],
+        "description": "DaisyUI Badge Accent"
+    },
+    "DaisyUI Badge Ghost": {
+        "prefix": "du-badge-ghost",
+        "body": ["<div class=\"badge badge-ghost\">ghost</div>"],
+        "description": "DaisyUI Badge Ghost"
+    },
+    "DaisyUI Badge Outline Default": {
+        "prefix": "du-badge-outline-default",
+        "body": ["<div class=\"badge badge-outline\">default</div>"],
+        "description": "DaisyUI Badge Outline Default"
+    },
+    "DaisyUI Badge Outline Primary": {
+        "prefix": "du-badge-outline-primary",
+        "body": [
+            "<div class=\"badge badge-primary badge-outline\">primary</div>"
+        ],
+        "description": "DaisyUI Badge Outline Primary"
+    },
+    "DaisyUI Badge Outline Secondary": {
+        "prefix": "du-badge-outline-secondary",
+        "body": [
+            "<div class=\"badge badge-secondary badge-outline\">secondary</div>"
+        ],
+        "description": "DaisyUI Badge Outline Secondary"
+    },
+    "DaisyUI Badge Outline Accent": {
+        "prefix": "du-badge-outline-accent",
+        "body": [
+            "<div class=\"badge badge-accent badge-outline\">accent</div>"
+        ],
+        "description": "DaisyUI Badge Outline Accent"
+    },
+
+    "DaisyUI Badge Size Large": {
+        "prefix": "du-badge-lg",
+        "body": ["<div class=\"badge badge-lg\">987,654</div>"],
+        "description": "DaisyUI Badge Size Large"
+    },
+    "DaisyUI Badge Size Medium": {
+        "prefix": "du-badge-md",
+        "body": ["<div class=\"badge badge-md\">987,654</div>"],
+        "description": "DaisyUI Badge Size Medium"
+    },
+    "DaisyUI Badge Size Small": {
+        "prefix": "du-badge-sm",
+        "body": ["<div class=\"badge badge-sm\">987,654</div>"],
+        "description": "DaisyUI Badge Size Small"
+    },
+    "DaisyUI Badge Size Extra Small": {
+        "prefix": "du-badge-xs",
+        "body": ["<div class=\"badge badge-xs\">987,654</div>"],
+        "description": "DaisyUI Badge Size Extra Small"
+    },
+    "DaisyUI Empty Badge Size Large": {
+        "prefix": "du-empty-badge-lg",
+        "body": ["<div class=\"badge badge-primary badge-lg\"></div>"],
+        "description": "DaisyUI Empty Badge Size Large"
+    },
+    "DaisyUI Empty Badge Size Medium": {
+        "prefix": "du-empty-badge-md",
+        "body": ["<div class=\"badge badge-primary badge-md\"></div>"],
+        "description": "DaisyUI Empty Badge Size Medium"
+    },
+    "DaisyUI Empty Badge Size Small": {
+        "prefix": "du-empty-badge-sm",
+        "body": ["<div class=\"badge badge-primary badge-sm\"></div>"],
+        "description": "DaisyUI Empty Badge Size Small"
+    },
+    "DaisyUI Empty Badge Size Extra Small": {
+        "prefix": "du-empty-badge-xs",
+        "body": ["<div class=\"badge badge-primary badge-xs\"></div>"],
+        "description": "DaisyUI Empty Badge Size Extra Small"
+    },
+    "DaisyUI Badge Info": {
+        "prefix": "du-badge-info",
+        "body": [
+            "<div class=\"badge badge-info gap-2\">",
+            "  <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" class=\"inline-block w-4 h-4 stroke-current\"><path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M6 18L18 6M6 6l12 12\"></path></svg>",
+            "  info",
+            "</div>"
+        ],
+        "description": "DaisyUI Badge Info"
+    },
+    "DaisyUI Badge Success": {
+        "prefix": "du-badge-success",
+        "body": [
+            "<div class=\"badge badge-success gap-2\">",
+            "  <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" class=\"inline-block w-4 h-4 stroke-current\"><path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M6 18L18 6M6 6l12 12\"></path></svg>",
+            "  success",
+            "</div>"
+        ],
+        "description": "DaisyUI Badge Success"
+    },
+    "DaisyUI Badge Warning": {
+        "prefix": "du-badge-warning",
+        "body": [
+            "<div class=\"badge badge-warning gap-2\">",
+            "  <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" class=\"inline-block w-4 h-4 stroke-current\"><path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M6 18L18 6M6 6l12 12\"></path></svg>",
+            "  warning",
+            "</div>"
+        ],
+        "description": "DaisyUI Badge Warning"
+    },
+    "DaisyUI Badge Error": {
+        "prefix": "du-badge-error",
+        "body": [
+            "<div class=\"badge badge-error gap-2\">",
+            "  <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" class=\"inline-block w-4 h-4 stroke-current\"><path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M6 18L18 6M6 6l12 12\"></path></svg>",
+            "  error",
+            "</div>"
+        ],
+        "description": "DaisyUI Badge Error"
+    },
+    "DaisyUI Badge Text XL": {
+        "prefix": "du-badge-text-xl",
+        "body": [
+            "<h2 class=\"text-xl\">",
+            "  Heading",
+            "  <span class=\"badge badge-lg\">NEW</span>",
+            "</h2>"
+        ],
+        "description": "DaisyUI Badge Text XL"
+    },
+    "DaisyUI Badge Text LG": {
+        "prefix": "du-badge-text-lg",
+        "body": [
+            "<h3 class=\"text-lg\">",
+            "  Heading",
+            "  <span class=\"badge badge-md\">NEW</span>",
+            "</h3>"
+        ],
+        "description": "DaisyUI Badge Text LG"
+    },
+    "DaisyUI Badge Text Base": {
+        "prefix": "du-badge-text-base",
+        "body": [
+            "<h4 class=\"text-base\">",
+            "  Heading",
+            "  <span class=\"badge badge-sm\">NEW</span>",
+            "</h4>"
+        ],
+        "description": "DaisyUI Badge Text Base"
+    },
+    "DaisyUI Badge Text SM": {
+        "prefix": "du-badge-text-sm",
+        "body": [
+            "<h5 class=\"text-sm\">",
+            "  Heading",
+            "  <span class=\"badge badge-xs\">NEW</span>",
+            "</h5>"
+        ],
+        "description": "DaisyUI Badge Text SM"
+    },
+    "DaisyUI Badge Button": {
+        "prefix": "du-badge-button",
+        "body": [
+            "<button class=\"btn\">",
+            "  Inbox",
+            "  <div class=\"badge\">+99</div>",
+            "</button>"
+        ],
+        "description": "DaisyUI Badge Button"
+    },
+    "DaisyUI Badge Button Secondary": {
+        "prefix": "du-badge-button-secondary",
+        "body": [
+            "<button class=\"btn\">",
+            "  Inbox",
+            "  <div class=\"badge badge-secondary\">+99</div>",
+            "</button>"
+        ],
+        "description": "DaisyUI Badge Button Secondary"
+    },
+
+    // Card
+    "DaisyUI Card": {
+        "prefix": "du-card",
+        "body": [
+            "<div class=\"card w-96 bg-base-100 shadow-xl\">",
+            "  <figure><img src=\"https://placehold.co/600x400\" alt=\"Shoes\" /></figure>",
+            "  <div class=\"card-body\">",
+            "    <h2 class=\"card-title\">Shoes!</h2>",
+            "    <p>If a dog chews shoes whose shoes does he choose?</p>",
+            "    <div class=\"card-actions justify-end\">",
+            "      <button class=\"btn btn-primary\">Buy Now</button>",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Card"
+    },
+    "DaisyUI Compact Card": {
+        "prefix": "du-card-compact",
+        "body": [
+            "<div class=\"card card-compact w-96 bg-base-100 shadow-xl\">",
+            "  <figure><img src=\"https://placehold.co/600x400\" alt=\"Shoes\" /></figure>",
+            "  <div class=\"card-body\">",
+            "    <h2 class=\"card-title\">Shoes!</h2>",
+            "    <p>If a dog chews shoes whose shoes does he choose?</p>",
+            "    <div class=\"card-actions justify-end\">",
+            "      <button class=\"btn btn-primary\">Buy Now</button>",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Compact Card"
+    },
+    "DaisyUI Card with Badge": {
+        "prefix": "du-card-with-badge",
+        "body": [
+            "<div class=\"card w-96 bg-base-100 shadow-xl\">",
+            "  <figure><img src=\"https://placehold.co/600x400\" alt=\"Shoes\" /></figure>",
+            "  <div class=\"card-body\">",
+            "    <h2 class=\"card-title\">",
+            "      Shoes!",
+            "      <div class=\"badge badge-secondary\">NEW</div>",
+            "    </h2>",
+            "    <p>If a dog chews shoes whose shoes does he choose?</p>",
+            "    <div class=\"card-actions justify-end\">",
+            "      <div class=\"badge badge-outline\">Fashion</div>",
+            "      <div class=\"badge badge-outline\">Products</div>",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Card with Badge"
+    },
+    "DaisyUI Card with Bottom Image": {
+        "prefix": "du-card-with-bottom-image",
+        "body": [
+            "<div class=\"card w-96 bg-base-100 shadow-xl\">",
+            "  <div class=\"card-body\">",
+            "    <h2 class=\"card-title\">Shoes!</h2>",
+            "    <p>If a dog chews shoes whose shoes does he choose?</p>",
+            "  </div>",
+            "  <figure><img src=\"https://placehold.co/600x400\" alt=\"Shoes\" /></figure>",
+            "</div>"
+        ],
+        "description": "DaisyUI Card with Bottom Image"
+    },
+    "DaisyUI Card Centered Content": {
+        "prefix": "du-card-centered-content",
+        "body": [
+            "<div class=\"card w-96 bg-base-100 shadow-xl\">",
+            "  <figure class=\"px-10 pt-10\">",
+            "    <img src=\"https://placehold.co/600x400\" alt=\"Shoes\" class=\"rounded-xl\" />",
+            "  </figure>",
+            "  <div class=\"card-body items-center text-center\">",
+            "    <h2 class=\"card-title\">Shoes!</h2>",
+            "    <p>If a dog chews shoes whose shoes does he choose?</p>",
+            "    <div class=\"card-actions\">",
+            "      <button class=\"btn btn-primary\">Buy Now</button>",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Card with Centered Content"
+    },
+    "DaisyUI Card with Image Overlay": {
+        "prefix": "du-card-image-overlay",
+        "body": [
+            "<div class=\"card w-96 bg-base-100 shadow-xl image-full\">",
+            "  <figure><img src=\"https://placehold.co/600x400\" alt=\"Shoes\" /></figure>",
+            "  <div class=\"card-body\">",
+            "    <h2 class=\"card-title\">Shoes!</h2>",
+            "    <p>If a dog chews shoes whose shoes does he choose?</p>",
+            "    <div class=\"card-actions justify-end\">",
+            "      <button class=\"btn btn-primary\">Buy Now</button>",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Card with Image Overlay"
+    },
+    "DaisyUI Card with No Image": {
+        "prefix": "du-card-no-image",
+        "body": [
+            "<div class=\"card w-96 bg-base-100 shadow-xl\">",
+            "  <div class=\"card-body\">",
+            "    <h2 class=\"card-title\">Card title!</h2>",
+            "    <p>If a dog chews shoes whose shoes does he choose?</p>",
+            "    <div class=\"card-actions justify-end\">",
+            "      <button class=\"btn btn-primary\">Buy Now</button>",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Card with No Image"
+    },
+    "DaisyUI Card with Custom Color": {
+        "prefix": "du-card-custom-color",
+        "body": [
+            "<div class=\"card w-96 bg-primary text-primary-content\">",
+            "  <div class=\"card-body\">",
+            "    <h2 class=\"card-title\">Card title!</h2>",
+            "    <p>If a dog chews shoes whose shoes does he choose?</p>",
+            "    <div class=\"card-actions justify-end\">",
+            "      <button class=\"btn\">Buy Now</button>",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Card with Custom Color"
+    },
+    "DaisyUI Centered Card with Neutral Color": {
+        "prefix": "du-card-centered-neutral",
+        "body": [
+            "<div class=\"card w-96 bg-neutral text-neutral-content\">",
+            "  <div class=\"card-body items-center text-center\">",
+            "    <h2 class=\"card-title\">Cookies!</h2>",
+            "    <p>We are using cookies for no reason.</p>",
+            "    <div class=\"card-actions justify-end\">",
+            "      <button class=\"btn btn-primary\">Accept</button>",
+            "      <button class=\"btn btn-ghost\">Deny</button>",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Centered Card with Neutral Color"
+    },
+
+    "DaisyUI Card with Action on Top": {
+        "prefix": "du-card-action-on-top",
+        "body": [
+            "<div class=\"card w-96 bg-base-100 shadow-xl\">",
+            "  <div class=\"card-body\">",
+            "    <div class=\"card-actions justify-end\">",
+            "      <button class=\"btn btn-square btn-sm\">",
+            "        <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M6 18L18 6M6 6l12 12\" /></svg>",
+            "      </button>",
+            "    </div>",
+            "    <p>We are using cookies for no reason.</p>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Card with Action on Top"
+    },
+    "DaisyUI Card Glass": {
+        "prefix": "du-card-glass",
+        "body": [
+            "<div class=\"card w-96 glass\">",
+            "  <figure><img src=\"https://placehold.co/600x400\" alt=\"car!\"/></figure>",
+            "  <div class=\"card-body\">",
+            "    <h2 class=\"card-title\">Life hack</h2>",
+            "    <p>How to park your car at your garage?</p>",
+            "    <div class=\"card-actions justify-end\">",
+            "      <button class=\"btn btn-primary\">Learn now!</button>",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Card Glass"
+    },
+    "DaisyUI Card Side": {
+        "prefix": "du-card-side",
+        "body": [
+            "<div class=\"card card-side bg-base-100 shadow-xl\">",
+            "  <figure><img src=\"https://placehold.co/600x400\" alt=\"Movie\"/></figure>",
+            "  <div class=\"card-body\">",
+            "    <h2 class=\"card-title\">New movie is released!</h2>",
+            "    <p>Click the button to watch on Jetflix app.</p>",
+            "    <div class=\"card-actions justify-end\">",
+            "      <button class=\"btn btn-primary\">Watch</button>",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Card Side"
+    },
+    "DaisyUI Responsive Card": {
+        "prefix": "du-card-responsive",
+        "body": [
+            "<div class=\"card lg:card-side bg-base-100 shadow-xl\">",
+            "  <figure><img src=\"https://placehold.co/600x400\" alt=\"Album\"/></figure>",
+            "  <div class=\"card-body\">",
+            "    <h2 class=\"card-title\">New album is released!</h2>",
+            "    <p>Click the button to listen on Spotiwhy app.</p>",
+            "    <div class=\"card-actions justify-end\">",
+            "      <button class=\"btn btn-primary\">Listen</button>",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Responsive Card"
+    },
+
+    // Carousel
+    "DaisyUI Carousel Snap to start": {
+        "prefix": "du-carousel-snap-default",
+        "body": [
+            "<div class=\"carousel rounded-box\">",
+            "  <div class=\"carousel-item\">",
+            "    <img src=\"https://placehold.co/600x400\" alt=\"Burger\" />",
+            "  </div>",
+            "  <div class=\"carousel-item\">",
+            "    <img src=\"https://placehold.co/600x400\" alt=\"Burger\" />",
+            "  </div>",
+            "  <div class=\"carousel-item\">",
+            "    <img src=\"https://placehold.co/600x400\" alt=\"Burger\" />",
+            "  </div>",
+            "  <div class=\"carousel-item\">",
+            "    <img src=\"https://placehold.co/600x400\" alt=\"Burger\" />",
+            "  </div>",
+            "  <div class=\"carousel-item\">",
+            "    <img src=\"https://placehold.co/600x400\" alt=\"Burger\" />",
+            "  </div>",
+            "  <div class=\"carousel-item\">",
+            "    <img src=\"https://placehold.co/600x400\" alt=\"Burger\" />",
+            "  </div>",
+            "  <div class=\"carousel-item\">",
+            "    <img src=\"https://placehold.co/600x400\" alt=\"Burger\" />",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Carousel Snap to start (default)"
+    },
+    "DaisyUI Carousel Snap to center": {
+        "prefix": "du-carousel-snap-center",
+        "body": [
+            "<div class=\"carousel carousel-center rounded-box\">",
+            "  <div class=\"carousel-item\">",
+            "    <img src=\"https://placehold.co/600x400\" alt=\"Pizza\" />",
+            "  </div>",
+            "  <div class=\"carousel-item\">",
+            "    <img src=\"https://placehold.co/600x400\" alt=\"Pizza\" />",
+            "  </div>",
+            "  <div class=\"carousel-item\">",
+            "    <img src=\"https://placehold.co/600x400\" alt=\"Pizza\" />",
+            "  </div>",
+            "  <div class=\"carousel-item\">",
+            "    <img src=\"https://placehold.co/600x400\" alt=\"Pizza\" />",
+            "  </div>",
+            "  <div class=\"carousel-item\">",
+            "    <img src=\"https://placehold.co/600x400\" alt=\"Pizza\" />",
+            "  </div>",
+            "  <div class=\"carousel-item\">",
+            "    <img src=\"https://placehold.co/600x400\" alt=\"Pizza\" />",
+            "  </div>",
+            "  <div class=\"carousel-item\">",
+            "    <img src=\"https://placehold.co/600x400\" alt=\"Pizza\" />",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Carousel Snap to center"
+    },
+    "DaisyUI Carousel Snap to end": {
+        "prefix": "du-carousel-snap-end",
+        "body": [
+            "<div class=\"carousel carousel-end rounded-box\">",
+            "  <div class=\"carousel-item\">",
+            "    <img src=\"https://placehold.co/600x400\" alt=\"Drink\" />",
+            "  </div>",
+            "  <div class=\"carousel-item\">",
+            "    <img src=\"https://placehold.co/600x400\" alt=\"Drink\" />",
+            "  </div>",
+            "  <div class=\"carousel-item\">",
+            "    <img src=\"https://placehold.co/600x400\" alt=\"Drink\" />",
+            "  </div>",
+            "  <div class=\"carousel-item\">",
+            "    <img src=\"https://placehold.co/600x400\" alt=\"Drink\" />",
+            "  </div>",
+            "  <div class=\"carousel-item\">",
+            "    <img src=\"https://placehold.co/600x400\" alt=\"Drink\" />",
+            "  </div>",
+            "  <div class=\"carousel-item\">",
+            "    <img src=\"https://placehold.co/600x400\" alt=\"Drink\" />",
+            "  </div>",
+            "  <div class=\"carousel-item\">",
+            "    <img src=\"https://placehold.co/600x400\" alt=\"Drink\" />",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Carousel Snap to end"
+    },
+    "DaisyUI Carousel with full width items": {
+        "prefix": "du-carousel-full-width",
+        "body": [
+            "<div class=\"w-64 carousel rounded-box\">",
+            "  <div class=\"carousel-item w-full\">",
+            "    <img src=\"https://placehold.co/600x400\" class=\"w-full\" alt=\"Tailwind CSS Carousel component\" />",
+            "  </div>",
+            "  <div class=\"carousel-item w-full\">",
+            "    <img src=\"https://placehold.co/600x400\" class=\"w-full\" alt=\"Tailwind CSS Carousel component\" />",
+            "  </div>",
+            "  <div class=\"carousel-item w-full\">",
+            "    <img src=\"https://placehold.co/600x400\" class=\"w-full\" alt=\"Tailwind CSS Carousel component\" />",
+            "  </div>",
+            "  <div class=\"carousel-item w-full\">",
+            "    <img src=\"https://placehold.co/600x400\" class=\"w-full\" alt=\"Tailwind CSS Carousel component\" />",
+            "  </div>",
+            "  <div class=\"carousel-item w-full\">",
+            "    <img src=\"https://placehold.co/600x400\" class=\"w-full\" alt=\"Tailwind CSS Carousel component\" />",
+            "  </div>",
+            "  <div class=\"carousel-item w-full\">",
+            "    <img src=\"https://placehold.co/600x400\" class=\"w-full\" alt=\"Tailwind CSS Carousel component\" />",
+            "  </div>",
+            "  <div class=\"carousel-item w-full\">",
+            "    <img src=\"https://placehold.co/600x400\" class=\"w-full\" alt=\"Tailwind CSS Carousel component\" />",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Carousel with full width items"
+    },
+    "DaisyUI Vertical Carousel": {
+        "prefix": "du-carousel-vertical",
+        "body": [
+            "<div class=\"h-96 carousel carousel-vertical rounded-box\">",
+            "  <div class=\"carousel-item h-full\">",
+            "    <img src=\"https://placehold.co/600x400\" />",
+            "  </div>",
+            "  <div class=\"carousel-item h-full\">",
+            "    <img src=\"https://placehold.co/600x400\" />",
+            "  </div>",
+            "  <div class=\"carousel-item h-full\">",
+            "    <img src=\"https://placehold.co/600x400\" />",
+            "  </div>",
+            "  <div class=\"carousel-item h-full\">",
+            "    <img src=\"https://placehold.co/600x400\" />",
+            "  </div>",
+            "  <div class=\"carousel-item h-full\">",
+            "    <img src=\"https://placehold.co/600x400\" />",
+            "  </div>",
+            "  <div class=\"carousel-item h-full\">",
+            "    <img src=\"https://placehold.co/600x400\" />",
+            "  </div>",
+            "  <div class=\"carousel-item h-full\">",
+            "    <img src=\"https://placehold.co/600x400\" />",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Vertical Carousel"
+    },
+    "DaisyUI Carousel Half Width": {
+        "prefix": "du-carousel-half-width",
+        "body": [
+            "<div class=\"carousel rounded-box w-96\">",
+            "  <div class=\"carousel-item w-1/2\">",
+            "    <img src=\"https://placehold.co/600x400\" class=\"w-full\" />",
+            "  </div>",
+            "  <div class=\"carousel-item w-1/2\">",
+            "    <img src=\"https://placehold.co/600x400\" class=\"w-full\" />",
+            "  </div>",
+            "  <div class=\"carousel-item w-1/2\">",
+            "    <img src=\"https://placehold.co/600x400\" class=\"w-full\" />",
+            "  </div>",
+            "  <div class=\"carousel-item w-1/2\">",
+            "    <img src=\"https://placehold.co/600x400\" class=\"w-full\" />",
+            "  </div>",
+            "  <div class=\"carousel-item w-1/2\">",
+            "    <img src=\"https://placehold.co/600x400\" class=\"w-full\" />",
+            "  </div>",
+            "  <div class=\"carousel-item w-1/2\">",
+            "    <img src=\"https://placehold.co/600x400\" class=\"w-full\" />",
+            "  </div>",
+            "  <div class=\"carousel-item w-1/2\">",
+            "    <img src=\"https://placehold.co/600x400\" class=\"w-full\" />",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Carousel Half Width"
+    },
+    "DaisyUI Full-Bleed Carousel": {
+        "prefix": "du-carousel-full-bleed",
+        "body": [
+            "<div class=\"carousel carousel-center max-w-md p-4 space-x-4 bg-neutral rounded-box\">",
+            "  <div class=\"carousel-item\">",
+            "    <img src=\"https://placehold.co/600x400\" class=\"rounded-box\" />",
+            "  </div>",
+            "  <div class=\"carousel-item\">",
+            "    <img src=\"https://placehold.co/600x400\" class=\"rounded-box\" />",
+            "  </div>",
+            "  <div class=\"carousel-item\">",
+            "    <img src=\"https://placehold.co/600x400\" class=\"rounded-box\" />",
+            "  </div>",
+            "  <div class=\"carousel-item\">",
+            "    <img src=\"https://placehold.co/600x400\" class=\"rounded-box\" />",
+            "  </div>",
+            "  <div class=\"carousel-item\">",
+            "    <img src=\"https://placehold.co/600x400\" class=\"rounded-box\" />",
+            "  </div>",
+            "  <div class=\"carousel-item\">",
+            "    <img src=\"https://placehold.co/600x400\" class=\"rounded-box\" />",
+            "  </div>",
+            "  <div class=\"carousel-item\">",
+            "    <img src=\"https://placehold.co/600x400\" class=\"rounded-box\" />",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Full-Bleed Carousel"
+    },
+    "DaisyUI Carousel with Indicators": {
+        "prefix": "du-carousel-indicators",
+        "body": [
+            "<div class=\"carousel w-full\">",
+            "  <div id=\"item1\" class=\"carousel-item w-full\">",
+            "    <img src=\"https://placehold.co/600x400\" class=\"w-full\" />",
+            "  </div>",
+            "  <div id=\"item2\" class=\"carousel-item w-full\">",
+            "    <img src=\"https://placehold.co/600x400\" class=\"w-full\" />",
+            "  </div>",
+            "  <div id=\"item3\" class=\"carousel-item w-full\">",
+            "    <img src=\"https://placehold.co/600x400\" class=\"w-full\" />",
+            "  </div>",
+            "  <div id=\"item4\" class=\"carousel-item w-full\">",
+            "    <img src=\"https://placehold.co/600x400\" class=\"w-full\" />",
+            "  </div>",
+            "</div>",
+            "<div class=\"flex justify-center w-full py-2 gap-2\">",
+            "  <a href=\"#item1\" class=\"btn btn-xs\">1</a>",
+            "  <a href=\"#item2\" class=\"btn btn-xs\">2</a>",
+            "  <a href=\"#item3\" class=\"btn btn-xs\">3</a>",
+            "  <a href=\"#item4\" class=\"btn btn-xs\">4</a>",
+            "</div>"
+        ],
+        "description": "DaisyUI Carousel with Indicators"
+    },
+    "DaisyUI Carousel with Next/Prev Buttons": {
+        "prefix": "du-carousel-next-prev",
+        "body": [
+            "<div class=\"carousel w-full\">",
+            "  <div id=\"slide1\" class=\"carousel-item relative w-full\">",
+            "    <img src=\"https://placehold.co/600x400\" class=\"w-full\" />",
+            "    <div class=\"absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2\">",
+            "      <a href=\"#slide4\" class=\"btn btn-circle\">❮</a>",
+            "      <a href=\"#slide2\" class=\"btn btn-circle\">❯</a>",
+            "    </div>",
+            "  </div>",
+            "  <div id=\"slide2\" class=\"carousel-item relative w-full\">",
+            "    <img src=\"https://placehold.co/600x400\" class=\"w-full\" />",
+            "    <div class=\"absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2\">",
+            "      <a href=\"#slide1\" class=\"btn btn-circle\">❮</a>",
+            "      <a href=\"#slide3\" class=\"btn btn-circle\">❯</a>",
+            "    </div>",
+            "  </div>",
+            "  <div id=\"slide3\" class=\"carousel-item relative w-full\">",
+            "    <img src=\"https://placehold.co/600x400\" class=\"w-full\" />",
+            "    <div class=\"absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2\">",
+            "      <a href=\"#slide2\" class=\"btn btn-circle\">❮</a>",
+            "      <a href=\"#slide4\" class=\"btn btn-circle\">❯</a>",
+            "    </div>",
+            "  </div>",
+            "  <div id=\"slide4\" class=\"carousel-item relative w-full\">",
+            "    <img src=\"https://placehold.co/600x400\" class=\"w-full\" />",
+            "    <div class=\"absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2\">",
+            "      <a href=\"#slide3\" class=\"btn btn-circle\">❮</a>",
+            "      <a href=\"#slide1\" class=\"btn btn-circle\">❯</a>",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Carousel with Next/Prev Buttons"
+    },
+
+    // Chat Bubble
+
+    "DaisyUI Chat Bubble": {
+        "prefix": "du-chat-bubble",
+        "body": [
+            "<div class=\"chat chat-start\">",
+            "  <div class=\"chat-bubble\">$1</div>",
+            "</div>",
+            "<div class=\"chat chat-end\">",
+            "  <div class=\"chat-bubble\">$2</div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Chat Bubble"
+    },
+    "DaisyUI Chat with Image": {
+        "prefix": "du-chat-image",
+        "body": [
+            "<div class=\"chat chat-start\">",
+            "  <div class=\"chat-image avatar\">",
+            "    <div class=\"w-10 rounded-full\">",
+            "      <img alt=\"$1\" src=\"https://placehold.co/600x400\" />",
+            "    </div>",
+            "  </div>",
+            "  <div class=\"chat-bubble\">$3</div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Chat with Image"
+    },
+    // "DaisyUI Collapse {
+    "DaisyUI Collapse": {
+        "prefix": "du-collapse",
+        "body": [
+            "<div tabindex={0} class=\"collapse bg-base-200\">",
+            "  <div class=\"collapse-title text-xl font-medium\">",
+            "    $1",
+            "  </div>",
+            "  <div class=\"collapse-content\">",
+            "    $2",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Collapse"
+    },
+    "DaisyUI Collapse with Arrow": {
+        "prefix": "du-collapse-arrow",
+        "body": [
+            "<div tabindex={0} class=\"collapse collapse-arrow border border-base-300 bg-base-200\">",
+            "  <div class=\"collapse-title text-xl font-medium\">",
+            "    $1",
+            "  </div>",
+            "  <div class=\"collapse-content\">",
+            "    $2",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Collapse with Arrow"
+    },
+    // Countdown
+    "DaisyUI Countdown": {
+        "prefix": "du-countdown",
+        "body": [
+            "<span class=\"countdown\">",
+            "  <span style={\"--value\": $1}></span>",
+            "</span>"
+        ],
+        "description": "DaisyUI Countdown"
+    },
+    "DaisyUI Clock Countdown": {
+        "prefix": "du-countdown-clock",
+        "body": [
+            "<span class=\"countdown font-mono text-2xl\">",
+            "  <span style={\"--value\": $1}></span>:",
+            "  <span style={\"--value\": $2}></span>:",
+            "  <span style={\"--value\": $3}></span>",
+            "</span>"
+        ],
+        "description": "DaisyUI Clock Countdown"
+    },
+    // Diff
+    "DaisyUI Diff": {
+        "prefix": "du-diff-image",
+        "body": [
+            "<div class=\"diff aspect-[16/9]\">",
+            "  <div class=\"diff-item-1\">",
+            "    <img alt=\"$1\" src=\"https://placehold.co/600x400\" />",
+            "  </div>",
+            "  <div class=\"diff-item-2\">",
+            "    <img alt=\"$3\" src=\"https://placehold.co/600x400\" />",
+            "  </div>",
+            "  <div class=\"diff-resizer\"></div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Diff Image"
+    },
+
+    "DaisyUI Diff Text": {
+        "prefix": "du-diff-text",
+        "body": [
+            "<div class=\"diff aspect-[16/9]\">",
+            "  <div class=\"diff-item-1\">",
+            "    <div class=\"bg-primary text-primary-content text-9xl font-black grid place-content-center\">$1</div>",
+            "  </div>",
+            "  <div class=\"diff-item-2\">",
+            "    <div class=\"bg-base-200 text-9xl font-black grid place-content-center\">$2</div>",
+            "  </div>",
+            "  <div class=\"diff-resizer\"></div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Diff Text"
+    },
+
+    // KBD
+    "DaisyUI Kbd": {
+        "prefix": "du-kbd",
+        "body": ["<kbd class=\"kbd\">$1</kbd>"],
+        "description": "DaisyUI Kbd"
+    },
+    "DaisyUI Key Combination": {
+        "prefix": "du-key-combination",
+        "body": [
+            "<kbd class=\"kbd\">ctrl</kbd>",
+            "+",
+            "<kbd class=\"kbd\">shift</kbd>",
+            "+",
+            "<kbd class=\"kbd\">del</kbd>"
+        ],
+        "description": "DaisyUI Key Combination"
+    },
+
+    // Stat
+    "DaisyUI Stat": {
+        "prefix": "du-stat",
+        "body": [
+            "<div class=\"stats shadow\">",
+            "  <div class=\"stat\">",
+            "    <div class=\"stat-title\">Total Page Views</div>",
+            "    <div class=\"stat-value\">89,400</div>",
+            "    <div class=\"stat-desc\">21% more than last month</div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Stat"
+    },
+
+    "DaisyUI Stat with Icons or Images": {
+        "prefix": "du-stat-icons-image",
+        "body": [
+            "<div class=\"stats shadow\">",
+            "  <div class=\"stat\">",
+            "    <div class=\"stat-figure text-primary\">",
+            "      <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" class=\"inline-block w-8 h-8 stroke-current\"><path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z\"></path></svg>",
+            "    </div>",
+            "    <div class=\"stat-title\">Total Likes</div>",
+            "    <div class=\"stat-value text-primary\">25.6K</div>",
+            "    <div class=\"stat-desc\">21% more than last month</div>",
+            "  </div>",
+            "  ",
+            "  <div class=\"stat\">",
+            "    <div class=\"stat-figure text-secondary\">",
+            "      <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" class=\"inline-block w-8 h-8 stroke-current\"><path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M13 10V3L4 14h7v7l9-11h-7z\"></path></svg>",
+            "    </div>",
+            "    <div class=\"stat-title\">Page Views</div>",
+            "    <div class=\"stat-value text-secondary\">2.6M</div>",
+            "    <div class=\"stat-desc\">21% more than last month</div>",
+            "  </div>",
+            "  ",
+            "  <div class=\"stat\">",
+            "    <div class=\"stat-figure text-secondary\">",
+            "      <div class=\"avatar online\">",
+            "        <div class=\"w-16 rounded-full\">",
+            "          <img src=\"https://placehold.co/600x400\" />",
+            "        </div>",
+            "      </div>",
+            "    </div>",
+            "    <div class=\"stat-value\">86%</div>",
+            "    <div class=\"stat-title\">Tasks done</div>",
+            "    <div class=\"stat-desc text-secondary\">31 tasks remaining</div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Stat with Icons or Images"
+    },
+    // Table
+    "DaisyUI Table": {
+        "prefix": "du-table",
+        "body": [
+            "<div class=\"overflow-x-auto\">",
+            "  <table class=\"table\">",
+            "    {/* head */}",
+            "    <thead>",
+            "      <tr>",
+            "        <th></th>",
+            "        <th>Name</th>",
+            "        <th>Job</th>",
+            "        <th>Favorite Color</th>",
+            "      </tr>",
+            "    </thead>",
+            "    <tbody>",
+            "      {/* row 1 */}",
+            "      <tr>",
+            "        <th>1</th>",
+            "        <td>Cy Ganderton</td>",
+            "        <td>Quality Control Specialist</td>",
+            "        <td>Blue</td>",
+            "      </tr>",
+            "      {/* row 2 */}",
+            "      <tr>",
+            "        <th>2</th>",
+            "        <td>Hart Hagerty</td>",
+            "        <td>Desktop Support Technician</td>",
+            "        <td>Purple</td>",
+            "      </tr>",
+            "      {/* row 3 */}",
+            "      <tr>",
+            "        <th>3</th>",
+            "        <td>Brice Swyre</td>",
+            "        <td>Tax Accountant</td>",
+            "        <td>Red</td>",
+            "      </tr>",
+            "    </tbody>",
+            "  </table>",
+            "</div>"
+        ],
+        "description": "DaisyUI Table"
+    },
+    // Timeline
+    "DaisyUI Timeline": {
+        "prefix": "du-timeline",
+        "body": [
+            "<ul class=\"timeline\">",
+            "  <li>",
+            "    <div class=\"timeline-start\">1984</div>",
+            "    <div class=\"timeline-middle\">",
+            "      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\" class=\"w-5 h-5\"><path fillRule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z\" clipRule=\"evenodd\" /></svg>",
+            "    </div>",
+            "    <div class=\"timeline-end timeline-box\">First Macintosh computer</div>",
+            "    <hr/>",
+            "  </li>",
+            "  <li>",
+            "    <hr/>",
+            "    <div class=\"timeline-start\">1998</div>",
+            "    <div class=\"timeline-middle\">",
+            "      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\" class=\"w-5 h-5\"><path fillRule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z\" clipRule=\"evenodd\" /></svg>",
+            "    </div>",
+            "    <div class=\"timeline-end timeline-box\">iMac</div>",
+            "    <hr/>",
+            "  </li>",
+            "  <li>",
+            "    <hr/>",
+            "    <div class=\"timeline-start\">2001</div>",
+            "    <div class=\"timeline-middle\">",
+            "      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\" class=\"w-5 h-5\"><path fillRule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z\" clipRule=\"evenodd\" /></svg>",
+            "    </div>",
+            "    <div class=\"timeline-end timeline-box\">iPod</div>",
+            "    <hr/>",
+            "  </li>",
+            "  <li>",
+            "    <hr/>",
+            "    <div class=\"timeline-start\">2007</div>",
+            "    <div class=\"timeline-middle\">",
+            "      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\" class=\"w-5 h-5\"><path fillRule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z\" clipRule=\"evenodd\" /></svg>",
+            "    </div>",
+            "    <div class=\"timeline-end timeline-box\">iPhone</div>",
+            "    <hr/>",
+            "  </li>",
+            "  <li>",
+            "    <hr/>",
+            "    <div class=\"timeline-start\">2015</div>",
+            "    <div class=\"timeline-middle\">",
+            "      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\" class=\"w-5 h-5\"><path fillRule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z\" clipRule=\"evenodd\" /></svg>",
+            "    </div>",
+            "    <div class=\"timeline-end timeline-box\">Apple Watch</div>",
+            "  </li>",
+            "</ul>"
+        ],
+        "description": "DaisyUI Timeline"
+    },
+
+    // Breadcrumbs
+    "DaisyUI Breadcrumbs": {
+        "prefix": "du-breadcrumbs",
+        "body": [
+            "<div class=\"text-sm breadcrumbs\">",
+            "  <ul>",
+            "    <li><a href=\"#\">Home</a></li>",
+            "    <li><a href=\"#\">Documents</a></li>",
+            "    <li>Add Document</li>",
+            "  </ul>",
+            "</div>"
+        ],
+        "description": "DaisyUI Breadcrumbs"
+    },
+
+    //Bottom Navigation
+    "DaisyUI Bottom Navigation": {
+        "prefix": "du-bottom-nav",
+        "body": [
+            "<div class=\"btm-nav\">",
+            "  <button>",
+            "    <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6\" /></svg>",
+            "  </button>",
+            "  <button class=\"active\">",
+            "    <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\" /></svg>",
+            "  </button>",
+            "  <button>",
+            "    <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z\" /></svg>",
+            "  </button>",
+            "</div>"
+        ],
+        "description": "DaisyUI Bottom Navigation"
+    },
+    // Link
+    "DaisyUI Link": {
+        "prefix": "du-link",
+        "body": ["<a class=\"link\">I'm a simple link</a>"],
+        "description": "DaisyUI Link"
+    },
+
+    // Menu
+
+    "DaisyUI Menu": {
+        "prefix": "du-menu",
+        "body": [
+            "<ul class=\"menu bg-base-200 w-56 rounded-box\">",
+            "  <li><a>Item 1</a></li>",
+            "  <li><a>Item 2</a></li>",
+            "  <li><a>Item 3</a></li>",
+            "</ul>"
+        ],
+        "description": "DaisyUI Menu"
+    },
+
+    "DaisyUI Responsive Menu": {
+        "prefix": "du-menu-horizontal",
+        "body": [
+            "<ul class=\"menu menu-vertical lg:menu-horizontal bg-base-200 rounded-box\">",
+            "  <li><a>Item 1</a></li>",
+            "  <li><a>Item 2</a></li>",
+            "  <li><a>Item 3</a></li>",
+            "</ul>"
+        ],
+        "description": "DaisyUI  horizontal Responsive Menu"
+    },
+
+    // Navbar
+    "DaisyUI Navbar": {
+        "prefix": "du-navbar",
+        "body": [
+            "<div class=\"navbar bg-base-100\">",
+            "  <a class=\"btn btn-ghost text-xl\">daisyUI</a>",
+            "</div>"
+        ],
+        "description": "DaisyUI Navbar"
+    },
+    "DaisyUI Navbar with Title and Icon": {
+        "prefix": "du-navbar-icon-end",
+        "body": [
+            "<div class=\"navbar bg-base-100\">",
+            "  <div class=\"flex-1\">",
+            "    <a class=\"btn btn-ghost text-xl\">daisyUI</a>",
+            "  </div>",
+            "  <div class=\"flex-none\">",
+            "    <button class=\"btn btn-square btn-ghost\">",
+            "      <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" class=\"inline-block w-5 h-5 stroke-current\"><path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z\"></path></svg>",
+            "    </button>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Navbar with Title and Icon"
+    },
+
+    "DaisyUI Navbar with Icons at Start and End": {
+        "prefix": "du-navbar-icons-start-end",
+        "body": [
+            "<div class=\"navbar bg-base-100\">",
+            "  <div class=\"flex-none\">",
+            "    <button class=\"btn btn-square btn-ghost\">",
+            "      <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" class=\"inline-block w-5 h-5 stroke-current\"><path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M4 6h16M4 12h16M4 18h16\"></path></svg>",
+            "    </button>",
+            "  </div>",
+            "  <div class=\"flex-1\">",
+            "    <a class=\"btn btn-ghost text-xl\">daisyUI</a>",
+            "  </div>",
+            "  <div class=\"flex-none\">",
+            "    <button class=\"btn btn-square btn-ghost\">",
+            "      <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" class=\"inline-block w-5 h-5 stroke-current\"><path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z\"></path></svg>",
+            "    </button>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Navbar with Icons at Start and End"
+    },
+
+    "DaisyUI Navbar with Menu": {
+        "prefix": "du-navbar-menu",
+        "body": [
+            "<div class=\"navbar bg-base-100\">",
+            "  <div class=\"flex-1\">",
+            "    <a class=\"btn btn-ghost text-xl\">daisyUI</a>",
+            "  </div>",
+            "  <div class=\"flex-none\">",
+            "    <ul class=\"menu menu-horizontal px-1\">",
+            "      <li><a>Link</a></li>",
+            "      <li>",
+            "        <details>",
+            "          <summary>",
+            "            Parent",
+            "          </summary>",
+            "          <ul class=\"p-2 bg-base-100\">",
+            "            <li><a>Link 1</a></li>",
+            "            <li><a>Link 2</a></li>",
+            "          </ul>",
+            "        </details>",
+            "      </li>",
+            "    </ul>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Navbar with Menu"
+    },
+
+    "DaisyUI Navbar with Menu Button": {
+        "prefix": "du-navbar-menu-button",
+        "body": [
+            "<div class=\"navbar bg-base-100\">",
+            "  <div class=\"navbar-start\">",
+            "    <div class=\"dropdown\">",
+            "      <label tabindex={0} class=\"btn btn-ghost lg:hidden\">",
+            "        <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M4 6h16M4 12h8m-8 6h16\" /></svg>",
+            "      </label>",
+            "      <ul tabindex={0} class=\"menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52\">",
+            "        <li><a>Item 1</a></li>",
+            "        <li>",
+            "          <a>Parent</a>",
+            "          <ul class=\"p-2\">",
+            "            <li><a>Submenu 1</a></li>",
+            "            <li><a>Submenu 2</a></li>",
+            "          </ul>",
+            "        </li>",
+            "        <li><a>Item 3</a></li>",
+            "      </ul>",
+            "    </div>",
+            "    <a class=\"btn btn-ghost text-xl\">daisyUI</a>",
+            "  </div>",
+            "  <div class=\"navbar-center hidden lg:flex\">",
+            "    <ul class=\"menu menu-horizontal px-1\">",
+            "      <li><a>Item 1</a></li>",
+            "      <li tabindex={0}>",
+            "        <details>",
+            "          <summary>Parent</summary>",
+            "          <ul class=\"p-2\">",
+            "            <li><a>Submenu 1</a></li>",
+            "            <li><a>Submenu 2</a></li>",
+            "          </ul>",
+            "        </details>",
+            "      </li>",
+            "      <li><a>Item 3</a></li>",
+            "    </ul>",
+            "  </div>",
+            "  <div class=\"navbar-end\">",
+            "    <a class=\"btn\">Button</a>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Navbar with Menu Button"
+    },
+    // Pagination
+    "DaisyUI Pagination": {
+        "prefix": "du-pagination",
+        "body": [
+            "<div class=\"join\">",
+            "  <button class=\"join-item btn\">1</button>",
+            "  <button class=\"join-item btn btn-active\">2</button>",
+            "  <button class=\"join-item btn\">3</button>",
+            "  <button class=\"join-item btn\">4</button>",
+            "</div>"
+        ],
+        "description": "DaisyUI Pagination"
+    },
+    "DaisyUI Next/Prev": {
+        "prefix": "du-pagination-nextprev",
+        "body": [
+            "<div class=\"join grid grid-cols-2\">",
+            "  <button class=\"join-item btn btn-outline\">Previous page</button>",
+            "  <button class=\"join-item btn btn-outline\">Next</button>",
+            "</div>"
+        ],
+        "description": "DaisyUI Next/Prev"
+    },
+    // Steps
+    "DaisyUI Steps": {
+        "prefix": "du-steps",
+        "body": [
+            "<ul class=\"steps\">",
+            "  <li class=\"step step-primary\">Register</li>",
+            "  <li class=\"step step-primary\">Choose plan</li>",
+            "  <li class=\"step\">Purchase</li>",
+            "  <li class=\"step\">Receive Product</li>",
+            "</ul>"
+        ],
+        "description": "DaisyUI Steps"
+    },
+
+    "DaisyUI Vertical Steps": {
+        "prefix": "du-steps-vertical",
+        "body": [
+            "<ul class=\"steps steps-vertical\">",
+            "  <li class=\"step step-primary\">Register</li>",
+            "  <li class=\"step step-primary\">Choose plan</li>",
+            "  <li class=\"step\">Purchase</li>",
+            "  <li class=\"step\">Receive Product</li>",
+            "</ul>"
+        ],
+        "description": "DaisyUI Vertical Steps"
+    },
+
+    // Tabs
+
+    "DaisyUI Tabs": {
+        "prefix": "du-tabs",
+        "body": [
+            "<div role=\"tablist\" class=\"tabs\">",
+            "  <a role=\"tab\" class=\"tab\">Tab 1</a>",
+            "  <a role=\"tab\" class=\"tab tab-active\">Tab 2</a>",
+            "  <a role=\"tab\" class=\"tab\">Tab 3</a>",
+            "</div>"
+        ],
+        "description": "DaisyUI Tabs"
+    },
+
+    "DaisyUI Tabs Boxed": {
+        "prefix": "du-tabs-boxed",
+        "body": [
+            "<div role=\"tablist\" class=\"tabs tabs-boxed\">",
+            "  <a role=\"tab\" class=\"tab\">Tab 1</a>",
+            "  <a role=\"tab\" class=\"tab tab-active\">Tab 2</a>",
+            "  <a role=\"tab\" class=\"tab\">Tab 3</a>",
+            "</div>"
+        ],
+        "description": "DaisyUI Tabs Boxed"
+    },
+
+    // Alert
+
+    "DaisyUI Alert": {
+        "prefix": "du-alert",
+        "body": [
+            "<div role=\"alert\" class=\"alert\">",
+            "  <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" class=\"stroke-info shrink-0 w-6 h-6\"><path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"></path></svg>",
+            "  <span>12 unread messages. Tap to see.</span>",
+            "</div>"
+        ],
+        "description": "DaisyUI Alert"
+    },
+
+    "DaisyUI Alert - Info Color": {
+        "prefix": "du-alert-info",
+        "body": [
+            "<div role=\"alert\" class=\"alert alert-info\">",
+            "  <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" class=\"stroke-current shrink-0 w-6 h-6\"><path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"></path></svg>",
+            "  <span>New software update available.</span>",
+            "</div>"
+        ],
+        "description": "DaisyUI Alert - Info Color"
+    },
+    "DaisyUI Alert - Success Color": {
+        "prefix": "du-alert-success",
+        "body": [
+            "<div role=\"alert\" class=\"alert alert-success\">",
+            "  <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"stroke-current shrink-0 h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\"><path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z\" /></svg>",
+            "  <span>Your purchase has been confirmed!</span>",
+            "</div>"
+        ],
+        "description": "DaisyUI Alert - Success Color"
+    },
+
+    "DaisyUI Alert - Warning Color": {
+        "prefix": "du-alert-warning",
+        "body": [
+            "<div role=\"alert\" class=\"alert alert-warning\">",
+            "  <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"stroke-current shrink-0 h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\"><path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z\" /></svg>",
+            "  <span>Warning: Invalid email address!</span>",
+            "</div>"
+        ],
+        "description": "DaisyUI Alert - Warning Color"
+    },
+
+    "DaisyUI Alert - Error Color": {
+        "prefix": "du-alert-error",
+        "body": [
+            "<div role=\"alert\" class=\"alert alert-error\">",
+            "  <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"stroke-current shrink-0 h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\"><path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z\" /></svg>",
+            "  <span>Error! Task failed successfully.</span>",
+            "</div>"
+        ],
+        "description": "DaisyUI Alert - Error Color"
+    },
+    // Loading
+    "DaisyUI Loading Spinner": {
+        "prefix": "du-loading-spinner",
+        "body": ["<span class=\"loading loading-spinner loading-lg\"></span>"],
+        "description": "DaisyUI Loading Spinner"
+    },
+
+    "DaisyUI Loading Ring": {
+        "prefix": "du-loading-ring",
+        "body": ["<span class=\"loading loading-ring loading-lg\"></span>"],
+        "description": "DaisyUI Loading Ring"
+    },
+
+    // Progress
+    "DaisyUI Progress Bars": {
+        "prefix": "du-progress-bars",
+        "body": [
+            "<progress class=\"progress w-56\" value={0} max=\"100\"></progress>",
+            "<progress class=\"progress w-56\" value={10} max=\"100\"></progress>",
+            "<progress class=\"progress w-56\" value={40} max=\"100\"></progress>",
+            "<progress class=\"progress w-56\" value={70} max=\"100\"></progress>",
+            "<progress class=\"progress w-56\" value={100} max=\"100\"></progress>"
+        ],
+        "description": "DaisyUI Progress Bars"
+    },
+    "DaisyUI Radial Progress": {
+        "prefix": "du-progress-radial",
+        "body": [
+            "<div class=\"radial-progress\" style={\"--value\":70} role=\"progressbar\">70%</div>"
+        ],
+        "description": "DaisyUI Radial Progress"
+    },
+
+    // Skeleton
+    "DaisyUI Skeleton": {
+        "prefix": "du-skeleton",
+        "body": ["<div class=\"skeleton w-32 h-32\"></div>"],
+        "description": "DaisyUI Skeleton"
+    },
+
+    "DaisyUI Skeleton - Circle with Content": {
+        "prefix": "du-skeleton-circle",
+        "body": [
+            "<div class=\"flex flex-col gap-4 w-52\">",
+            "  <div class=\"flex gap-4 items-center\">",
+            "    <div class=\"skeleton w-16 h-16 rounded-full shrink-0\"></div>",
+            "    <div class=\"flex flex-col gap-4\">",
+            "      <div class=\"skeleton h-4 w-20\"></div>",
+            "      <div class=\"skeleton h-4 w-28\"></div>",
+            "    </div>",
+            "  </div>",
+            "  <div class=\"skeleton h-32 w-full\"></div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Skeleton - Circle with Content"
+    },
+
+    "DaisyUI Skeleton - Rectangle with Content": {
+        "prefix": "du-skeleton-rectangle",
+        "body": [
+            "<div class=\"flex flex-col gap-4 w-52\">",
+            "  <div class=\"skeleton h-32 w-full\"></div>",
+            "  <div class=\"skeleton h-4 w-28\"></div>",
+            "  <div class=\"skeleton h-4 w-full\"></div>",
+            "  <div class=\"skeleton h-4 w-full\"></div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Skeleton - Rectangle with Content"
+    },
+    // Tooltip
+    "DaisyUI Tooltip": {
+        "prefix": "du-tooltip",
+        "body": [
+            "<div class=\"tooltip\" data-tip=\"hello\">",
+            "  <button class=\"btn\">Hover me</button>",
+            "</div>"
+        ],
+        "description": "DaisyUI Tooltip"
+    },
+
+    // Toast
+    "DaisyUI Toast with Alert - Info": {
+        "prefix": "du-toast-info",
+        "body": [
+            "<div class=\"toast\">",
+            "  <div class=\"alert alert-info\">",
+            "    <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" class=\"stroke-current shrink-0 w-6 h-6\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"></path></svg>",
+            "    <span>New message arrived.</span>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Toast with Alert - Info"
+    },
+    // Input
+    // Checkbox
+    "DaisyUI Checkbox": {
+        "prefix": "du-input-checkbox",
+        "body": [
+            "<input type=\"checkbox\" checked=\"checked\" class=\"checkbox\" />"
+        ],
+        "description": "DaisyUI Input Checkbox"
+    },
+    "DaisyUI Checkbox with Label": {
+        "prefix": "du-input-checkbox-label",
+        "body": [
+            "<div class=\"form-control\">",
+            "  <label class=\"label cursor-pointer\">",
+            "    <span class=\"label-text\">$1</span> ",
+            "    <input type=\"checkbox\" checked=\"checked\" class=\"checkbox\" />",
+            "  </label>",
+            "</div>"
+        ],
+        "description": "DaisyUI Checkbox with Label"
+    },
+    "DaisyUI Checkbox with Label (Primary)": {
+        "prefix": "du-input-checkbox-primary",
+        "body": [
+            "<div class=\"form-control\">",
+            "  <label class=\"label cursor-pointer\">",
+            "    <span class=\"label-text\">$1</span> ",
+            "    <input type=\"checkbox\" checked=\"checked\" class=\"checkbox checkbox-primary\" />",
+            "  </label>",
+            "</div>"
+        ],
+        "description": "DaisyUI Checkbox with color (Primary)"
+    },
+    "DaisyUI Checkbox with Label (Secondary)": {
+        "prefix": "du-input-checkbox-secondary",
+        "body": [
+            "<div class=\"form-control\">",
+            "  <label class=\"cursor-pointer label\">",
+            "    <span class=\"label-text\">$1</span>",
+            "    <input type=\"checkbox\" checked=\"checked\" class=\"checkbox checkbox-secondary\" />",
+            "  </label>",
+            "</div>"
+        ],
+        "description": "DaisyUI Checkbox with color (Secondary)"
+    },
+    "DaisyUI Checkbox with Label (Accent)": {
+        "prefix": "du-input-checkbox-accent",
+        "body": [
+            "<div class=\"form-control\">",
+            "  <label class=\"cursor-pointer label\">",
+            "    <span class=\"label-text\">$1</span>",
+            "    <input type=\"checkbox\" checked=\"checked\" class=\"checkbox checkbox-accent\" />",
+            "  </label>",
+            "</div>"
+        ],
+        "description": "DaisyUI Checkbox with color (Accent)"
+    },
+    "DaisyUI Checkbox with Label (Success)": {
+        "prefix": "du-input-checkbox-success",
+        "body": [
+            "<div class=\"form-control\">",
+            "  <label class=\"cursor-pointer label\">",
+            "    <span class=\"label-text\">$1</span>",
+            "    <input type=\"checkbox\" checked=\"checked\" class=\"checkbox checkbox-success\" />",
+            "  </label>",
+            "</div>"
+        ],
+        "description": "DaisyUI Checkbox with color (Success)"
+    },
+    "DaisyUI Checkbox with Label (Warning)": {
+        "prefix": "du-input-checkbox-warning",
+        "body": [
+            "<div class=\"form-control\">",
+            "  <label class=\"cursor-pointer label\">",
+            "    <span class=\"label-text\">$1</span>",
+            "    <input type=\"checkbox\" checked=\"checked\" class=\"checkbox checkbox-warning\" />",
+            "  </label>",
+            "</div>"
+        ],
+        "description": "DaisyUI Checkbox with color (Warning)"
+    },
+    "DaisyUI Checkbox with Label (Info)": {
+        "prefix": "du-input-checkbox-info",
+        "body": [
+            "<div class=\"form-control\">",
+            "  <label class=\"cursor-pointer label\">",
+            "    <span class=\"label-text\">$1</span>",
+            "    <input type=\"checkbox\" checked=\"checked\" class=\"checkbox checkbox-info\" />",
+            "  </label>",
+            "</div>"
+        ],
+        "description": "DaisyUI Checkbox with color (Info)"
+    },
+    "DaisyUI Checkbox with Label (Error)": {
+        "prefix": "du-input-checkbox-error",
+        "body": [
+            "<div class=\"form-control\">",
+            "  <label class=\"cursor-pointer label\">",
+            "    <span class=\"label-text\">$1</span>",
+            "    <input type=\"checkbox\" checked=\"checked\" class=\"checkbox checkbox-error\" />",
+            "  </label>",
+            "</div>"
+        ],
+        "description": "DaisyUI Checkbox with color (Error)"
+    },
+    "DaisyUI Checkbox (XS)": {
+        "prefix": "du-input-checkbox-xs",
+        "body": [
+            "<input type=\"checkbox\" checked=\"checked\" class=\"checkbox checkbox-xs\" />"
+        ],
+        "description": "DaisyUI Checkbox (XS)"
+    },
+    "DaisyUI Checkbox (SM)": {
+        "prefix": "du-input-checkbox-sm",
+        "body": [
+            "<input type=\"checkbox\" checked=\"checked\" class=\"checkbox checkbox-sm\" />"
+        ],
+        "description": "DaisyUI Checkbox (SM)"
+    },
+    "DaisyUI Checkbox (MD)": {
+        "prefix": "du-input-checkbox-md",
+        "body": [
+            "<input type=\"checkbox\" checked=\"checked\" class=\"checkbox checkbox-md\" />"
+        ],
+        "description": "DaisyUI Checkbox (MD)"
+    },
+    "DaisyUI Checkbox (LG)": {
+        "prefix": "du-input-checkbox-lg",
+        "body": [
+            "<input type=\"checkbox\" checked=\"checked\" class=\"checkbox checkbox-lg\" />"
+        ],
+        "description": "DaisyUI Checkbox (LG)"
+    },
+    "DaisyUI Disabled Checkbox": {
+        "prefix": "du-input-checkbox-disabled",
+        "body": ["<input type=\"checkbox\" class=\"checkbox\" disabled />"],
+        "description": "DaisyUI Disabled Checkbox"
+    },
+    "DaisyUI Disabled and Checked Checkbox": {
+        "prefix": "du-input-checkbox-disabled-checked",
+        "body": [
+            "<input type=\"checkbox\" class=\"checkbox\" disabled checked />"
+        ],
+        "description": "DaisyUI Disabled and Checked Checkbox"
+    },
+    "DaisyUI Indeterminate Checkbox": {
+        "prefix": "du-input-checkbox-indeterminate",
+        "body": [
+            "<!-- You can make a checkbox indeterminate using JS -->",
+            "<script>",
+            "  document.getElementById(\"$1\").indeterminate = true",
+            "</script>",
+            "<input type=\"checkbox\" class=\"checkbox\" id=\"$1\" />"
+        ],
+        "description": "DaisyUI Indeterminate Checkbox"
+    },
+    // File Input
+    "DaisyUI File Input": {
+        "prefix": "du-input-file",
+        "body": [
+            "<input type=\"file\" class=\"file-input w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI File Input"
+    },
+    "DaisyUI File Input Bordered": {
+        "prefix": "du-input-file-bordered",
+        "body": [
+            "<input type=\"file\" class=\"file-input file-input-bordered w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI File Input with Border"
+    },
+    "DaisyUI File Input Ghost": {
+        "prefix": "du-input-file-ghost",
+        "body": [
+            "<input type=\"file\" class=\"file-input file-input-ghost w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI File Input Ghost"
+    },
+    "DaisyUI File Input with Form Control and Labels": {
+        "prefix": "du-input-file-label",
+        "body": [
+            "<div class=\"form-control w-full max-w-xs\">",
+            "  <label class=\"label\">",
+            "    <span class=\"label-text\">Pick a file</span>",
+            "    <span class=\"label-text-alt\">Alt label</span>",
+            "  </label>",
+            "  <input type=\"file\" class=\"file-input file-input-bordered w-full max-w-xs\" />",
+            "  <label class=\"label\">",
+            "    <span class=\"label-text-alt\">Alt label</span>",
+            "    <span class=\"label-text-alt\">Alt label</span>",
+            "  </label>",
+            "</div>"
+        ],
+        "description": "DaisyUI File Input with Form Control and Labels"
+    },
+    "DaisyUI File Input Primary Color": {
+        "prefix": "du-input-file-primary",
+        "body": [
+            "<input type=\"file\" class=\"file-input file-input-bordered file-input-primary w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI File Input with Primary Color"
+    },
+    "DaisyUI File Input Secondary Color": {
+        "prefix": "du-input-file-secondary",
+        "body": [
+            "<input type=\"file\" class=\"file-input file-input-bordered file-input-secondary w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI File Input with Secondary Color"
+    },
+    "DaisyUI File Input Info Color": {
+        "prefix": "du-input-file-info",
+        "body": [
+            "<input type=\"file\" class=\"file-input file-input-bordered file-input-info w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI File Input with Info Color"
+    },
+    "DaisyUI File Input Success Color": {
+        "prefix": "du-input-file-success",
+        "body": [
+            "<input type=\"file\" class=\"file-input file-input-bordered file-input-success w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI File Input with Success Color"
+    },
+    "DaisyUI File Input Warning Color": {
+        "prefix": "du-input-file-warning",
+        "body": [
+            "<input type=\"file\" class=\"file-input file-input-bordered file-input-warning w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI File Input with Warning Color"
+    },
+    "DaisyUI File Input Error Color": {
+        "prefix": "du-input-file-error",
+        "body": [
+            "<input type=\"file\" class=\"file-input file-input-bordered file-input-error w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI File Input with Error Color"
+    },
+    "DaisyUI File Input XS": {
+        "prefix": "du-input-file-xs",
+        "body": [
+            "<input type=\"file\" class=\"file-input file-input-bordered file-input-xs w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI File Input XS"
+    },
+    "DaisyUI File Input SM": {
+        "prefix": "du-input-file-sm",
+        "body": [
+            "<input type=\"file\" class=\"file-input file-input-bordered file-input-sm w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI File Input SM"
+    },
+    "DaisyUI File Input MD": {
+        "prefix": "du-input-file-md",
+        "body": [
+            "<input type=\"file\" class=\"file-input file-input-bordered file-input-md w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI File Input MD"
+    },
+    "DaisyUI File Input LG": {
+        "prefix": "du-input-file-lg",
+        "body": [
+            "<input type=\"file\" class=\"file-input file-input-bordered file-input-lg w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI File Input LG"
+    },
+    "DaisyUI Disabled File Input": {
+        "prefix": "du-input-file-disabled",
+        "body": [
+            "<input type=\"file\" placeholder=\"You can't touch this\" class=\"file-input file-input-bordered w-full max-w-xs\" disabled />"
+        ],
+        "description": "DaisyUI Disabled File Input"
+    },
+    // Radio Input
+    "DaisyUI Basic Radio": {
+        "prefix": "du-input-radio",
+        "body": ["<input type=\"radio\" name=\"$1\" class=\"radio\" $2 />"],
+        "description": "DaisyUI Basic Radio"
+    },
+
+    "DaisyUI Radio Primary": {
+        "prefix": "du-input-radio-primary",
+        "body": [
+            "<input type=\"radio\" name=\"$1\" class=\"radio radio-primary\" $2 />"
+        ],
+        "description": "DaisyUI Radio with primary Color"
+    },
+
+    "DaisyUI Radio Secondary": {
+        "prefix": "du-input-radio-secondary",
+        "body": [
+            "<input type=\"radio\" name=\"$1\" class=\"radio radio-secondary\" $2 />"
+        ],
+        "description": "DaisyUI Radio with Secondary Color"
+    },
+    "DaisyUI Radio Accent": {
+        "prefix": "du-input-radio-accent",
+        "body": [
+            "<input type=\"radio\" name=\"$1\" class=\"radio radio-accent\" $2 />"
+        ],
+        "description": "DaisyUI Radio with Accent Color"
+    },
+    "DaisyUI Radio Success": {
+        "prefix": "du-input-radio-success",
+        "body": [
+            "<input type=\"radio\" name=\"$1\" class=\"radio radio-success\" $2 />"
+        ],
+        "description": "DaisyUI Radio with Success Color"
+    },
+    "DaisyUI Radio Warning": {
+        "prefix": "du-input-radio-warning",
+        "body": [
+            "<input type=\"radio\" name=\"$1\" class=\"radio radio-warning\" $2 />"
+        ],
+        "description": "DaisyUI Radio with Warning Color"
+    },
+    "DaisyUI Radio Info": {
+        "prefix": "du-input-radio-info",
+        "body": [
+            "<input type=\"radio\" name=\"$1\" class=\"radio radio-info\" $2 />"
+        ],
+        "description": "DaisyUI Radio with Info Color"
+    },
+    "DaisyUI Radio Error": {
+        "prefix": "du-input-radio-error",
+        "body": [
+            "<input type=\"radio\" name=\"$1\" class=\"radio radio-error\" $2 />"
+        ],
+        "description": "DaisyUI Radio with Error Color"
+    },
+    "DaisyUI Radio Disabled": {
+        "prefix": "du-input-radio-disabled",
+        "body": [
+            "<input type=\"radio\" name=\"$1\" class=\"radio\" disabled $2 />"
+        ],
+        "description": "DaisyUI Disabled Radio"
+    },
+    "DaisyUI Radio Custom Color": {
+        "prefix": "du-input-radio-custom-color",
+        "body": [
+            "<div class=\"form-control\">",
+            "  <label class=\"label cursor-pointer\">",
+            "    <span class=\"label-text\">$1</span> ",
+            "    <input type=\"radio\" name=\"$2\" class=\"radio checked:bg-red-500 $3\" $4 />",
+            "  </label>",
+            "</div>"
+        ],
+        "description": "DaisyUI Radio Custom Color"
+    },
+    // Text Input
+    "DaisyUI Text Input": {
+        "prefix": "du-input-text",
+        "body": [
+            "<input type=\"text\" placeholder=\"$1\" class=\"input w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI Text Input"
+    },
+
+    "DaisyUI Text Input with Border": {
+        "prefix": "du-input-text-border",
+        "body": [
+            "<input type=\"text\" placeholder=\"$1\" class=\"input input-bordered w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI Text Input with Border"
+    },
+    "DaisyUI Ghost Text Input": {
+        "prefix": "du-input-text-ghost",
+        "body": [
+            "<input type=\"text\" placeholder=\"$1\" class=\"input input-ghost w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI Ghost Text Input"
+    },
+    "DaisyUI label Text Input": {
+        "prefix": "du-input-text-label",
+        "body": [
+            "<div class=\"form-control w-full max-w-xs\">",
+            "  <label class=\"label\">",
+            "    <span class=\"label-text\">$1</span>",
+            "    <span class=\"label-text-alt\">$2</span>",
+            "  </label>",
+            "  <input type=\"text\" placeholder=\"Type here\" class=\"input input-bordered w-full max-w-xs\" />",
+            "  <label class=\"label\">",
+            "    <span class=\"label-text-alt\">$3</span>",
+            "    <span class=\"label-text-alt\">$4</span>",
+            "  </label>",
+            "</div>"
+        ],
+        "description": "DaisyUI label Text Input"
+    },
+    "DaisyUI Text Input Primary": {
+        "prefix": "du-input-text-primary",
+        "body": [
+            "<input type=\"text\" placeholder=\"Type here\" class=\"input input-bordered input-primary w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI Text Input with Primary Color"
+    },
+    "DaisyUI Text Input Secondary": {
+        "prefix": "du-input-text-secondary",
+        "body": [
+            "<input type=\"text\" placeholder=\"Type here\" class=\"input input-bordered input-secondary w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI Text Input with Secondary Color"
+    },
+    "DaisyUI Text Input Accent": {
+        "prefix": "du-input-text-accent",
+        "body": [
+            "<input type=\"text\" placeholder=\"Type here\" class=\"input input-bordered input-accent w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI Text Input with Accent Color"
+    },
+    "DaisyUI Text Input Info": {
+        "prefix": "du-input-text-info",
+        "body": [
+            "<input type=\"text\" placeholder=\"Type here\" class=\"input input-bordered input-info w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI Text Input with Info Color"
+    },
+    "DaisyUI Text Input Success": {
+        "prefix": "du-input-text-success",
+        "body": [
+            "<input type=\"text\" placeholder=\"Type here\" class=\"input input-bordered input-success w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI Text Input with Success Color"
+    },
+    "DaisyUI Text Input Warning": {
+        "prefix": "du-input-text-warning",
+        "body": [
+            "<input type=\"text\" placeholder=\"Type here\" class=\"input input-bordered input-warning w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI Text Input with Warning Color"
+    },
+    "DaisyUI Text Input Error": {
+        "prefix": "du-input-text-error",
+        "body": [
+            "<input type=\"text\" placeholder=\"Type here\" class=\"input input-bordered input-error w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI Text Input with Error Color"
+    },
+    "DaisyUI Text Input XS": {
+        "prefix": "du-input-text-xs",
+        "body": [
+            "<input type=\"text\" placeholder=\"Type here\" class=\"input input-bordered input-xs w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI Text Input Extra Small"
+    },
+    "DaisyUI Text Input SM": {
+        "prefix": "du-input-text-sm",
+        "body": [
+            "<input type=\"text\" placeholder=\"Type here\" class=\"input input-bordered input-sm w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI Text Input Small"
+    },
+    "DaisyUI Text Input MD": {
+        "prefix": "du-input-text-md",
+        "body": [
+            "<input type=\"text\" placeholder=\"Type here\" class=\"input input-bordered input-md w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI Text Input Medium"
+    },
+    "DaisyUI Text Input LG": {
+        "prefix": "du-input-text-lg",
+        "body": [
+            "<input type=\"text\" placeholder=\"Type here\" class=\"input input-bordered input-lg w-full max-w-xs\" />"
+        ],
+        "description": "DaisyUI Text Input Large"
+    },
+    "DaisyUI Disabled Text Input": {
+        "prefix": "du-input-text-disabled",
+        "body": [
+            "<input type=\"text\" placeholder=\"You can't touch this\" class=\"input input-bordered w-full max-w-xs\" disabled />"
+        ],
+        "description": "DaisyUI Disabled Text Input"
+    },
+    // Input Range
+    "DaisyUI Range Input": {
+        "prefix": "du-input-range",
+        "body": [
+            "<input type=\"range\" min={0} max=\"100\" value=\"40\" class=\"range\" />"
+        ],
+        "description": "DaisyUI Range Input"
+    },
+    "DaisyUI Range Input XS": {
+        "prefix": "du-input-range-xs",
+        "body": [
+            "<input type=\"range\" min={0} max=\"100\" value=\"40\" class=\"range range-xs\" />"
+        ],
+        "description": "DaisyUI Range Input XS"
+    },
+    "DaisyUI Range Input SM": {
+        "prefix": "du-input-range-sm",
+        "body": [
+            "<input type=\"range\" min={0} max=\"100\" value=\"50\" class=\"range range-sm\" />"
+        ],
+        "description": "DaisyUI Range Input SM"
+    },
+    "DaisyUI Range Input MD": {
+        "prefix": "du-input-range-md",
+        "body": [
+            "<input type=\"range\" min={0} max=\"100\" value=\"60\" class=\"range range-md\" />"
+        ],
+        "description": "DaisyUI Range Input MD"
+    },
+
+    "DaisyUI Range Input LG": {
+        "prefix": "du-input-range-lg",
+        "body": [
+            "<input type=\"range\" min={0} max=\"100\" value=\"70\" class=\"range range-lg\" />"
+        ],
+        "description": "DaisyUI Range Input LG"
+    },
+    // Input Rating
+    "DaisyUI Rating": {
+        "prefix": "du-input-rating",
+        "body": [
+            "<div class=\"rating\">",
+            "  <input type=\"radio\" name=\"rating-1\" class=\"mask mask-star\" />",
+            "  <input type=\"radio\" name=\"rating-1\" class=\"mask mask-star\" checked />",
+            "  <input type=\"radio\" name=\"rating-1\" class=\"mask mask-star\" />",
+            "  <input type=\"radio\" name=\"rating-1\" class=\"mask mask-star\" />",
+            "  <input type=\"radio\" name=\"rating-1\" class=\"mask mask-star\" />",
+            "</div>"
+        ],
+        "description": "DaisyUI Rating"
+    },
+    //  Select Input
+    "DaisyUI Select": {
+        "prefix": "du-input-select",
+        "body": [
+            "<select class=\"select w-full max-w-xs\">",
+            "  <option disabled selected>Pick your favorite</option>",
+            "  <option>Option 1</option>",
+            "  <option>Option 2</option>",
+            "  <option>Option 3</option>",
+            "  <option>Option 4</option>",
+            "  <option>Option 5</option>",
+            "</select>"
+        ],
+        "description": "DaisyUI Select Input"
+    },
+    "DaisyUI Select Bordered": {
+        "prefix": "du-input-select-bordered",
+        "body": [
+            "<select class=\"select select-bordered w-full max-w-xs\">",
+            "  <option disabled selected>Select an option</option>",
+            "  <option>Option 1</option>",
+            "  <option>Option 2</option>",
+            "  <option>Option 3</option>",
+            "</select>"
+        ],
+        "description": "DaisyUI Input Select Input with Border"
+    },
+    // Input Text Area
+    "DaisyUI Textarea": {
+        "prefix": "du-input-textarea",
+        "body": ["<textarea class=\"textarea\" placeholder=\"$1\"></textarea>"],
+        "description": "DaisyUI Textarea"
+    },
+    "DaisyUI Bordered Textarea": {
+        "prefix": "du-input-textarea-bordered",
+        "body": [
+            "<textarea class=\"textarea textarea-bordered\" placeholder=\"$1\"></textarea>"
+        ],
+        "description": "DaisyUI Input- Bordered Textarea"
+    },
+    // Toggle Input
+    "DaisyUI Toggle": {
+        "prefix": "du-input-toggle",
+        "body": ["<input type=\"checkbox\" class=\"toggle\" checked />"],
+        "description": "DaisyUI Input Toggle"
+    },
+    "DaisyUI Toggle with Label": {
+        "prefix": "du-input-toggle-label",
+        "body": [
+            "<div class=\"form-control\">",
+            "  <label class=\"label cursor-pointer\">",
+            "    <span class=\"label-text\">$1</span>",
+            "    <input type=\"checkbox\" class=\"toggle\" checked />",
+            "  </label>",
+            "</div>"
+        ],
+        "description": "DaisyUI Input Toggle with Label"
+    },
+
+    // Artboard
+    "DaisyUI Artboard (Phone 1)": {
+        "prefix": "du-artboard",
+        "body": ["<div class=\"artboard phone-1\">320×568</div>"],
+        "description": "DaisyUI Artboard - Phone 1 (320×568)"
+    },
+
+    "DaisyUI Artboard (Horizontal Phone 3)": {
+        "prefix": "du-artboard-horizontal",
+        "body": [
+            "<div class=\"artboard artboard-horizontal phone-3\">736×414</div>"
+        ],
+        "description": "DaisyUI Artboard - Horizontal Phone 3 (736×414)"
+    },
+
+    // Divider
+    "DaisyUI Divider - Default": {
+        "prefix": "du-divider",
+        "body": ["<div class=\"divider\">Default</div>"],
+        "description": "DaisyUI Divider - Default"
+    },
+    "DaisyUI Divider - Neutral": {
+        "prefix": "du-divider-neutral",
+        "body": ["<div class=\"divider divider-neutral\">Neutral</div>"],
+        "description": "DaisyUI Divider - Neutral"
+    },
+
+    // Drawer
+    "DaisyUI Drawer": {
+        "prefix": "du-drawer",
+        "body": [
+            "<div class=\"drawer\">",
+            "  <input id=\"my-drawer\" type=\"checkbox\" class=\"drawer-toggle\" />",
+            "  <div class=\"drawer-content\">",
+            "    {/* Page content here */}",
+            "    <label for=\"my-drawer\" class=\"btn btn-primary drawer-button\">Open drawer</label>",
+            "  </div>",
+            "  <div class=\"drawer-side\">",
+            "    <label for=\"my-drawer\" aria-label=\"close sidebar\" class=\"drawer-overlay\"></label>",
+            "    <ul class=\"menu p-4 w-80 min-h-full bg-base-200 text-base-content\">",
+            "      {/* Sidebar content here */}",
+            "      <li><a>Sidebar Item 1</a></li>",
+            "      <li><a>Sidebar Item 2</a></li>",
+            "    </ul>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Drawer"
+    },
+
+    // Footer
+    "DaisyUI Footer": {
+        "prefix": "du-footer",
+        "body": [
+            "<footer class=\"footer p-10 bg-neutral text-neutral-content\">",
+            "  <nav>",
+            "    <header class=\"footer-title\">Services</header>",
+            "    <a class=\"link link-hover\">Branding</a>",
+            "    <a class=\"link link-hover\">Design</a>",
+            "    <a class=\"link link-hover\">Marketing</a>",
+            "    <a class=\"link link-hover\">Advertisement</a>",
+            "  </nav>",
+            "  <nav>",
+            "    <header class=\"footer-title\">Company</header>",
+            "    <a class=\"link link-hover\">About us</a>",
+            "    <a class=\"link link-hover\">Contact</a>",
+            "    <a class=\"link link-hover\">Jobs</a>",
+            "    <a class=\"link link-hover\">Press kit</a>",
+            "  </nav>",
+            "  <nav>",
+            "    <header class=\"footer-title\">Legal</header>",
+            "    <a class=\"link link-hover\">Terms of use</a>",
+            "    <a class=\"link link-hover\">Privacy policy</a>",
+            "    <a class=\"link link-hover\">Cookie policy</a>",
+            "  </nav>",
+            "</footer>"
+        ],
+        "description": "DaisyUI Footer"
+    },
+
+    // Footer with Logo Section
+    "DaisyUI Footer with Logo": {
+        "prefix": "du-footer-logo",
+        "body": [
+            "<footer class=\"footer p-10 bg-base-200 text-base-content\">",
+            "  <aside>",
+            "    <svg width=\"50\" height=\"50\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" fillRule=\"evenodd\" clipRule=\"evenodd\" class=\"fill-current\"><path d=\"M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z\"></path></svg>",
+            "    <p>ACME Industries Ltd.<br/>Providing reliable tech since 1992</p>",
+            "  </aside>",
+            "  <nav>",
+            "    <header class=\"footer-title\">Services</header>",
+            "    <a class=\"link link-hover\">Branding</a>",
+            "    <a class=\"link link-hover\">Design</a>",
+            "    <a class=\"link link-hover\">Marketing</a>",
+            "    <a class=\"link link-hover\">Advertisement</a>",
+            "  </nav>",
+            "  <nav>",
+            "    <header class=\"footer-title\">Company</header>",
+            "    <a class=\"link link-hover\">About us</a>",
+            "    <a class=\"link link-hover\">Contact</a>",
+            "    <a class=\"link link-hover\">Jobs</a>",
+            "    <a class=\"link link-hover\">Press kit</a>",
+            "  </nav>",
+            "  <nav>",
+            "    <header class=\"footer-title\">Legal</header>",
+            "    <a class=\"link link-hover\">Terms of use</a>",
+            "    <a class=\"link link-hover\">Privacy policy</a>",
+            "    <a class=\"link link-hover\">Cookie policy</a>",
+            "  </nav>",
+            "</footer>"
+        ],
+        "description": "DaisyUI Footer with Logo"
+    },
+    // Centered Hero
+    "DaisyUI Centered Hero": {
+        "prefix": "du-hero-center",
+        "body": [
+            "<div class=\"hero min-h-screen bg-base-200\">",
+            "  <div class=\"hero-content text-center\">",
+            "    <div class=\"max-w-md\">",
+            "      <h1 class=\"text-5xl font-bold\">Hello there</h1>",
+            "      <p class=\"py-6\">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>",
+            "      <button class=\"btn btn-primary\">Get Started</button>",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Centered Hero"
+    },
+
+    // Indicator
+    "DaisyUI Indicator": {
+        "prefix": "du-indicator",
+        "body": [
+            "<div class=\"indicator\">",
+            "  <span class=\"indicator-item badge badge-secondary\"></span>",
+            "  <div class=\"grid w-32 h-32 bg-base-300 place-items-center\">content</div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Indicator"
+    },
+
+    // Mask - Squircle
+    "DaisyUI Mask - Squircle": {
+        "prefix": "du-mask-squircle",
+        "body": [
+            "<img class=\"mask mask-squircle\" src=\"https://placehold.co/600x400\" />"
+        ],
+        "description": "DaisyUI Mask - Squircle"
+    },
+
+    // Join
+    "DaisyUI Join": {
+        "prefix": "du-join",
+        "body": [
+            "<div class=\"join\">",
+            "  <button class=\"btn join-item\">Button</button>",
+            "  <button class=\"btn join-item\">Button</button>",
+            "  <button class=\"btn join-item\">Button</button>",
+            "</div>"
+        ],
+        "description": "DaisyUI Join"
+    },
+
+    // Stack
+    "DaisyUI Stack": {
+        "prefix": "du-stack",
+        "body": [
+            "<div>",
+            "  <div class=\"grid w-32 h-20 rounded bg-primary text-primary-content place-content-center\">1</div>",
+            "  <div class=\"grid w-32 h-20 rounded bg-accent text-accent-content place-content-center\">2</div>",
+            "  <div class=\"grid w-32 h-20 rounded bg-secondary text-secondary-content place-content-center\">3</div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Stack"
+    },
+
+    // Browser Mockup
+    "DaisyUI Browser Mockup": {
+        "prefix": "du-mockup-browser",
+        "body": [
+            "<div class=\"mockup-browser border border-base-300\">",
+            "  <div class=\"mockup-browser-toolbar\">",
+            "    <div class=\"input border border-base-300\">https://daisyui.com</div>",
+            "  </div>",
+            "  <div class=\"flex justify-center px-4 py-16 border-t border-base-300\">Hello!</div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Browser Mockup"
+    },
+
+    // Code Mockup
+    "DaisyUI Code Mockup": {
+        "prefix": "du-mockup-code",
+        "body": [
+            "<div class=\"mockup-code\">",
+            "  <pre data-prefix=\"$\"><code>npm i daisyui</code></pre>",
+            "</div>"
+        ],
+        "description": "DaisyUI Code Mockup"
+    },
+
+    // Phone Mockup
+    "DaisyUI Phone Mockup": {
+        "prefix": "du-mockup-phone",
+        "body": [
+            "<div class=\"mockup-phone\">",
+            "  <div class=\"camera\"></div>",
+            "  <div class=\"display\">",
+            "    <div class=\"artboard artboard-demo phone-1\">Hi.</div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Phone Mockup"
     }
 }
