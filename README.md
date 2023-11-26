@@ -4,7 +4,7 @@
 
 The DaisyUI Snippet extension for Visual Studio Code provides a collection of handy snippets for working with DaisyUI, a set of components and utilities for Tailwind CSS.
 
-With this extension, you can quickly insert DaisyUI components and styles into your HTML, JavaScript, TypeScript, JSX, and JavaScript with JSX files, making your development process with Tailwind CSS and DaisyUI more efficient.
+With this extension, you can quickly insert DaisyUI components and styles into your HTML, JavaScript, TypeScript, JSX, and TSX files, making your development process with Tailwind CSS and DaisyUI more efficient.
 
 ## Features
 
@@ -410,7 +410,7 @@ With this extension, you can quickly insert DaisyUI components and styles into y
 
 1. Open Visual Studio Code.
 2. Go to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window or press `Ctrl+Shift+X`.
-3. Search for "DaisyUI Snippet" and click the Install button for the extension authored by [Your Name](https://github.com/emranweb/daisyui-snippet).
+3. Search for "DaisyUI Snippet" and click the Install button for the extension authored by [emranweb](https://github.com/emranweb/daisyui-snippet).
 
 ## Usage
 
@@ -422,9 +422,19 @@ To use a DaisyUI snippet, follow these steps:
 
 For example, if you want to insert a DaisyUI Button, start typing `db` and select the snippet from the suggestions.
 
+```
+<!-- Example: Using DaisyUI Button -->
+<template>
+  <div>
+    <du-btn>Click me</du-btn>
+  </div>
+</template>
+
+```
+
 ## License
 
-This extension is released under the MIT License.
+This extension is released under the [MIT License](LICENSE).
 
 ## Issues and Contributions
 

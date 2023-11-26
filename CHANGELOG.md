@@ -11,10 +11,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [0.0.2] - 2023-19-11
 
--   **Bug Fixes**
--   fix html Language Support
+### Bug Fixes
 
--   **Features**
+-   Fix html Language Support
+
+### Features
+
 -   Update the prefix of all snippets to `du-`
 -   Add snippets for all dropdown components
 -   Add snippets for all modal components
@@ -32,37 +34,44 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [0.0.4] - 2023-23-11
 
--   **Bug Fixes**
--   fix Change Log year
--   fix Add Missing Button Size
--   **Features**
+### Bug Fixes
+
+-   Fix Change Log year
+-   Fix Add Missing Button Size
+
+### Features
+
 -   Add Carousel
 -   Add File Input
 -   Add Radio Input
 -   Add Text Input
 -   Add Checkbox Input
 
-[0.0.5] - 23-23-11
+## [0.0.5] - 2023-23-11
 
--   **Bug Fixes**
-    -Fix input border issue
-    -Fix input prefix issue
+### Bug Fixes
 
--   **Features**
-    -Add Rating Input
-    -Add Select Input
-    -Add Textarea input
-    -Add toggle input
+-   Fix input border issue
+-   Fix input prefix issue
 
-[0.0.6] - 23-26-11
+### Features
 
--   **Bug Fixes**
+-   Add Rating Input
+-   Add Select Input
+-   Add Textarea input
+-   Add Toggle input
+
+## [0.0.6] - 2023-26-11
+
+### Bug Fixes
+
 -   Fix `--` issue on accordion
 -   Fix Update from snippets prefix
 
--   **Features**
--   ADD all Data display components
--   ADD all Navigation components
--   ADD all Feedback components
--   ADD all Layout components
--   ADD all Mockup
+### Features
+
+-   Add Data display components
+-   Add Navigation components
+-   Add Feedback components
+-   Add Layout components
+-   Add Mockup components
