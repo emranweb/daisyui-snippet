@@ -50,6 +50,10 @@
             {
                 "language": "typescriptreact",
                 "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "astro",
+                "path": "./snippets/snippetshtml.code-snippets"
             }
         ]
     }
