@@ -8,7 +8,7 @@ function activate(context) {
             if (e.affectsConfiguration("daisyui.useClass")) {
                 const isClass = vscode.workspace
                     .getConfiguration()
-                    .get("daisyui.useClass");
+                    .get("daisyui.useClass"); // default false
 
                 // Load existing snippets
                 const snippetsPath = path.join(
@@ -39,7 +39,7 @@ function activate(context) {
                 );
                 vscode.window.showInformationMessage(
                     `Snippets updated: attributes switched to '${
-                        useHtmlClass ? "class" : "className"
+                        isClass ? "class" : "className"
                     }'.`
                 );
             }

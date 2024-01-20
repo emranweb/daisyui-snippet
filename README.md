@@ -167,6 +167,9 @@ With this extension, you can quickly insert DaisyUI components and styles into y
 
 -   `du-chat-bubble` - DaisyUI Chat Bubble
 -   `du-chat-image` - DaisyUI Chat Bubble with Image
+-   `du-chat-img-head-foot` - DaisyUI Chat with image, header and footer
+-   `du-chat-head-foot` - DaisyUI Chat with header and footer
+-   `du-chat-colors` - DaisyUI Chat Bubble with colors
 
 **Collapse:** | [Demo](https://daisyui.com/components/collapse/)
 

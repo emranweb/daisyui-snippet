@@ -1,100 +1,72 @@
 {
     "DaisyUI Button": {
         "prefix": "du-btn",
-        "body": [
-            "<button className='btn'>Button</button>"
-        ],
+        "body": ["<button className='btn'>Button</button>"],
         "description": "DaisyUI Basic Button"
     },
     "DaisyUI Button Neutral": {
         "prefix": "du-btn-neutral",
-        "body": [
-            "<button className='btn btn-neutral'>Neutral</button>"
-        ],
+        "body": ["<button className='btn btn-neutral'>Neutral</button>"],
         "description": "DaisyUI Neutral Button"
     },
     "DaisyUI Button Primary": {
         "prefix": "du-btn-primary",
-        "body": [
-            "<button className='btn btn-primary'>Primary</button>"
-        ],
+        "body": ["<button className='btn btn-primary'>Primary</button>"],
         "description": "DaisyUI Primary Button"
     },
     "DaisyUI Button Secondary": {
         "prefix": "du-btn-secondary",
-        "body": [
-            "<button className='btn btn-secondary'>Secondary</button>"
-        ],
+        "body": ["<button className='btn btn-secondary'>Secondary</button>"],
         "description": "DaisyUI Secondary Button"
     },
     "DaisyUI Button Accent": {
         "prefix": "du-btn-accent",
-        "body": [
-            "<button className='btn btn-accent'>Accent</button>"
-        ],
+        "body": ["<button className='btn btn-accent'>Accent</button>"],
         "description": "DaisyUI Accent Button"
     },
     "DaisyUI Button Success": {
         "prefix": "du-btn-success",
-        "body": [
-            "<button className='btn btn-success'>Success</button>"
-        ],
+        "body": ["<button className='btn btn-success'>Success</button>"],
         "description": "DaisyUI Success Button"
     },
     "DaisyUI Button Link": {
         "prefix": "du-btn-link",
-        "body": [
-            "<button className='btn btn-link'>Link</button>"
-        ],
+        "body": ["<button className='btn btn-link'>Link</button>"],
         "description": "DaisyUI Link Button"
     },
     "DaisyUI Button Info": {
         "prefix": "du-btn-info",
-        "body": [
-            "<button className='btn btn-info'>Info</button>"
-        ],
+        "body": ["<button className='btn btn-info'>Info</button>"],
         "description": "DaisyUI Info Button"
     },
     "DaisyUI Button Small": {
         "prefix": "du-btn-small",
-        "body": [
-            "<button className='btn btn-sm'>Small</button>"
-        ],
+        "body": ["<button className='btn btn-sm'>Small</button>"],
         "description": "DaisyUI Small Button"
     },
     "DaisyUI Button Extra Small": {
         "prefix": "du-btn-xs",
-        "body": [
-            "<button className='btn btn-xs'>Extra Small</button>"
-        ],
+        "body": ["<button className='btn btn-xs'>Extra Small</button>"],
         "description": "DaisyUI Extra Small Button"
     },
     "DaisyUI Large Button": {
         "prefix": "du-btn-lg",
-        "body": [
-            "<button className=\"btn btn-lg\">Large</button>"
-        ],
+        "body": ["<button className=\"btn btn-lg\">Large</button>"],
         "description": "DaisyUI Large Button"
     },
     "DaisyUI Button Glass": {
         "prefix": "du-btn-glass",
-        "body": [
-            "<button className='btn glass'>Glass</button>"
-        ],
+        "body": ["<button className='btn glass'>Glass</button>"],
         "description": "DaisyUI Glass Button"
     },
     "DaisyUI Button Disabled": {
         "prefix": "du-btn-disabled",
-        "body": [
-            "<button className='btn btn-disabled'>Disabled</button>"
-        ],
+        "body": ["<button className='btn btn-disabled'>Disabled</button>"],
         "description": "DaisyUI Disabled Button"
     },
     "DaisyUI Button Square": {
         "prefix": "du-btn-square",
-        "body": [
-            "<button className='btn btn-square'>Square</button>"
-        ],
+        "body": ["<button className='btn btn-square'>Square</button>"],
         "description": "DaisyUI Square Button"
     },
     "DaisyUI Button Square Outline": {
@@ -106,9 +78,7 @@
     },
     "DaisyUI Button Circle": {
         "prefix": "du-btn-circle",
-        "body": [
-            "<button className='btn btn-circle'>Circle</button>"
-        ],
+        "body": ["<button className='btn btn-circle'>Circle</button>"],
         "description": "DaisyUI Circle Button"
     },
     "DaisyUI Button Circle Outline": {
@@ -905,51 +875,37 @@
     },
     "DaisyUI Badge Default": {
         "prefix": "du-badge-default",
-        "body": [
-            "<div className=\"badge\">default</div>"
-        ],
+        "body": ["<div className=\"badge\">default</div>"],
         "description": "DaisyUI Badge Default"
     },
     "DaisyUI Badge Neutral": {
         "prefix": "du-badge-neutral",
-        "body": [
-            "<div className=\"badge badge-neutral\">neutral</div>"
-        ],
+        "body": ["<div className=\"badge badge-neutral\">neutral</div>"],
         "description": "DaisyUI Badge Neutral"
     },
     "DaisyUI Badge Primary": {
         "prefix": "du-badge-primary",
-        "body": [
-            "<div className=\"badge badge-primary\">primary</div>"
-        ],
+        "body": ["<div className=\"badge badge-primary\">primary</div>"],
         "description": "DaisyUI Badge Primary"
     },
     "DaisyUI Badge Secondary": {
         "prefix": "du-badge-secondary",
-        "body": [
-            "<div className=\"badge badge-secondary\">secondary</div>"
-        ],
+        "body": ["<div className=\"badge badge-secondary\">secondary</div>"],
         "description": "DaisyUI Badge Secondary"
     },
     "DaisyUI Badge Accent": {
         "prefix": "du-badge-accent",
-        "body": [
-            "<div className=\"badge badge-accent\">accent</div>"
-        ],
+        "body": ["<div className=\"badge badge-accent\">accent</div>"],
         "description": "DaisyUI Badge Accent"
     },
     "DaisyUI Badge Ghost": {
         "prefix": "du-badge-ghost",
-        "body": [
-            "<div className=\"badge badge-ghost\">ghost</div>"
-        ],
+        "body": ["<div className=\"badge badge-ghost\">ghost</div>"],
         "description": "DaisyUI Badge Ghost"
     },
     "DaisyUI Badge Outline Default": {
         "prefix": "du-badge-outline-default",
-        "body": [
-            "<div className=\"badge badge-outline\">default</div>"
-        ],
+        "body": ["<div className=\"badge badge-outline\">default</div>"],
         "description": "DaisyUI Badge Outline Default"
     },
     "DaisyUI Badge Outline Primary": {
@@ -975,58 +931,42 @@
     },
     "DaisyUI Badge Size Large": {
         "prefix": "du-badge-lg",
-        "body": [
-            "<div className=\"badge badge-lg\">987,654</div>"
-        ],
+        "body": ["<div className=\"badge badge-lg\">987,654</div>"],
         "description": "DaisyUI Badge Size Large"
     },
     "DaisyUI Badge Size Medium": {
         "prefix": "du-badge-md",
-        "body": [
-            "<div className=\"badge badge-md\">987,654</div>"
-        ],
+        "body": ["<div className=\"badge badge-md\">987,654</div>"],
         "description": "DaisyUI Badge Size Medium"
     },
     "DaisyUI Badge Size Small": {
         "prefix": "du-badge-sm",
-        "body": [
-            "<div className=\"badge badge-sm\">987,654</div>"
-        ],
+        "body": ["<div className=\"badge badge-sm\">987,654</div>"],
         "description": "DaisyUI Badge Size Small"
     },
     "DaisyUI Badge Size Extra Small": {
         "prefix": "du-badge-xs",
-        "body": [
-            "<div className=\"badge badge-xs\">987,654</div>"
-        ],
+        "body": ["<div className=\"badge badge-xs\">987,654</div>"],
         "description": "DaisyUI Badge Size Extra Small"
     },
     "DaisyUI Empty Badge Size Large": {
         "prefix": "du-empty-badge-lg",
-        "body": [
-            "<div className=\"badge badge-primary badge-lg\"></div>"
-        ],
+        "body": ["<div className=\"badge badge-primary badge-lg\"></div>"],
         "description": "DaisyUI Empty Badge Size Large"
     },
     "DaisyUI Empty Badge Size Medium": {
         "prefix": "du-empty-badge-md",
-        "body": [
-            "<div className=\"badge badge-primary badge-md\"></div>"
-        ],
+        "body": ["<div className=\"badge badge-primary badge-md\"></div>"],
         "description": "DaisyUI Empty Badge Size Medium"
     },
     "DaisyUI Empty Badge Size Small": {
         "prefix": "du-empty-badge-sm",
-        "body": [
-            "<div className=\"badge badge-primary badge-sm\"></div>"
-        ],
+        "body": ["<div className=\"badge badge-primary badge-sm\"></div>"],
         "description": "DaisyUI Empty Badge Size Small"
     },
     "DaisyUI Empty Badge Size Extra Small": {
         "prefix": "du-empty-badge-xs",
-        "body": [
-            "<div className=\"badge badge-primary badge-xs\"></div>"
-        ],
+        "body": ["<div className=\"badge badge-primary badge-xs\"></div>"],
         "description": "DaisyUI Empty Badge Size Extra Small"
     },
     "DaisyUI Badge Info": {
@@ -1629,6 +1569,96 @@
         ],
         "description": "DaisyUI Chat with Image"
     },
+    "DaisyUI Chat Component": {
+        "prefix": "du-chat-img-head-foot",
+        "body": [
+            "<div className='chat chat-start'>",
+            "  <div className='chat-image avatar'>",
+            "    <div className='w-10 rounded-full'>",
+            "      <img alt='Tailwind CSS chat bubble component' src='https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg' />",
+            "    </div>",
+            "  </div>",
+            "  <div className='chat-header'>",
+            "    Obi-Wan Kenobi",
+            "    <time className='text-xs opacity-50'>12:45</time>",
+            "  </div>",
+            "  <div className='chat-bubble'>You were the Chosen One!</div>",
+            "  <div className='chat-footer opacity-50'>",
+            "    Delivered",
+            "  </div>",
+            "</div>",
+            "<div className='chat chat-end'>",
+            "  <div className='chat-image avatar'>",
+            "    <div className='w-10 rounded-full'>",
+            "      <img alt='Tailwind CSS chat bubble component' src='https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg' />",
+            "    </div>",
+            "  </div>",
+            "  <div className='chat-header'>",
+            "    Anakin",
+            "    <time className='text-xs opacity-50'>12:46</time>",
+            "  </div>",
+            "  <div className='chat-bubble'>I hate you!</div>",
+            "  <div className='chat-footer opacity-50'>",
+            "    Seen at 12:46",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "Chat with image, header and footer"
+    },
+    "DaisyUI Chat with header and footer": {
+        "prefix": "du-chat-head-foot",
+        "body": [
+            "<div className='chat chat-start'>",
+            "  <div className='chat-header'>",
+            "    Obi-Wan Kenobi",
+            "    <time className='text-xs opacity-50'>2 hours ago</time>",
+            "  </div>",
+            "  <div className='chat-bubble'>You were the Chosen One!</div>",
+            "  <div className='chat-footer opacity-50'>",
+            "    Seen",
+            "  </div>",
+            "</div>",
+            "<div className='chat chat-start'>",
+            "  <div className='chat-header'>",
+            "    Obi-Wan Kenobi",
+            "    <time className='text-xs opacity-50'>2 hours ago</time>",
+            "  </div>",
+            "  <div className='chat-bubble'>I loved you.</div>",
+            "  <div className='chat-footer opacity-50'>",
+            "    Delivered",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Chat with header and footer"
+    },
+    "DaisyUI Chat Bubble with colors": {
+        "prefix": "du-chat-colors",
+        "body": [
+            "<div className='chat chat-start'>",
+            "  <div className='chat-bubble chat-bubble-primary'>What kind of nonsense is this</div>",
+            "</div>",
+            "<div className='chat chat-start'>",
+            "  <div className='chat-bubble chat-bubble-secondary'>Put me on the Council and not make me a Master!??</div>",
+            "</div>",
+            "<div className='chat chat-start'>",
+            "  <div className='chat-bubble chat-bubble-accent'>That's never been done in the history of the Jedi. It's insulting!</div>",
+            "</div>",
+            "<div className='chat chat-end'>",
+            "  <div className='chat-bubble chat-bubble-info'>Calm down, Anakin.</div>",
+            "</div>",
+            "<div className='chat chat-end'>",
+            "  <div className='chat-bubble chat-bubble-success'>You have been given a great honor.</div>",
+            "</div>",
+            "<div className='chat chat-end'>",
+            "  <div className='chat-bubble chat-bubble-warning'>To be on the Council at your age.</div>",
+            "</div>",
+            "<div className='chat chat-end'>",
+            "  <div className='chat-bubble chat-bubble-error'>It's never happened before.</div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Chat Bubbles with colors"
+    },
+
     "DaisyUI Collapse": {
         "prefix": "du-collapse",
         "body": [
@@ -1709,9 +1739,7 @@
     },
     "DaisyUI Kbd": {
         "prefix": "du-kbd",
-        "body": [
-            "<kbd className=\"kbd\">$1</kbd>"
-        ],
+        "body": ["<kbd className=\"kbd\">$1</kbd>"],
         "description": "DaisyUI Kbd"
     },
     "DaisyUI Key Combination": {
@@ -1901,9 +1929,7 @@
     },
     "DaisyUI Link": {
         "prefix": "du-link",
-        "body": [
-            "<a className=\"link\">I'm a simple link</a>"
-        ],
+        "body": ["<a className=\"link\">I'm a simple link</a>"],
         "description": "DaisyUI Link"
     },
     "DaisyUI Menu": {
@@ -2173,9 +2199,7 @@
     },
     "DaisyUI Loading Ring": {
         "prefix": "du-loading-ring",
-        "body": [
-            "<span className=\"loading loading-ring loading-lg\"></span>"
-        ],
+        "body": ["<span className=\"loading loading-ring loading-lg\"></span>"],
         "description": "DaisyUI Loading Ring"
     },
     "DaisyUI Progress Bars": {
@@ -2198,9 +2222,7 @@
     },
     "DaisyUI Skeleton": {
         "prefix": "du-skeleton",
-        "body": [
-            "<div className=\"skeleton w-32 h-32\"></div>"
-        ],
+        "body": ["<div className=\"skeleton w-32 h-32\"></div>"],
         "description": "DaisyUI Skeleton"
     },
     "DaisyUI Skeleton - Circle with Content": {
@@ -2385,9 +2407,7 @@
     },
     "DaisyUI Disabled Checkbox": {
         "prefix": "du-input-checkbox-disabled",
-        "body": [
-            "<input type=\"checkbox\" className=\"checkbox\" disabled />"
-        ],
+        "body": ["<input type=\"checkbox\" className=\"checkbox\" disabled />"],
         "description": "DaisyUI Disabled Checkbox"
     },
     "DaisyUI Disabled and Checked Checkbox": {
@@ -2525,9 +2545,7 @@
     },
     "DaisyUI Basic Radio": {
         "prefix": "du-input-radio",
-        "body": [
-            "<input type=\"radio\" name=\"$1\" className=\"radio\" $2 />"
-        ],
+        "body": ["<input type=\"radio\" name=\"$1\" className=\"radio\" $2 />"],
         "description": "DaisyUI Basic Radio"
     },
     "DaisyUI Radio Primary": {
@@ -2810,9 +2828,7 @@
     },
     "DaisyUI Toggle": {
         "prefix": "du-input-toggle",
-        "body": [
-            "<input type=\"checkbox\" className=\"toggle\" checked />"
-        ],
+        "body": ["<input type=\"checkbox\" className=\"toggle\" checked />"],
         "description": "DaisyUI Input Toggle"
     },
     "DaisyUI Toggle with Label": {
@@ -2829,9 +2845,7 @@
     },
     "DaisyUI Artboard (Phone 1)": {
         "prefix": "du-artboard",
-        "body": [
-            "<div className=\"artboard phone-1\">320×568</div>"
-        ],
+        "body": ["<div className=\"artboard phone-1\">320×568</div>"],
         "description": "DaisyUI Artboard - Phone 1 (320×568)"
     },
     "DaisyUI Artboard (Horizontal Phone 3)": {
@@ -2843,16 +2857,12 @@
     },
     "DaisyUI Divider - Default": {
         "prefix": "du-divider",
-        "body": [
-            "<div className=\"divider\">Default</div>"
-        ],
+        "body": ["<div className=\"divider\">Default</div>"],
         "description": "DaisyUI Divider - Default"
     },
     "DaisyUI Divider - Neutral": {
         "prefix": "du-divider-neutral",
-        "body": [
-            "<div className=\"divider divider-neutral\">Neutral</div>"
-        ],
+        "body": ["<div className=\"divider divider-neutral\">Neutral</div>"],
         "description": "DaisyUI Divider - Neutral"
     },
     "DaisyUI Drawer": {

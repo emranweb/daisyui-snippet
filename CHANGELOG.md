@@ -80,3 +80,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 -   Add class and className Switcher
 -   Add astro language support
+-   Add Chat Bubble Image Header Footer components
+-   Add Chat Bubble Header Footer components
+-   Add Chat Bubble Colors components
