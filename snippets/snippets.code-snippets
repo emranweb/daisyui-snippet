@@ -1,5 +1,4 @@
 {
-    // Buttons
     "DaisyUI Button": {
         "prefix": "du-btn",
         "body": ["<button className='btn'>Button</button>"],
@@ -55,7 +54,6 @@
         "body": ["<button className=\"btn btn-lg\">Large</button>"],
         "description": "DaisyUI Large Button"
     },
-
     "DaisyUI Button Glass": {
         "prefix": "du-btn-glass",
         "body": ["<button className='btn glass'>Glass</button>"],
@@ -100,8 +98,6 @@
         ],
         "description": "DaisyUI Loading Button"
     },
-
-    // Dropdown Menu
     "DaisyUI Dropdown Menu": {
         "prefix": "du-dropdown-menu",
         "body": [
@@ -232,7 +228,6 @@
         ],
         "description": "DaisyUI Dropdown Right Align to End"
     },
-
     "DaisyUI Dropdown Hover": {
         "prefix": "du-dropdown-hover",
         "body": [
@@ -310,7 +305,6 @@
         ],
         "description": "DaisyUI Helper Dropdown"
     },
-    // Modal
     "DaisyUI Dialog Modal": {
         "prefix": "du-modal-dialog",
         "body": [
@@ -445,8 +439,6 @@
         ],
         "description": "DaisyUI Dialog Modal Using Anchor Link"
     },
-
-    // Swap Text
     "DaisyUI Swap Text": {
         "prefix": "du-swap-text",
         "body": [
@@ -516,7 +508,6 @@
         ],
         "description": "DaisyUI Activate using class name instead of checkbox"
     },
-    // Theme Controller
     "DaisyUI Theme Controller using a toggle": {
         "prefix": "du-theme-toggle",
         "body": [
@@ -634,8 +625,6 @@
         ],
         "description": "DaisyUI Theme Controller using a radio button"
     },
-    // Accordion
-
     "DaisyUI Accordion using radio inputs": {
         "prefix": "du-accordion-radio",
         "body": [
@@ -716,8 +705,6 @@
         ],
         "description": "DaisyUI Using Accordion and Join together"
     },
-
-    // Avatar
     "DaisyUI Avatar": {
         "prefix": "du-avatar",
         "body": [
@@ -886,8 +873,6 @@
         ],
         "description": "DaisyUI Avatar placeholder"
     },
-    // badge
-
     "DaisyUI Badge Default": {
         "prefix": "du-badge-default",
         "body": ["<div className=\"badge\">default</div>"],
@@ -944,7 +929,6 @@
         ],
         "description": "DaisyUI Badge Outline Accent"
     },
-
     "DaisyUI Badge Size Large": {
         "prefix": "du-badge-lg",
         "body": ["<div className=\"badge badge-lg\">987,654</div>"],
@@ -1085,8 +1069,6 @@
         ],
         "description": "DaisyUI Badge Button Secondary"
     },
-
-    // Card
     "DaisyUI Card": {
         "prefix": "du-card",
         "body": [
@@ -1232,7 +1214,6 @@
         ],
         "description": "DaisyUI Centered Card with Neutral Color"
     },
-
     "DaisyUI Card with Action on Top": {
         "prefix": "du-card-action-on-top",
         "body": [
@@ -1297,8 +1278,6 @@
         ],
         "description": "DaisyUI Responsive Card"
     },
-
-    // Carousel
     "DaisyUI Carousel Snap to start": {
         "prefix": "du-carousel-snap-default",
         "body": [
@@ -1564,9 +1543,6 @@
         ],
         "description": "DaisyUI Carousel with Next/Prev Buttons"
     },
-
-    // Chat Bubble
-
     "DaisyUI Chat Bubble": {
         "prefix": "du-chat-bubble",
         "body": [
@@ -1593,7 +1569,96 @@
         ],
         "description": "DaisyUI Chat with Image"
     },
-    // "DaisyUI Collapse {
+    "DaisyUI Chat Component": {
+        "prefix": "du-chat-img-head-foot",
+        "body": [
+            "<div className='chat chat-start'>",
+            "  <div className='chat-image avatar'>",
+            "    <div className='w-10 rounded-full'>",
+            "      <img alt='Tailwind CSS chat bubble component' src='https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg' />",
+            "    </div>",
+            "  </div>",
+            "  <div className='chat-header'>",
+            "    Obi-Wan Kenobi",
+            "    <time className='text-xs opacity-50'>12:45</time>",
+            "  </div>",
+            "  <div className='chat-bubble'>You were the Chosen One!</div>",
+            "  <div className='chat-footer opacity-50'>",
+            "    Delivered",
+            "  </div>",
+            "</div>",
+            "<div className='chat chat-end'>",
+            "  <div className='chat-image avatar'>",
+            "    <div className='w-10 rounded-full'>",
+            "      <img alt='Tailwind CSS chat bubble component' src='https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg' />",
+            "    </div>",
+            "  </div>",
+            "  <div className='chat-header'>",
+            "    Anakin",
+            "    <time className='text-xs opacity-50'>12:46</time>",
+            "  </div>",
+            "  <div className='chat-bubble'>I hate you!</div>",
+            "  <div className='chat-footer opacity-50'>",
+            "    Seen at 12:46",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "Chat with image, header and footer"
+    },
+    "DaisyUI Chat with header and footer": {
+        "prefix": "du-chat-head-foot",
+        "body": [
+            "<div className='chat chat-start'>",
+            "  <div className='chat-header'>",
+            "    Obi-Wan Kenobi",
+            "    <time className='text-xs opacity-50'>2 hours ago</time>",
+            "  </div>",
+            "  <div className='chat-bubble'>You were the Chosen One!</div>",
+            "  <div className='chat-footer opacity-50'>",
+            "    Seen",
+            "  </div>",
+            "</div>",
+            "<div className='chat chat-start'>",
+            "  <div className='chat-header'>",
+            "    Obi-Wan Kenobi",
+            "    <time className='text-xs opacity-50'>2 hours ago</time>",
+            "  </div>",
+            "  <div className='chat-bubble'>I loved you.</div>",
+            "  <div className='chat-footer opacity-50'>",
+            "    Delivered",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Chat with header and footer"
+    },
+    "DaisyUI Chat Bubble with colors": {
+        "prefix": "du-chat-colors",
+        "body": [
+            "<div className='chat chat-start'>",
+            "  <div className='chat-bubble chat-bubble-primary'>What kind of nonsense is this</div>",
+            "</div>",
+            "<div className='chat chat-start'>",
+            "  <div className='chat-bubble chat-bubble-secondary'>Put me on the Council and not make me a Master!??</div>",
+            "</div>",
+            "<div className='chat chat-start'>",
+            "  <div className='chat-bubble chat-bubble-accent'>That's never been done in the history of the Jedi. It's insulting!</div>",
+            "</div>",
+            "<div className='chat chat-end'>",
+            "  <div className='chat-bubble chat-bubble-info'>Calm down, Anakin.</div>",
+            "</div>",
+            "<div className='chat chat-end'>",
+            "  <div className='chat-bubble chat-bubble-success'>You have been given a great honor.</div>",
+            "</div>",
+            "<div className='chat chat-end'>",
+            "  <div className='chat-bubble chat-bubble-warning'>To be on the Council at your age.</div>",
+            "</div>",
+            "<div className='chat chat-end'>",
+            "  <div className='chat-bubble chat-bubble-error'>It's never happened before.</div>",
+            "</div>"
+        ],
+        "description": "DaisyUI Chat Bubbles with colors"
+    },
+
     "DaisyUI Collapse": {
         "prefix": "du-collapse",
         "body": [
@@ -1622,7 +1687,6 @@
         ],
         "description": "DaisyUI Collapse with Arrow"
     },
-    // Countdown
     "DaisyUI Countdown": {
         "prefix": "du-countdown",
         "body": [
@@ -1643,7 +1707,6 @@
         ],
         "description": "DaisyUI Clock Countdown"
     },
-    // Diff
     "DaisyUI Diff": {
         "prefix": "du-diff-image",
         "body": [
@@ -1659,7 +1722,6 @@
         ],
         "description": "DaisyUI Diff Image"
     },
-
     "DaisyUI Diff Text": {
         "prefix": "du-diff-text",
         "body": [
@@ -1675,8 +1737,6 @@
         ],
         "description": "DaisyUI Diff Text"
     },
-
-    // KBD
     "DaisyUI Kbd": {
         "prefix": "du-kbd",
         "body": ["<kbd className=\"kbd\">$1</kbd>"],
@@ -1693,8 +1753,6 @@
         ],
         "description": "DaisyUI Key Combination"
     },
-
-    // Stat
     "DaisyUI Stat": {
         "prefix": "du-stat",
         "body": [
@@ -1708,7 +1766,6 @@
         ],
         "description": "DaisyUI Stat"
     },
-
     "DaisyUI Stat with Icons or Images": {
         "prefix": "du-stat-icons-image",
         "body": [
@@ -1747,7 +1804,6 @@
         ],
         "description": "DaisyUI Stat with Icons or Images"
     },
-    // Table
     "DaisyUI Table": {
         "prefix": "du-table",
         "body": [
@@ -1790,7 +1846,6 @@
         ],
         "description": "DaisyUI Table"
     },
-    // Timeline
     "DaisyUI Timeline": {
         "prefix": "du-timeline",
         "body": [
@@ -1842,8 +1897,6 @@
         ],
         "description": "DaisyUI Timeline"
     },
-
-    // Breadcrumbs
     "DaisyUI Breadcrumbs": {
         "prefix": "du-breadcrumbs",
         "body": [
@@ -1857,8 +1910,6 @@
         ],
         "description": "DaisyUI Breadcrumbs"
     },
-
-    //Bottom Navigation
     "DaisyUI Bottom Navigation": {
         "prefix": "du-bottom-nav",
         "body": [
@@ -1876,15 +1927,11 @@
         ],
         "description": "DaisyUI Bottom Navigation"
     },
-    // Link
     "DaisyUI Link": {
         "prefix": "du-link",
         "body": ["<a className=\"link\">I'm a simple link</a>"],
         "description": "DaisyUI Link"
     },
-
-    // Menu
-
     "DaisyUI Menu": {
         "prefix": "du-menu",
         "body": [
@@ -1896,7 +1943,6 @@
         ],
         "description": "DaisyUI Menu"
     },
-
     "DaisyUI Responsive Menu": {
         "prefix": "du-menu-horizontal",
         "body": [
@@ -1908,8 +1954,6 @@
         ],
         "description": "DaisyUI  horizontal Responsive Menu"
     },
-
-    // Navbar
     "DaisyUI Navbar": {
         "prefix": "du-navbar",
         "body": [
@@ -1935,7 +1979,6 @@
         ],
         "description": "DaisyUI Navbar with Title and Icon"
     },
-
     "DaisyUI Navbar with Icons at Start and End": {
         "prefix": "du-navbar-icons-start-end",
         "body": [
@@ -1957,7 +2000,6 @@
         ],
         "description": "DaisyUI Navbar with Icons at Start and End"
     },
-
     "DaisyUI Navbar with Menu": {
         "prefix": "du-navbar-menu",
         "body": [
@@ -1985,7 +2027,6 @@
         ],
         "description": "DaisyUI Navbar with Menu"
     },
-
     "DaisyUI Navbar with Menu Button": {
         "prefix": "du-navbar-menu-button",
         "body": [
@@ -2031,7 +2072,6 @@
         ],
         "description": "DaisyUI Navbar with Menu Button"
     },
-    // Pagination
     "DaisyUI Pagination": {
         "prefix": "du-pagination",
         "body": [
@@ -2054,7 +2094,6 @@
         ],
         "description": "DaisyUI Next/Prev"
     },
-    // Steps
     "DaisyUI Steps": {
         "prefix": "du-steps",
         "body": [
@@ -2067,7 +2106,6 @@
         ],
         "description": "DaisyUI Steps"
     },
-
     "DaisyUI Vertical Steps": {
         "prefix": "du-steps-vertical",
         "body": [
@@ -2080,9 +2118,6 @@
         ],
         "description": "DaisyUI Vertical Steps"
     },
-
-    // Tabs
-
     "DaisyUI Tabs": {
         "prefix": "du-tabs",
         "body": [
@@ -2094,7 +2129,6 @@
         ],
         "description": "DaisyUI Tabs"
     },
-
     "DaisyUI Tabs Boxed": {
         "prefix": "du-tabs-boxed",
         "body": [
@@ -2106,9 +2140,6 @@
         ],
         "description": "DaisyUI Tabs Boxed"
     },
-
-    // Alert
-
     "DaisyUI Alert": {
         "prefix": "du-alert",
         "body": [
@@ -2119,7 +2150,6 @@
         ],
         "description": "DaisyUI Alert"
     },
-
     "DaisyUI Alert - Info Color": {
         "prefix": "du-alert-info",
         "body": [
@@ -2140,7 +2170,6 @@
         ],
         "description": "DaisyUI Alert - Success Color"
     },
-
     "DaisyUI Alert - Warning Color": {
         "prefix": "du-alert-warning",
         "body": [
@@ -2151,7 +2180,6 @@
         ],
         "description": "DaisyUI Alert - Warning Color"
     },
-
     "DaisyUI Alert - Error Color": {
         "prefix": "du-alert-error",
         "body": [
@@ -2162,7 +2190,6 @@
         ],
         "description": "DaisyUI Alert - Error Color"
     },
-    // Loading
     "DaisyUI Loading Spinner": {
         "prefix": "du-loading-spinner",
         "body": [
@@ -2170,14 +2197,11 @@
         ],
         "description": "DaisyUI Loading Spinner"
     },
-
     "DaisyUI Loading Ring": {
         "prefix": "du-loading-ring",
         "body": ["<span className=\"loading loading-ring loading-lg\"></span>"],
         "description": "DaisyUI Loading Ring"
     },
-
-    // Progress
     "DaisyUI Progress Bars": {
         "prefix": "du-progress-bars",
         "body": [
@@ -2196,14 +2220,11 @@
         ],
         "description": "DaisyUI Radial Progress"
     },
-
-    // Skeleton
     "DaisyUI Skeleton": {
         "prefix": "du-skeleton",
         "body": ["<div className=\"skeleton w-32 h-32\"></div>"],
         "description": "DaisyUI Skeleton"
     },
-
     "DaisyUI Skeleton - Circle with Content": {
         "prefix": "du-skeleton-circle",
         "body": [
@@ -2220,7 +2241,6 @@
         ],
         "description": "DaisyUI Skeleton - Circle with Content"
     },
-
     "DaisyUI Skeleton - Rectangle with Content": {
         "prefix": "du-skeleton-rectangle",
         "body": [
@@ -2233,7 +2253,6 @@
         ],
         "description": "DaisyUI Skeleton - Rectangle with Content"
     },
-    // Tooltip
     "DaisyUI Tooltip": {
         "prefix": "du-tooltip",
         "body": [
@@ -2243,22 +2262,18 @@
         ],
         "description": "DaisyUI Tooltip"
     },
-
-    // Toast
     "DaisyUI Toast with Alert - Info": {
         "prefix": "du-toast-info",
         "body": [
             "<div className=\"toast\">",
             "  <div className=\"alert alert-info\">",
-            "    <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" class=\"stroke-current shrink-0 w-6 h-6\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"></path></svg>",
+            "    <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" className=\"stroke-current shrink-0 w-6 h-6\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"></path></svg>",
             "    <span>New message arrived.</span>",
             "  </div>",
             "</div>"
         ],
         "description": "DaisyUI Toast with Alert - Info"
     },
-    // Input
-    // Checkbox
     "DaisyUI Checkbox": {
         "prefix": "du-input-checkbox",
         "body": [
@@ -2413,7 +2428,6 @@
         ],
         "description": "DaisyUI Indeterminate Checkbox"
     },
-    // File Input
     "DaisyUI File Input": {
         "prefix": "du-input-file",
         "body": [
@@ -2529,13 +2543,11 @@
         ],
         "description": "DaisyUI Disabled File Input"
     },
-    // Radio Input
     "DaisyUI Basic Radio": {
         "prefix": "du-input-radio",
         "body": ["<input type=\"radio\" name=\"$1\" className=\"radio\" $2 />"],
         "description": "DaisyUI Basic Radio"
     },
-
     "DaisyUI Radio Primary": {
         "prefix": "du-input-radio-primary",
         "body": [
@@ -2543,7 +2555,6 @@
         ],
         "description": "DaisyUI Radio with primary Color"
     },
-
     "DaisyUI Radio Secondary": {
         "prefix": "du-input-radio-secondary",
         "body": [
@@ -2605,7 +2616,6 @@
         ],
         "description": "DaisyUI Radio Custom Color"
     },
-    // Text Input
     "DaisyUI Text Input": {
         "prefix": "du-input-text",
         "body": [
@@ -2613,7 +2623,6 @@
         ],
         "description": "DaisyUI Text Input"
     },
-
     "DaisyUI Text Input with Border": {
         "prefix": "du-input-text-border",
         "body": [
@@ -2729,7 +2738,6 @@
         ],
         "description": "DaisyUI Disabled Text Input"
     },
-    // Input Range
     "DaisyUI Range Input": {
         "prefix": "du-input-range",
         "body": [
@@ -2758,7 +2766,6 @@
         ],
         "description": "DaisyUI Range Input MD"
     },
-
     "DaisyUI Range Input LG": {
         "prefix": "du-input-range-lg",
         "body": [
@@ -2766,7 +2773,6 @@
         ],
         "description": "DaisyUI Range Input LG"
     },
-    // Input Rating
     "DaisyUI Rating": {
         "prefix": "du-input-rating",
         "body": [
@@ -2780,7 +2786,6 @@
         ],
         "description": "DaisyUI Rating"
     },
-    //  Select Input
     "DaisyUI Select": {
         "prefix": "du-input-select",
         "body": [
@@ -2807,7 +2812,6 @@
         ],
         "description": "DaisyUI Input Select Input with Border"
     },
-    // Input Text Area
     "DaisyUI Textarea": {
         "prefix": "du-input-textarea",
         "body": [
@@ -2822,7 +2826,6 @@
         ],
         "description": "DaisyUI Input- Bordered Textarea"
     },
-    // Toggle Input
     "DaisyUI Toggle": {
         "prefix": "du-input-toggle",
         "body": ["<input type=\"checkbox\" className=\"toggle\" checked />"],
@@ -2840,14 +2843,11 @@
         ],
         "description": "DaisyUI Input Toggle with Label"
     },
-
-    // Artboard
     "DaisyUI Artboard (Phone 1)": {
         "prefix": "du-artboard",
         "body": ["<div className=\"artboard phone-1\">320×568</div>"],
         "description": "DaisyUI Artboard - Phone 1 (320×568)"
     },
-
     "DaisyUI Artboard (Horizontal Phone 3)": {
         "prefix": "du-artboard-horizontal",
         "body": [
@@ -2855,8 +2855,6 @@
         ],
         "description": "DaisyUI Artboard - Horizontal Phone 3 (736×414)"
     },
-
-    // Divider
     "DaisyUI Divider - Default": {
         "prefix": "du-divider",
         "body": ["<div className=\"divider\">Default</div>"],
@@ -2867,8 +2865,6 @@
         "body": ["<div className=\"divider divider-neutral\">Neutral</div>"],
         "description": "DaisyUI Divider - Neutral"
     },
-
-    // Drawer
     "DaisyUI Drawer": {
         "prefix": "du-drawer",
         "body": [
@@ -2890,8 +2886,6 @@
         ],
         "description": "DaisyUI Drawer"
     },
-
-    // Footer
     "DaisyUI Footer": {
         "prefix": "du-footer",
         "body": [
@@ -2920,8 +2914,6 @@
         ],
         "description": "DaisyUI Footer"
     },
-
-    // Footer with Logo Section
     "DaisyUI Footer with Logo": {
         "prefix": "du-footer-logo",
         "body": [
@@ -2954,7 +2946,6 @@
         ],
         "description": "DaisyUI Footer with Logo"
     },
-    // Centered Hero
     "DaisyUI Centered Hero": {
         "prefix": "du-hero-center",
         "body": [
@@ -2970,8 +2961,6 @@
         ],
         "description": "DaisyUI Centered Hero"
     },
-
-    // Indicator
     "DaisyUI Indicator": {
         "prefix": "du-indicator",
         "body": [
@@ -2982,8 +2971,6 @@
         ],
         "description": "DaisyUI Indicator"
     },
-
-    // Mask - Squircle
     "DaisyUI Mask - Squircle": {
         "prefix": "du-mask-squircle",
         "body": [
@@ -2991,8 +2978,6 @@
         ],
         "description": "DaisyUI Mask - Squircle"
     },
-
-    // Join
     "DaisyUI Join": {
         "prefix": "du-join",
         "body": [
@@ -3004,8 +2989,6 @@
         ],
         "description": "DaisyUI Join"
     },
-
-    // Stack
     "DaisyUI Stack": {
         "prefix": "du-stack",
         "body": [
@@ -3017,8 +3000,6 @@
         ],
         "description": "DaisyUI Stack"
     },
-
-    // Browser Mockup
     "DaisyUI Browser Mockup": {
         "prefix": "du-mockup-browser",
         "body": [
@@ -3031,8 +3012,6 @@
         ],
         "description": "DaisyUI Browser Mockup"
     },
-
-    // Code Mockup
     "DaisyUI Code Mockup": {
         "prefix": "du-mockup-code",
         "body": [
@@ -3042,8 +3021,6 @@
         ],
         "description": "DaisyUI Code Mockup"
     },
-
-    // Phone Mockup
     "DaisyUI Phone Mockup": {
         "prefix": "du-mockup-phone",
         "body": [
