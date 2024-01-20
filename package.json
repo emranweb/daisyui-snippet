@@ -2,7 +2,7 @@
     "name": "daisyui-snippet",
     "displayName": "DaisyUI Snippet",
     "description": "The DaisyUI Snippet extension for Visual Studio Code offers a rich collection of DaisyUI Components snippets.",
-    "version": "0.0.6",
+    "version": "1.0.0",
     "engines": {
         "vscode": "^1.84.0"
     },
@@ -29,7 +29,22 @@
         "type": "git",
         "url": "https://github.com/emranweb/daisyui-snippet.git"
     },
+    "activationEvents": [
+        "onLanguage:javascript"
+    ],
+    "main": "./extension.js",
     "contributes": {
+        "configuration": {
+            "type": "object",
+            "title": "Your Snippet Extension Configuration",
+            "properties": {
+                "daisyui.useClass": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "Specifies the class to be used in snippets."
+                }
+            }
+        },
         "snippets": [
             {
                 "language": "javascript",
@@ -50,6 +65,10 @@
             {
                 "language": "typescriptreact",
                 "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "astro",
+                "path": "./snippets/snippetshtml.code-snippets"
             }
         ]
     }

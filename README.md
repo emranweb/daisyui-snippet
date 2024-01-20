@@ -1,3 +1,5 @@
+[<img style="width:200px" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" />](https://www.buymeacoffee.com/emranbd77n)
+
 # DaisyUI Snippet Extension for Visual Studio Code
 
 ## Overview
@@ -449,3 +451,7 @@ Learn more about DaisyUI on [Website](https://daisyui.com/).
 ## Enjoy!
 
 Enjoy coding with DaisyUI and Tailwind CSS!
+
+## Developed by
+
+[emranweb](https://github.com/emranweb)
