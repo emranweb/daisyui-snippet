@@ -1,4 +1,7 @@
-[<img style="width:200px" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" />](https://www.buymeacoffee.com/emranbd77n)
+### Support My Work 🚀 ☕
+
+[<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="160" height="50" />
+](https://www.buymeacoffee.com/emranbd77n)
 
 # DaisyUI Snippet Extension for Visual Studio Code
 
