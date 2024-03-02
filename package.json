@@ -69,7 +69,11 @@
             {
                 "language": "astro",
                 "path": "./snippets/snippetshtml.code-snippets"
-            }
+            },
+			{
+				"language": "handlebars",
+				"path": "./snippets/snippetshtml.code-snippets"
+			}
         ]
     }
 }
