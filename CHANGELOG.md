@@ -83,3 +83,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 -   Add Chat Bubble Image Header Footer components
 -   Add Chat Bubble Header Footer components
 -   Add Chat Bubble Colors components
+
+## [1.0.1] - 2024-03-11
+
+-   Add Handlebar language support
