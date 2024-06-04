@@ -68,7 +68,7 @@
 			},
 			{
 				"language": "svelte",
-				"path": "./snippets/snippets.code-snippets"
+				"path": "./snippets/snippetshtml.code-snippets"
 			},
 			{
 				"language": "astro",
