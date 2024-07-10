@@ -77,6 +77,10 @@
             {
                 "language": "handlebars",
                 "path": "./snippets/snippetshtml.code-snippets"
+            },
+            {
+                "language": "templ",
+                "path": "./snippets/snippetshtml.code-snippets"
             }
         ]
     }
